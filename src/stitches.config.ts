@@ -126,7 +126,7 @@ export const {
 
 			interfaceH1: `2.5rem`,
 			interfaceH2: `2rem`,
-			interfaceH3: `1.75rem`,
+			interfaceH3: `1.65rem`,
 			interfaceH4: `1.4375rem`,
 			interfaceH5: `1.1875rem`,
 			interfaceH6: `1rem`,
