@@ -23,7 +23,7 @@
     "format": "prettier --write .",
     "ds:build": "rollup -c",
     "ds:release": "yarn ds:build && np",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
@@ -37,6 +37,7 @@
     "@babel/core": "^7.16.0",
     "@storybook/addon-a11y": "^6.3.12",
     "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-docs": "^6.3.12",
     "@storybook/addon-essentials": "^6.3.12",
     "@storybook/addon-links": "^6.3.12",
     "@storybook/react": "^6.3.12",
