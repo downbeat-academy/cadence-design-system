@@ -1,1 +1,1 @@
-export { styled, getCssText, globalCss } from './stitches.config'
+export { styled, getCssText, globalCss } from './stitches.config';

@@ -1,7 +1,17 @@
 import { createStitches } from '@stitches/react';
-// import type * as Stitches from '@stitches/react'
+import type * as Stitches from '@stitches/react';
+export type { VariantProps } from '@stitches/react';
 
-export const { styled, getCssText, globalCss } = createStitches({
+export const {
+	styled,
+	css,
+	theme,
+	createTheme,
+	getCssText,
+	globalCss,
+	keyframes,
+	config,
+} = createStitches({
 	theme: {
 		fonts: {
 			displayHeadline: `Favorit Expanded, Helvetica, Arial, sans-serif`,
@@ -153,3 +163,5 @@ export const { styled, getCssText, globalCss } = createStitches({
 		xl: `(max-width: 1440px)`,
 	},
 });
+
+export type CSS = Stitches.CSS<typeof config>;
