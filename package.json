@@ -1,6 +1,12 @@
 {
-  "name": "cadence-design-system-v2",
-  "private": true,
+  "name": "cadence-design-system",
+  "version": "0.1.9-beta",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/downbeat-academy/cadence-design-system"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
