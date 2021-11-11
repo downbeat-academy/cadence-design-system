@@ -1,3 +1,5 @@
+import { globalCss } from '../src/stitches.config'
+
 export const parameters = {
 	actions: { argTypesRegex: '^on[A-Z].*' },
 	controls: {
@@ -24,3 +26,10 @@ export const parameters = {
 		],
 	}
 };
+
+export const decorators = [
+	(Story) => {
+		globalCss({})
+		return <Story />
+	}
+]
