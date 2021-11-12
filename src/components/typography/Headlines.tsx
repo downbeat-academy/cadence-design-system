@@ -14,10 +14,12 @@ export const H1 = styled('h1', {
             display: {
                 fontFamily: '$displayHeadline',
                 fontSize: '$displayH1',
+                lineHeight: '$displayHeadline',
             },
             interface: {
                 fontFamily: '$interfaceHeadline',
                 fontSize: '$interfaceH1',
+                lineHeight: '$interfaceHeadline'
             }
         }
     }
@@ -35,6 +37,7 @@ export const H2 = styled('h2', {
             interface: {
                 fontFamily: '$interfaceHeadline',
                 fontSize: '$interfaceH2',
+                lineHeight: '$interfaceHeadline',
             }
         }
     }
@@ -52,6 +55,7 @@ export const H3 = styled('h3', {
             interface: {
                 fontFamily: '$interfaceHeadline',
                 fontSize: '$interfaceH3',
+                lineHeight: '$interfaceHeadline',
             }
         }
     }
@@ -69,6 +73,7 @@ export const H4 = styled('h4', {
             interface: {
                 fontFamily: '$interfaceHeadline',
                 fontSize: '$interfaceH4',
+                lineHeight: '$interfaceHeadline',
             }
         }
     }
@@ -86,6 +91,7 @@ export const H5 = styled('h5', {
             interface: {
                 fontFamily: '$interfaceHeadline',
                 fontSize: '$interfaceH5',
+                lineHeight: '$interfaceHeadline',
             }
         }
     }
@@ -103,6 +109,7 @@ export const H6 = styled('h6', {
             interface: {
                 fontFamily: '$interfaceHeadline',
                 fontSize: '$interfaceH6',
+                lineHeight: '$interfaceHeadline',
             }
         }
     }

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Mega, H1, H2, H3, H4, H5, H6 } from '../typography/Typography'
+import { Mega, H1, H2, H3, H4, H5, H6 } from './Headlines'
 
 export default {
-    title: 'Components/Typography/Headline',
+    title: 'Components/Typography/Headlines',
     component: Mega,
     argTypes: {
         text: 'Downbeat Academy',
@@ -54,4 +54,3 @@ Headline6.args = {
     text: 'Headline 6',
     context: 'display',
 }
-
