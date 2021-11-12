@@ -22,6 +22,9 @@ export const H1 = styled('h1', {
                 lineHeight: '$interfaceHeadline'
             }
         }
+    },
+    defaultVariants: {
+        context: 'display'
     }
 })
 
@@ -40,6 +43,9 @@ export const H2 = styled('h2', {
                 lineHeight: '$interfaceHeadline',
             }
         }
+    },
+    defaultVariants: {
+        context: 'display'
     }
 })
 
@@ -58,6 +64,9 @@ export const H3 = styled('h3', {
                 lineHeight: '$interfaceHeadline',
             }
         }
+    },
+    defaultVariants: {
+        context: 'display'
     }
 })
 
@@ -76,6 +85,9 @@ export const H4 = styled('h4', {
                 lineHeight: '$interfaceHeadline',
             }
         }
+    },
+    defaultVariants: {
+        context: 'display'
     }
 })
 
@@ -94,6 +106,9 @@ export const H5 = styled('h5', {
                 lineHeight: '$interfaceHeadline',
             }
         }
+    },
+    defaultVariants: {
+        context: 'display'
     }
 })
 
@@ -112,5 +127,8 @@ export const H6 = styled('h6', {
                 lineHeight: '$interfaceHeadline',
             }
         }
+    },
+    defaultVariants: {
+        context: 'display'
     }
 })

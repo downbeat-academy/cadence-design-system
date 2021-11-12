@@ -79,5 +79,10 @@ export const Paragraph = styled('p', {
                 fontSize: '$interfaceExtraSmall',
             }
         },
-    ]
+    ],
+
+    defaultVariants: {
+        context: 'display',
+        size: 'base'
+    }
 })
