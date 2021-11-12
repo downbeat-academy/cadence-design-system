@@ -108,7 +108,7 @@ var styled = (_a = createStitches({
             interfaceExtraSmall: "0.75rem",
             interfaceH1: "2.5rem",
             interfaceH2: "2rem",
-            interfaceH3: "1.75rem",
+            interfaceH3: "1.65rem",
             interfaceH4: "1.4375rem",
             interfaceH5: "1.1875rem",
             interfaceH6: "1rem",
@@ -143,6 +143,294 @@ var styled = (_a = createStitches({
         lg: "(max-width: 1200px)",
         xl: "(max-width: 1440px)",
     },
-}), _a.styled); _a.css; _a.theme; _a.createTheme; var getCssText = _a.getCssText, globalCss = _a.globalCss; _a.keyframes; _a.config;
+}), _a.styled), css = _a.css, theme = _a.theme, createTheme = _a.createTheme, getCssText = _a.getCssText, globalCss = _a.globalCss, keyframes = _a.keyframes, config = _a.config;
 
-export { getCssText, globalCss, styled };
+var Button = styled('button', {
+    fontFamily: '$interfaceBody',
+    fontWeight: 700,
+    lineHeight: '$interfaceBody',
+    display: 'flex',
+    flexDirection: 'row',
+    gap: '$4',
+    boxSizing: 'border-box',
+    border: '1px solid transparent',
+    borderRadius: 0,
+    transition: '$1',
+    '&:hover': {
+        cursor: 'pointer',
+    },
+    variants: {
+        size: {
+            large: {
+                fontSize: '$interfaceBase',
+                padding: '$4 $5',
+            },
+            medium: {
+                fontSize: '$interfaceSmall',
+                padding: '$4',
+            },
+            small: {
+                fontSize: '$interfaceExtraSmall',
+                padding: '$3 $4',
+            },
+        },
+        variant: {
+            primary: {
+                background: '$passionFruit500',
+                color: '$accent000',
+                '&:hover': { background: '$passionFruit600', },
+                '&:focus': {
+                    borderColor: '$passionFruit500',
+                    boxShadow: 'inset 0 0 0 2px $colors$passionFruit500, inset 0 0 0 3px $colors$accent100',
+                },
+                '&:active': { background: '$passionFruit500', },
+                ':disabled': {
+                    color: '$accent200',
+                }
+            },
+            secondary: {
+                background: '$blackberry900',
+                color: '$accent000',
+                '&:hover': { background: '$blackberry800', },
+                '&:focus': {
+                    borderColor: '$blackberry900',
+                    boxShadow: 'inset 0 0 0 2px $colors$blackberry900, inset 0 0 0 3px $colors$accent100',
+                },
+                '&:active': { background: '$blackberry900' },
+            },
+            tertiary: {
+                background: 'none',
+                border: 'solid 1px $passionFruit600',
+                color: '$passionFruit600',
+                '&:hover': {
+                    background: '$passionFruit600',
+                    borderColor: '$passionFruit600',
+                    color: '$accent000',
+                },
+                '&:focus': {
+                    borderColor: '$passionFruit600',
+                    boxShadow: 'inset 0 0 0 2px $colors$passionFruit500, inset 0 0 0 3px $colors$accent100',
+                },
+                '&:active': {
+                    color: '$accent000',
+                    background: '$passionFruit600',
+                },
+            },
+            ghost: {
+                background: 'none',
+                color: '$passionFruit600',
+                '&:hover': { background: '$passionFruit000', },
+                '&:focus': {
+                    borderColor: '$passionFruit600',
+                    boxShadow: 'inset 0 0 0 2px $colors$passionFruit000, inset 0 0 0 3px $colors$passionFruit500',
+                },
+                '&:active': { background: 'transparent' },
+            },
+            destructive: {
+                background: '$pomegranate500',
+                color: '$accent000',
+                '&:hover': { background: '$pomegranate600' },
+                '&:focus': {
+                    background: '$pomegranate500',
+                    boxShadow: 'inset 0 0 0 2px $colors$pomegranate500, inset 0 0 0 3px $colors$accent100',
+                },
+                '&:active': { background: '$pomegranate700' },
+            },
+        },
+    },
+    defaultVariants: {
+        size: 'large',
+        variant: 'primary',
+    }
+});
+
+var Mega = styled('h1', {
+    color: '$blackberry900',
+    fontFamily: '$displayHeadline',
+    fontSize: '$displayMega',
+    lineHeight: '$displayHeadline',
+});
+var H1 = styled('h1', {
+    color: '$blackberry900',
+    variants: {
+        context: {
+            display: {
+                fontFamily: '$displayHeadline',
+                fontSize: '$displayH1',
+                lineHeight: '$displayHeadline',
+            },
+            interface: {
+                fontFamily: '$interfaceHeadline',
+                fontSize: '$interfaceH1',
+                lineHeight: '$interfaceHeadline'
+            }
+        }
+    }
+});
+var H2 = styled('h2', {
+    color: '$blackberry900',
+    variants: {
+        context: {
+            display: {
+                fontFamily: '$displayHeadline',
+                fontSize: '$displayH2',
+                lineHeight: '$displayHeadline',
+            },
+            interface: {
+                fontFamily: '$interfaceHeadline',
+                fontSize: '$interfaceH2',
+                lineHeight: '$interfaceHeadline',
+            }
+        }
+    }
+});
+var H3 = styled('h3', {
+    color: '$blackberry900',
+    variants: {
+        context: {
+            display: {
+                fontFamily: '$displayHeadline',
+                fontSize: '$displayH3',
+                lineHeight: '$displayHeadline',
+            },
+            interface: {
+                fontFamily: '$interfaceHeadline',
+                fontSize: '$interfaceH3',
+                lineHeight: '$interfaceHeadline',
+            }
+        }
+    }
+});
+var H4 = styled('h4', {
+    color: '$blackberry900',
+    variants: {
+        context: {
+            display: {
+                fontFamily: '$displayHeadline',
+                fontSize: '$displayH4',
+                lineHeight: '$displayHeadline',
+            },
+            interface: {
+                fontFamily: '$interfaceHeadline',
+                fontSize: '$interfaceH4',
+                lineHeight: '$interfaceHeadline',
+            }
+        }
+    }
+});
+var H5 = styled('h5', {
+    color: '$blackberry900',
+    variants: {
+        context: {
+            display: {
+                fontFamily: '$displayHeadline',
+                fontSize: '$displayH5',
+                lineHeight: '$displayHeadline',
+            },
+            interface: {
+                fontFamily: '$interfaceHeadline',
+                fontSize: '$interfaceH5',
+                lineHeight: '$interfaceHeadline',
+            }
+        }
+    }
+});
+var H6 = styled('h6', {
+    color: '$blackberry900',
+    variants: {
+        context: {
+            display: {
+                fontFamily: '$displayHeadline',
+                fontSize: '$displayH6',
+                lineHeight: '$displayHeadline',
+            },
+            interface: {
+                fontFamily: '$interfaceHeadline',
+                fontSize: '$interfaceH6',
+                lineHeight: '$interfaceHeadline',
+            }
+        }
+    }
+});
+
+var Paragraph = styled('p', {
+    color: '$blackberry900',
+    variants: {
+        context: {
+            display: {
+                fontFamily: '$displayBody',
+                lineHeight: '$displayBody',
+            },
+            interface: {
+                fontFamily: '$interfaceBody',
+                lineHeight: '$interfaceBody',
+            }
+        },
+        size: {
+            base: {},
+            large: {},
+            small: {},
+            extraSmall: {},
+        }
+    },
+    compoundVariants: [
+        {
+            context: 'display',
+            size: 'base',
+            css: {
+                fontSize: '$displayBase',
+            }
+        },
+        {
+            context: 'display',
+            size: 'large',
+            css: {
+                fontSize: '$displayLarge',
+            }
+        },
+        {
+            context: 'display',
+            size: 'small',
+            css: {
+                fontSize: '$displaySmall',
+            }
+        },
+        {
+            context: 'display',
+            size: 'extraSmall',
+            css: {
+                fontSize: '$displayExtraSmall',
+            }
+        },
+        {
+            context: 'interface',
+            size: 'base',
+            css: {
+                fontSize: '$interfaceBase',
+            }
+        },
+        {
+            context: 'interface',
+            size: 'large',
+            css: {
+                fontSize: '$interfaceLarge',
+            }
+        },
+        {
+            context: 'interface',
+            size: 'small',
+            css: {
+                fontSize: '$interfaceSmall',
+            }
+        },
+        {
+            context: 'interface',
+            size: 'extraSmall',
+            css: {
+                fontSize: '$interfaceExtraSmall',
+            }
+        },
+    ]
+});
+
+export { Button, H1, H2, H3, H4, H5, H6, Mega, Paragraph, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };
