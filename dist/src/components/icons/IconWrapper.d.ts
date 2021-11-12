@@ -1,5 +1,5 @@
 export declare const IconWrapper: import("@stitches/react/types/styled-component").StyledComponent<"svg", {
-    size?: "small" | "large" | "extraSmall" | "medium" | undefined;
+    size?: "small" | "extraSmall" | "medium" | "large" | undefined;
     direction?: "left" | "right" | "up" | "down" | undefined;
 }, {
     xs: "(max-width: 375px)";
