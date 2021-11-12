@@ -24,7 +24,7 @@
     "ds:build": "rollup -c",
     "ds:release": "yarn ds:build && np",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
     "@stitches/react": "^1.2.5",

@@ -8,5 +8,5 @@ export default create({
 
     brandTitle: 'Downbeat Academy',
     brandUrl: 'https://cadence.downbeatacademy.com',
-    brandImage: './favicon-40x40.png',
+    brandImage: 'favicon.ico',
 });
