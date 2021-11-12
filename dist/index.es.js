@@ -265,6 +265,9 @@ var H1 = styled('h1', {
                 lineHeight: '$interfaceHeadline'
             }
         }
+    },
+    defaultVariants: {
+        context: 'display'
     }
 });
 var H2 = styled('h2', {
@@ -282,6 +285,9 @@ var H2 = styled('h2', {
                 lineHeight: '$interfaceHeadline',
             }
         }
+    },
+    defaultVariants: {
+        context: 'display'
     }
 });
 var H3 = styled('h3', {
@@ -299,6 +305,9 @@ var H3 = styled('h3', {
                 lineHeight: '$interfaceHeadline',
             }
         }
+    },
+    defaultVariants: {
+        context: 'display'
     }
 });
 var H4 = styled('h4', {
@@ -316,6 +325,9 @@ var H4 = styled('h4', {
                 lineHeight: '$interfaceHeadline',
             }
         }
+    },
+    defaultVariants: {
+        context: 'display'
     }
 });
 var H5 = styled('h5', {
@@ -333,6 +345,9 @@ var H5 = styled('h5', {
                 lineHeight: '$interfaceHeadline',
             }
         }
+    },
+    defaultVariants: {
+        context: 'display'
     }
 });
 var H6 = styled('h6', {
@@ -350,6 +365,9 @@ var H6 = styled('h6', {
                 lineHeight: '$interfaceHeadline',
             }
         }
+    },
+    defaultVariants: {
+        context: 'display'
     }
 });
 
@@ -430,7 +448,11 @@ var Paragraph = styled('p', {
                 fontSize: '$interfaceExtraSmall',
             }
         },
-    ]
+    ],
+    defaultVariants: {
+        context: 'display',
+        size: 'base'
+    }
 });
 
 export { Button, H1, H2, H3, H4, H5, H6, Mega, Paragraph, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };
