@@ -34,8 +34,11 @@ export function SocialIcon ({
     }
 
     return (
-        <IconWrapper size={size} fill='none' xmlns='http://www.w3.org/2000/svg'>
-            {iconRender(icon)}
+        <IconWrapper
+            size={size}
+            fill='none'
+            xmlns='http://www.w3.org/2000/svg'
+        >{iconRender(icon)}
         </IconWrapper>
     )
 }

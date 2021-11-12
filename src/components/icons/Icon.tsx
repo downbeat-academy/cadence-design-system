@@ -7,7 +7,7 @@ interface Props {
 }
 
 export function Icon ({ 
-    size = 'medium',
+    size = 'small',
     icon,
     fill = '#000000',
  }: Props) {
@@ -145,6 +145,7 @@ export function Icon ({
         <IconWrapper
             fill='none' 
             xmlns='http://www.w3.org/2000/svg'
+            size={size}
         >{iconRender(icon)}
         </IconWrapper>
     )

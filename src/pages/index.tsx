@@ -1,11 +1,11 @@
 import type { NextPage } from 'next';
-import { Icon } from '../components/icons'
+import { Arrow } from '../components/icons'
 
 const Home: NextPage = () => {
 	return (
 		<div>
 			<p>Home Page</p>
-			<Icon icon='error' fill='black' size='large' />
+			<Arrow icon='chevron' fill='black' size='small' direction='up' />
 		</div>
 	);
 };
