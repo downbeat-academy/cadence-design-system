@@ -2,7 +2,7 @@
 interface Props {
     size?: any;
     icon: string;
-    fill?: string;
+    color?: string;
 }
-export declare function SocialIcon({ size, icon, fill, }: Props): JSX.Element;
+export declare function SocialIcon({ size, icon, color, }: Props): JSX.Element;
 export {};

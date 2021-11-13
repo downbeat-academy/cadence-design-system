@@ -2,6 +2,9 @@ import { styled } from '../../stitches.config'
 
 export const IconWrapper = styled('svg', {
     fill: 'none',
+    // '& > * ': {
+    //     fill: `${color}`,
+    // },
 
     variants: {
         size: {

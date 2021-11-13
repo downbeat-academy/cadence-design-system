@@ -2,8 +2,8 @@
 interface Props {
     size?: any;
     icon: string;
-    fill?: string;
+    color?: string;
     direction?: any;
 }
-export declare function Arrow({ size, icon, fill, direction, }: Props): JSX.Element;
+export declare function Arrow({ size, icon, color, direction, }: Props): JSX.Element;
 export {};
