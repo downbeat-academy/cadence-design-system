@@ -46,6 +46,11 @@ export function Arrow ({
             size={size}
             color={color}
             direction={direction}
+            css={{
+                '> *': {
+                    fill: `${color}`,
+                }
+            }}
         >{iconRender(icon)}
         </IconWrapper>
     )
