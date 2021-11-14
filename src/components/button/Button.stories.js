@@ -1,5 +1,5 @@
 import React from 'react';
-import { withDesign } from 'storybook-addon-designs'
+import { withDesign } from 'storybook-addon-designs';
 import { Button } from './Button';
 
 export default {
@@ -9,16 +9,22 @@ export default {
 	argTypes: {
 		text: 'Button text',
 		variant: {
-			options: [ 'primary', 'secondary', 'tertiary', 'ghost', 'destructive' ],
+			options: [
+				'primary',
+				'secondary',
+				'tertiary',
+				'ghost',
+				'destructive',
+			],
 			control: { type: 'select' },
 		},
 		size: {
-			options: [ 'large', 'medium', 'small' ],
-			control: { type: 'select' }
+			options: ['large', 'medium', 'small'],
+			control: { type: 'select' },
 		},
 		disabled: {
-			options: [ true, false, ],
-			control: { type: 'boolean', }
+			options: [true, false],
+			control: { type: 'boolean' },
 		},
 	},
 };
@@ -32,12 +38,12 @@ Default.args = {
 	size: 'large',
 	variant: 'primary',
 	disabled: false,
-}
+};
 
 Default.parameters = {
 	design: {
 		type: 'figma',
-		url: 'https://www.figma.com/file/zjft7NvdfMnRyEm8HTsnIX/Components-%2B-Styles?node-id=177%3A6'
+		url: 'https://www.figma.com/file/zjft7NvdfMnRyEm8HTsnIX/Components-%2B-Styles?node-id=177%3A6',
 	},
 	a11y: {
 		config: {
@@ -45,8 +51,8 @@ Default.parameters = {
 				{
 					id: 'color-contrast',
 					enabled: true,
-				}
-			]
-		}
-	}
-}
+				},
+			],
+		},
+	},
+};

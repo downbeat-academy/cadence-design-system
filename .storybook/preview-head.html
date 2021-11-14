@@ -1,90 +1,132 @@
-<style type='text/css'>
-    @font-face {
-        font-family: 'Favorit';
-        font-style: normal;
-        font-weight: normal;
-        font-display: swap;
-        src: local("ABC Favorit Regular"), url("fonts/favorit/ABCFavorit-Regular.woff") format("woff"), url("fonts/favorit/ABCFavorit-Regular.woff2") format("woff2");
-    }
-    
-    @font-face {
-        font-family: 'Favorit';
-        font-style: italic;
-        font-weight: normal;
-        font-display: swap;
-        src: local("ABC Favorit Regular Italic"), url("fonts/favorit/ABCFavorit-RegularItalic.woff") format("woff"), url("fonts/favorit/ABCFavorit-RegularItalic.woff2") format("woff2");
-    }
-    
-    @font-face {
-        font-family: 'Favorit';
-        font-style: normal;
-        font-weight: bold;
-        font-display: swap;
-        src: local("ABC Favorit Bold"), url("fonts/favorit/ABCFavorit-Bold.woff") format("woff"), url("fonts/favorit/ABCFavorit-Bold.woff2") format("woff2");
-    }
-    
-    @font-face {
-        font-family: 'Favorit';
-        font-style: italic;
-        font-weight: bold;
-        font-display: swap;
-        src: local("ABC Favorit Bold Italic"), url("fonts/favorit/ABCFavorit-BoldItalic.woff") format("woff"), url("fonts/favorit/ABCFavorit-BoldItalic.woff2") format("woff2");
-    }
-    
-    @font-face {
-        font-family: 'Favorit Expanded';
-        font-style: normal;
-        font-weight: bold;
-        font-display: swap;
-        src: local("ABC Favorit Expanded Bold"), url("fonts/favorit/ABCFavoritExpanded-Bold.woff") format("woff"), url("fonts/favorit/ABCFavoritExpanded-Bold.woff2") format("woff2");
-    }
-    
-    @font-face {
-        font-family: 'Favorit Mono';
-        font-style: normal;
-        font-weight: normal;
-        font-display: swap;
-        src: local("ABC Favorit Mono Regular"), url("fonts/favorit/ABCFavoritMono-Regular.woff") format("woff"), url("fonts/favorit/ABCFavoritMono-Regular.woff2") format("woff2");
-    }
-    
-    @font-face {
-        font-family: 'Favorit Mono';
-        font-style: italic;
-        font-weight: normal;
-        font-display: swap;
-        src: local("ABC Favorit Mono Regular Italic"), url("fonts/favorit/ABCFavoritMono-RegularItalic.woff") format("woff"), url("fonts/favorit/ABCFavoritMono-RegularItalic.woff2") format("woff2");
-    }
-    
-    @font-face {
-        font-family: 'Tiempos Text';
-        font-style: normal;
-        font-weight: normal;
-        font-display: swap;
-        src: local("Tiempos Text Regular"), url("fonts/tiempos-text/TiemposText-Regular.woff") format("woff"), url("fonts/tiempos-text/TiemposText-Regular.woff2") format("woff2");
-    }
-    
-    @font-face {
-        font-family: 'Tiempos Text';
-        font-style: italic;
-        font-weight: normal;
-        font-display: swap;
-        src: local("Tiempos Text Regular Italic"), url("fonts/tiempos-text/TiemposText-RegularItalic.woff") format("woff"), url("fonts/tiempos-text/TiemposText-RegularItalic.woff2") format("woff2");
-    }
-    
-    @font-face {
-        font-family: 'Tiempos Text';
-        font-style: normal;
-        font-weight: bold;
-        font-display: swap;
-        src: local("Tiempos Text Bold"), url("fonts/tiempos-text/TiemposText-SemiBold.woff") format("woff"), url("fonts/tiempos-text/TiemposText-Bold.woff2") format("woff2");
-    }
-    
-    @font-face {
-        font-family: 'Tiempos Text';
-        font-style: italic;
-        font-weight: bold;
-        font-display: swap;
-        src: local("Tiempos Text Bold Italic"), url("fonts/tiempos-text/TiemposText-SemiBoldItalic.woff") format("woff"), url("fonts/tiempos-text/TiemposText-BoldItalic.woff2") format("woff2");
-    }
-    
+<style type="text/css">
+	@font-face {
+		font-family: 'Favorit';
+		font-style: normal;
+		font-weight: normal;
+		font-display: swap;
+		src: local('ABC Favorit Regular'),
+			url('fonts/favorit/ABCFavorit-Regular.woff')
+				format('woff'),
+			url('fonts/favorit/ABCFavorit-Regular.woff2')
+				format('woff2');
+	}
+
+	@font-face {
+		font-family: 'Favorit';
+		font-style: italic;
+		font-weight: normal;
+		font-display: swap;
+		src: local('ABC Favorit Regular Italic'),
+			url('fonts/favorit/ABCFavorit-RegularItalic.woff')
+				format('woff'),
+			url('fonts/favorit/ABCFavorit-RegularItalic.woff2')
+				format('woff2');
+	}
+
+	@font-face {
+		font-family: 'Favorit';
+		font-style: normal;
+		font-weight: bold;
+		font-display: swap;
+		src: local('ABC Favorit Bold'),
+			url('fonts/favorit/ABCFavorit-Bold.woff') format('woff'),
+			url('fonts/favorit/ABCFavorit-Bold.woff2')
+				format('woff2');
+	}
+
+	@font-face {
+		font-family: 'Favorit';
+		font-style: italic;
+		font-weight: bold;
+		font-display: swap;
+		src: local('ABC Favorit Bold Italic'),
+			url('fonts/favorit/ABCFavorit-BoldItalic.woff')
+				format('woff'),
+			url('fonts/favorit/ABCFavorit-BoldItalic.woff2')
+				format('woff2');
+	}
+
+	@font-face {
+		font-family: 'Favorit Expanded';
+		font-style: normal;
+		font-weight: bold;
+		font-display: swap;
+		src: local('ABC Favorit Expanded Bold'),
+			url('fonts/favorit/ABCFavoritExpanded-Bold.woff')
+				format('woff'),
+			url('fonts/favorit/ABCFavoritExpanded-Bold.woff2')
+				format('woff2');
+	}
+
+	@font-face {
+		font-family: 'Favorit Mono';
+		font-style: normal;
+		font-weight: normal;
+		font-display: swap;
+		src: local('ABC Favorit Mono Regular'),
+			url('fonts/favorit/ABCFavoritMono-Regular.woff')
+				format('woff'),
+			url('fonts/favorit/ABCFavoritMono-Regular.woff2')
+				format('woff2');
+	}
+
+	@font-face {
+		font-family: 'Favorit Mono';
+		font-style: italic;
+		font-weight: normal;
+		font-display: swap;
+		src: local('ABC Favorit Mono Regular Italic'),
+			url('fonts/favorit/ABCFavoritMono-RegularItalic.woff')
+				format('woff'),
+			url('fonts/favorit/ABCFavoritMono-RegularItalic.woff2')
+				format('woff2');
+	}
+
+	@font-face {
+		font-family: 'Tiempos Text';
+		font-style: normal;
+		font-weight: normal;
+		font-display: swap;
+		src: local('Tiempos Text Regular'),
+			url('fonts/tiempos-text/TiemposText-Regular.woff')
+				format('woff'),
+			url('fonts/tiempos-text/TiemposText-Regular.woff2')
+				format('woff2');
+	}
+
+	@font-face {
+		font-family: 'Tiempos Text';
+		font-style: italic;
+		font-weight: normal;
+		font-display: swap;
+		src: local('Tiempos Text Regular Italic'),
+			url('fonts/tiempos-text/TiemposText-RegularItalic.woff')
+				format('woff'),
+			url('fonts/tiempos-text/TiemposText-RegularItalic.woff2')
+				format('woff2');
+	}
+
+	@font-face {
+		font-family: 'Tiempos Text';
+		font-style: normal;
+		font-weight: bold;
+		font-display: swap;
+		src: local('Tiempos Text Bold'),
+			url('fonts/tiempos-text/TiemposText-SemiBold.woff')
+				format('woff'),
+			url('fonts/tiempos-text/TiemposText-Bold.woff2')
+				format('woff2');
+	}
+
+	@font-face {
+		font-family: 'Tiempos Text';
+		font-style: italic;
+		font-weight: bold;
+		font-display: swap;
+		src: local('Tiempos Text Bold Italic'),
+			url('fonts/tiempos-text/TiemposText-SemiBoldItalic.woff')
+				format('woff'),
+			url('fonts/tiempos-text/TiemposText-BoldItalic.woff2')
+				format('woff2');
+	}
 </style>

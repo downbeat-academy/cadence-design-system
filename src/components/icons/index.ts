@@ -1,3 +1,3 @@
-export { Icon } from './Icon'
-export { SocialIcon } from './SocialIcon'
-export { Arrow } from './Arrow'
+export { Icon } from './Icon';
+export { SocialIcon } from './SocialIcon';
+export { Arrow } from './Arrow';

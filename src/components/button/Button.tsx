@@ -1,4 +1,4 @@
-import { styled } from '../../stitches.config'
+import { styled } from '../../stitches.config';
 
 export const Button = styled('button', {
 	fontFamily: '$interfaceBody',
@@ -15,7 +15,7 @@ export const Button = styled('button', {
 	'&:hover': {
 		cursor: 'pointer',
 	},
-	
+
 	variants: {
 		size: {
 			large: {
@@ -35,20 +35,20 @@ export const Button = styled('button', {
 			primary: {
 				background: '$passionFruit500',
 				color: '$accent000',
-				'&:hover': { background: '$passionFruit600', },
+				'&:hover': { background: '$passionFruit600' },
 				'&:focus': {
 					borderColor: '$passionFruit500',
 					boxShadow: 'inset 0 0 0 2px $colors$passionFruit500, inset 0 0 0 3px $colors$accent100',
 				},
-				'&:active': { background: '$passionFruit500', },
+				'&:active': { background: '$passionFruit500' },
 				':disabled': {
 					color: '$accent200',
-				}
+				},
 			},
 			secondary: {
 				background: '$blackberry900',
 				color: '$accent000',
-				'&:hover': { background: '$blackberry800', },
+				'&:hover': { background: '$blackberry800' },
 				'&:focus': {
 					borderColor: '$blackberry900',
 					boxShadow: 'inset 0 0 0 2px $colors$blackberry900, inset 0 0 0 3px $colors$accent100',
@@ -64,9 +64,10 @@ export const Button = styled('button', {
 					borderColor: '$passionFruit600',
 					color: '$accent000',
 				},
-				'&:focus': { 					
+				'&:focus': {
 					borderColor: '$passionFruit600',
-					boxShadow: 'inset 0 0 0 2px $colors$passionFruit500, inset 0 0 0 3px $colors$accent100', },
+					boxShadow: 'inset 0 0 0 2px $colors$passionFruit500, inset 0 0 0 3px $colors$accent100',
+				},
 				'&:active': {
 					color: '$accent000',
 					background: '$passionFruit600',
@@ -75,7 +76,7 @@ export const Button = styled('button', {
 			ghost: {
 				background: 'none',
 				color: '$passionFruit600',
-				'&:hover': { background: '$passionFruit000', },
+				'&:hover': { background: '$passionFruit000' },
 				'&:focus': {
 					borderColor: '$passionFruit600',
 					boxShadow: 'inset 0 0 0 2px $colors$passionFruit000, inset 0 0 0 3px $colors$passionFruit500',
@@ -86,7 +87,7 @@ export const Button = styled('button', {
 				background: '$pomegranate500',
 				color: '$accent000',
 				'&:hover': { background: '$pomegranate600' },
-				'&:focus': { 
+				'&:focus': {
 					background: '$pomegranate500',
 					boxShadow: 'inset 0 0 0 2px $colors$pomegranate500, inset 0 0 0 3px $colors$accent100',
 				},
@@ -98,5 +99,5 @@ export const Button = styled('button', {
 	defaultVariants: {
 		size: 'large',
 		variant: 'primary',
-	}
-})
+	},
+});

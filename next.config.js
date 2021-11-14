@@ -19,7 +19,8 @@ module.exports = {
 		const terser = config.optimization.minimizer.find(
 			(plugin) =>
 				typeof plugin.options !== 'undefined' &&
-				typeof plugin.options.terserOptions !== 'undefined'
+				typeof plugin.options.terserOptions !==
+					'undefined'
 		);
 		if (terser) {
 			terser.options.terserOptions = {
