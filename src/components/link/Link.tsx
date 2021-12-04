@@ -10,7 +10,7 @@ const LinkWrapper = styled('a', {
     textDecorationThickness: '$space$2',
     textUnderlineOffset: '$space$1',
     transition: '$1',
-    padding: '$2 0',
+    padding: '$1 0',
     display: 'inline-flex',
     flexDirection: 'row',
     alignItems: 'center',

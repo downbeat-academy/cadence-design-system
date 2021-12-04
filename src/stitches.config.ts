@@ -144,7 +144,7 @@ export const {
 			interfaceH6: '1rem',
 		},
 		lineHeights: {
-			displayBody: '1.625',
+			displayBody: '1.777',
 			displayHeadline: '1.3',
 
 			interfaceBody: '1.5',
