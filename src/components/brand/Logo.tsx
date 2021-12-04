@@ -2,7 +2,6 @@ import React from 'react'
 import { SvgWrapper } from '../utilities'
 
 interface Props {
-    size?: string,
     color?: string,
     type: 'symbol' | 'text' | 'lockup',
     width?: string,
