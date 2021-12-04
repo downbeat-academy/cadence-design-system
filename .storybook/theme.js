@@ -1,4 +1,5 @@
 import { create } from '@storybook/theming';
+import { Logo } from '../src/components/brand'
 
 export default create({
 	base: 'light',
@@ -8,5 +9,5 @@ export default create({
 
 	brandTitle: 'Downbeat Academy',
 	brandUrl: 'https://cadence.downbeatacademy.com',
-	brandImage: 'favicon-40x40.png',
+	brandImage: 'logo.png',
 });

@@ -6,27 +6,17 @@ export default {
     argTypes: {
         width: 'width',
         color: 'color',
-        type: 'type'
+        type: {
+            options: [ 'symbol', 'text', 'lockup' ],
+            control: { type: 'select' }
+        }
     }
 }
 
-export const Symbol = (args) => <Logo {...args} />
-export const Text = (args) => <Logo {...args} />
-export const Lockup = (args) => <Logo {...args} />
+export const Logos = (args) => <Logo {...args} />
 
-Symbol.args = { 
+Logos.args = { 
     color: '$passionFruit500',
     width: '250',
     type: 'symbol'
-}
-
-Text.args = { 
-    color: '$passionFruit500',
-    width: '250',
-    type: 'text'
-}
-Lockup.args = { 
-    color: '$passionFruit500',
-    width: '250',
-    type: 'lockup'
 }
