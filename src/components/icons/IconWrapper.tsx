@@ -2,9 +2,6 @@ import { styled } from '../../stitches.config';
 
 export const IconWrapper = styled('svg', {
 	fill: 'none',
-	// '& > * ': {
-	//     fill: `${color}`,
-	// },
 
 	variants: {
 		size: {
@@ -41,15 +38,8 @@ export const IconWrapper = styled('svg', {
 				},
 			},
 		},
-		direction: {
-			up: { transform: 'rotate(180deg)' },
-			right: { transform: 'rotate(-90deg)' },
-			left: { transform: 'rotate(90deg)' },
-			down: { transform: 'rotate(0deg)' },
-		},
 	},
 	defaultVariants: {
 		size: 'small',
-		direction: 'down',
 	},
 });
