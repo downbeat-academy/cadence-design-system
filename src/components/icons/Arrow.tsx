@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconWrapper } from './IconWrapper';
+import { styled } from 'stitches.config'
 
 interface Props {
 	size?: any;
@@ -44,7 +44,7 @@ export function Arrow({
 	}
 
 	return (
-		<IconWrapper
+		<ArrowWrapper
 			xmlns="http://www.w3.org/2000/svg"
 			fill="none"
 			size={size}
@@ -57,6 +57,56 @@ export function Arrow({
 			}}
 		>
 			{iconRender(icon)}
-		</IconWrapper>
+		</ArrowWrapper>
 	);
 }
+
+const ArrowWrapper = styled('svg', {
+	fill: 'none',
+
+	variants: {
+		size: {
+			extraSmall: {
+				width: '1rem',
+				height: '1rem',
+
+				'& > *': {
+					transform: 'scale(100%)',
+				},
+			},
+			small: {
+				width: '1.5rem',
+				height: '1.5rem',
+
+				'& > *': {
+					transform: 'scale(150%)',
+				},
+			},
+			medium: {
+				width: '2rem',
+				height: '2rem',
+
+				'& > *': {
+					transform: 'scale(200%)',
+				},
+			},
+			large: {
+				width: '2.5rem',
+				height: '2.5rem',
+
+				'& > *': {
+					transform: 'scale(250%)',
+				},
+			},
+		},
+		direction: {
+			down: { transform: 'inherit' },
+			up: { transform: 'rotate(180deg)' },
+			left: { transform: 'rotate(90deg)' },
+			right: { transform: 'rotate(-90deg)' },
+		}
+	},
+	defaultVariants: {
+		size: 'small',
+	},
+})
