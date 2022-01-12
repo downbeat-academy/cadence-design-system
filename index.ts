@@ -1,3 +1,4 @@
+// Stitches styling
 export {
 	styled,
 	getCssText,
@@ -21,5 +22,32 @@ export {
 	H6,
 	Paragraph,
 } from './src/components/typography';
-export { Icon, SocialIcon, Arrow } from './src/components/icons';
+
+export { 
+	SocialIcon,
+	Arrow,
+	Info,
+	Award,
+	BookAlt,
+	Book,
+	Calendar,
+	CalendarX,
+	CalendarCheck,
+	CalendarPlus,
+	CalendarMinus,
+	CalendarExclamation,
+	CalendarEdit,
+	CalendarEvent,
+	CalendarHeart,
+	CalendarStar,
+	CalendarWeek,
+	Close,
+	Megaphone,
+	Warning,
+	Error,
+	CheckCircle,
+	ExternalLink,
+} from './src/components/icons';
+
 export { Flex, Grid } from './src/components/layout';
+export { Logo } from './src/components/brand'
