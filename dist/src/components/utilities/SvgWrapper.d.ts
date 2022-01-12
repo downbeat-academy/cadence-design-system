@@ -1,7 +1,4 @@
-export declare const Button: import("@stitches/react/types/styled-component").StyledComponent<"button", {
-    size?: "small" | "large" | "medium" | undefined;
-    variant?: "primary" | "secondary" | "tertiary" | "ghost" | "destructive" | undefined;
-}, {
+export declare const SvgWrapper: import("@stitches/react/types/styled-component").StyledComponent<"svg", {}, {
     xs: "(max-width: 375px)";
     sm: "(max-width: 500px)";
     md: "(max-width: 768px)";

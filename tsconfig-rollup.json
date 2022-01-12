@@ -15,11 +15,6 @@
 		"strict": true,
 		"target": "es5"
 	},
-<<<<<<< HEAD
-	"exclude": ["node_modules", "pages"],
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
-}
-=======
 	"exclude": [
 		"node_modules",
 		"pages"
@@ -31,4 +26,3 @@
 		"**/*.js"
 	]
 }
->>>>>>> 70c5e84fbaa65cd152dce7d0e835099befb9d83a

@@ -1,6 +1,5 @@
-export declare const Button: import("@stitches/react/types/styled-component").StyledComponent<"button", {
-    size?: "small" | "large" | "medium" | undefined;
-    variant?: "primary" | "secondary" | "tertiary" | "ghost" | "destructive" | undefined;
+export declare const Link: import("@stitches/react/types/styled-component").StyledComponent<"a", {
+    context?: "block" | "inline" | undefined;
 }, {
     xs: "(max-width: 375px)";
     sm: "(max-width: 500px)";
