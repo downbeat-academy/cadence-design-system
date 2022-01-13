@@ -166,6 +166,7 @@ var Button = styled('button', {
     lineHeight: '$interfaceBody',
     display: 'flex',
     flexDirection: 'row',
+    justifyContent: 'center',
     gap: '$4',
     boxSizing: 'border-box',
     border: '1px solid transparent',
