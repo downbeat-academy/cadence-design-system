@@ -51,3 +51,4 @@ export {
 
 export { Flex, Grid } from './src/components/layout';
 export { Logo } from './src/components/brand'
+export { Divider } from './src/components/divider'
