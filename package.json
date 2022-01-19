@@ -1,6 +1,6 @@
 {
 	"name": "cadence-design-system",
-	"version": "0.1.26-beta",
+	"version": "0.1.27-beta",
 	"private": false,
 	"license": "MIT",
 	"main": "dist/index.js",
@@ -22,7 +22,7 @@
 		"lint": "next lint",
 		"format": "prettier --write .",
 		"ds:build": "rollup -c",
-		"ds:release": "yarn ds:build && np",
+		"ds:release": "yarn ds:build && npm publish",
 		"storybook": "start-storybook -p 6006 -s public",
 		"build-storybook": "build-storybook -s public"
 	},
