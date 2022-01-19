@@ -20,8 +20,8 @@ const Wrapper = styled('span', {
     variants: {
         type: {
             neutral: {
-                background: '$accent100',
-                color: '$accent800',
+                background: '$grayscale100',
+                color: '$grayscale800',
             },
             info: {
                 background: '$blueberry000',

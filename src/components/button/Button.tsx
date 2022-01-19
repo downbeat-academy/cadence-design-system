@@ -35,24 +35,24 @@ export const Button = styled('button', {
 		variant: {
 			primary: {
 				background: '$passionFruit500',
-				color: '$accent000',
+				color: '$grayscale000',
 				'&:hover': { background: '$passionFruit600' },
 				'&:focus': {
 					borderColor: '$passionFruit500',
-					boxShadow: 'inset 0 0 0 2px $colors$passionFruit500, inset 0 0 0 3px $colors$accent100',
+					boxShadow: 'inset 0 0 0 2px $colors$passionFruit500, inset 0 0 0 3px $colors$grayscale100',
 				},
 				'&:active': { background: '$passionFruit500' },
 				':disabled': {
-					color: '$accent200',
+					color: '$grayscale200',
 				},
 			},
 			secondary: {
 				background: '$blackberry900',
-				color: '$accent000',
+				color: '$grayscale000',
 				'&:hover': { background: '$blackberry800' },
 				'&:focus': {
 					borderColor: '$blackberry900',
-					boxShadow: 'inset 0 0 0 2px $colors$blackberry900, inset 0 0 0 3px $colors$accent100',
+					boxShadow: 'inset 0 0 0 2px $colors$blackberry900, inset 0 0 0 3px $colors$grayscale100',
 				},
 				'&:active': { background: '$blackberry900' },
 			},
@@ -63,14 +63,14 @@ export const Button = styled('button', {
 				'&:hover': {
 					background: '$passionFruit600',
 					borderColor: '$passionFruit600',
-					color: '$accent000',
+					color: '$grayscale000',
 				},
 				'&:focus': {
 					borderColor: '$passionFruit600',
-					boxShadow: 'inset 0 0 0 2px $colors$passionFruit500, inset 0 0 0 3px $colors$accent100',
+					boxShadow: 'inset 0 0 0 2px $colors$passionFruit500, inset 0 0 0 3px $colors$grayscale100',
 				},
 				'&:active': {
-					color: '$accent000',
+					color: '$grayscale000',
 					background: '$passionFruit600',
 				},
 			},
@@ -86,11 +86,11 @@ export const Button = styled('button', {
 			},
 			destructive: {
 				background: '$pomegranate500',
-				color: '$accent000',
+				color: '$grayscale000',
 				'&:hover': { background: '$pomegranate600' },
 				'&:focus': {
 					background: '$pomegranate500',
-					boxShadow: 'inset 0 0 0 2px $colors$pomegranate500, inset 0 0 0 3px $colors$accent100',
+					boxShadow: 'inset 0 0 0 2px $colors$pomegranate500, inset 0 0 0 3px $colors$grayscale100',
 				},
 				'&:active': { background: '$pomegranate700' },
 			},
