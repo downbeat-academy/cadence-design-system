@@ -79,17 +79,17 @@ var styled = (_a = createStitches({
             blueberry800: 'hsla(210, 58%, 31%, 1)',
             blueberry900: 'hsla(210, 59%, 20%, 1)',
             blueberry1000: 'hsla(210, 58%, 9%, 1)',
-            accent000: 'hsla(0, 0%, 100%, 1)',
-            accent100: 'hsla(0, 0, 95%, 1)',
-            accent200: 'hsla(240, 9%, 91%, 1)',
-            accent300: 'hsla(240, 8%, 85%, 1)',
-            accent400: 'hsla(240, 8%, 81%, 1)',
-            accent500: 'hsla(240, 8%, 76%, 1)',
-            accent600: 'hsla(240, 4%, 61%, 1)',
-            accent700: 'hsla(240, 3%, 45%, 1)',
-            accent800: 'hsla(240, 3%, 31%, 1)',
-            accent900: 'hsla(240, 3%, 15%, 1)',
-            accent1000: 'hsla(0, 0%, 0%, 1)',
+            grayscale000: 'hsla(0, 0%, 100%, 1)',
+            grayscale100: 'hsla(0, 0, 95%, 1)',
+            grayscale200: 'hsla(240, 9%, 91%, 1)',
+            grayscale300: 'hsla(240, 8%, 85%, 1)',
+            grayscale400: 'hsla(240, 8%, 81%, 1)',
+            grayscale500: 'hsla(240, 8%, 76%, 1)',
+            grayscale600: 'hsla(240, 4%, 61%, 1)',
+            grayscale700: 'hsla(240, 3%, 45%, 1)',
+            grayscale800: 'hsla(240, 3%, 31%, 1)',
+            grayscale900: 'hsla(240, 3%, 15%, 1)',
+            grayscale1000: 'hsla(0, 0%, 0%, 1)',
         },
         space: {
             1: '2px',
@@ -1062,4 +1062,25 @@ var Logo = function (_a) {
     return (React__default.createElement(React__default.Fragment, null, logoRender(type)));
 };
 
-export { Arrow, Award, Book, BookAlt, Button, Calendar, CalendarCheck, CalendarEdit, CalendarEvent, CalendarExclamation, CalendarHeart, CalendarMinus, CalendarPlus, CalendarStar, CalendarWeek, CalendarX, CheckCircle, Close, Error, ExternalLink, Flex, Grid, H1, H2, H3, H4, H5, H6, Info, Logo, Mega, Megaphone, Paragraph, SocialIcon, Warning, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };
+var Divider = styled('hr', {
+    border: '0',
+    backgroundColor: '$grayscale200',
+    variants: {
+        width: {
+            1: {
+                height: '1px',
+            },
+            2: {
+                height: '2px',
+            },
+            4: {
+                height: '4px',
+            }
+        }
+    },
+    defaultVariants: {
+        width: 1,
+    }
+});
+
+export { Arrow, Award, Book, BookAlt, Button, Calendar, CalendarCheck, CalendarEdit, CalendarEvent, CalendarExclamation, CalendarHeart, CalendarMinus, CalendarPlus, CalendarStar, CalendarWeek, CalendarX, CheckCircle, Close, Divider, Error, ExternalLink, Flex, Grid, H1, H2, H3, H4, H5, H6, Info, Logo, Mega, Megaphone, Paragraph, SocialIcon, Warning, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };

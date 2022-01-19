@@ -16,5 +16,9 @@ export const Divider = styled('hr', {
                 height: '4px',
             }
         }
+    },
+
+    defaultVariants: {
+        width: 1,
     }
 })

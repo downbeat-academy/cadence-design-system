@@ -91,17 +91,17 @@ export declare const Flex: import("@stitches/react/types/styled-component").Styl
         blueberry800: string;
         blueberry900: string;
         blueberry1000: string;
-        accent000: string;
-        accent100: string;
-        accent200: string;
-        accent300: string;
-        accent400: string;
-        accent500: string;
-        accent600: string;
-        accent700: string;
-        accent800: string;
-        accent900: string;
-        accent1000: string;
+        grayscale000: string;
+        grayscale100: string;
+        grayscale200: string;
+        grayscale300: string;
+        grayscale400: string;
+        grayscale500: string;
+        grayscale600: string;
+        grayscale700: string;
+        grayscale800: string;
+        grayscale900: string;
+        grayscale1000: string;
     };
     space: {
         1: string;

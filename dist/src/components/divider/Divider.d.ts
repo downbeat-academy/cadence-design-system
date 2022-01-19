@@ -1,11 +1,5 @@
-export declare const Grid: import("@stitches/react/types/styled-component").StyledComponent<"div", {
-    align?: "start" | "center" | "end" | "stretch" | "baseline" | undefined;
-    justify?: "start" | "center" | "end" | "between" | "around" | undefined;
-    flow?: "row" | "column" | "dense" | "rowDense" | "columnDense" | undefined;
-    columns?: "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | "11" | "12" | 11 | 12 | undefined;
-    gap?: "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | undefined;
-    gapX?: "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | undefined;
-    gapY?: "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | undefined;
+export declare const Divider: import("@stitches/react/types/styled-component").StyledComponent<"hr", {
+    width?: "1" | "2" | "4" | 1 | 2 | 4 | undefined;
 }, {
     xs: "(max-width: 375px)";
     sm: "(max-width: 500px)";
