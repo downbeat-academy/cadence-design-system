@@ -12,9 +12,9 @@ export const H1 = styled('h1', {
 	variants: {
 		context: {
 			display: {
+				lineHeight: '$displayHeadline',
 				fontFamily: '$displayHeadline',
 				fontSize: '$displayH1',
-				lineHeight: '$displayHeadline',
 			},
 			interface: {
 				fontFamily: '$interfaceHeadline',

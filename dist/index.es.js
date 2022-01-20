@@ -108,7 +108,7 @@ var styled = (_a = createStitches({
             displayLarge: '1.5rem',
             displaySmall: '0.875rem',
             displayExtraSmall: '0.75rem',
-            displayMega: 'clamp(2.99rem, 3.94vw + 2.06rem, 5.61rem)',
+            displayMega: 'clamp(2.59rem, 3.94vw + 2.06rem, 5.61rem)',
             displayH1: 'clamp(2.49rem, 2.58vw + 1.88rem, 4.21rem)',
             displayH2: 'clamp(2.07rem, 1.63vw + 1.69rem, 3.16rem)',
             displayH3: 'clamp(1.73rem, 0.96vw + 1.5rem, 2.37rem)',
