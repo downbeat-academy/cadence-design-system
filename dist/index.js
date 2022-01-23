@@ -134,20 +134,13 @@ var styled = (_a = react.createStitches({
             displayLarge: '1.5rem',
             displaySmall: '0.875rem',
             displayExtraSmall: '0.75rem',
-            displayMega: 'clamp(2.59rem, 3.94vw + 2.06rem, 5.61rem)',
+            displayMega: 'clamp(2.5rem, 3.94vw + 2.06rem, 5.25rem)',
             displayH1: 'clamp(2.49rem, 2.58vw + 1.88rem, 4.21rem)',
             displayH2: 'clamp(2.07rem, 1.63vw + 1.69rem, 3.16rem)',
             displayH3: 'clamp(1.73rem, 0.96vw + 1.5rem, 2.37rem)',
             displayH4: 'clamp(1.44rem, 0.51vw + 1.32rem, 1.78rem)',
             displayH5: 'clamp(1.2rem, 0.2vw + 1.15rem, 1.33rem)',
             displayH6: 'clamp(1rem, 0vw + 1rem, 1rem)',
-            // displayMega: '4rem',
-            // displayH1: '3rem',
-            // displayH2: '2.125rem',
-            // displayH3: '1.75rem',
-            // displayH4: '1.5rem',
-            // displayH5: '1.25rem',
-            // displayH6: '0.875rem',
             interfaceBase: '1rem',
             interfaceLarge: '1.25rem',
             interfaceSmall: '0.875rem',
@@ -158,17 +151,11 @@ var styled = (_a = react.createStitches({
             interfaceH4: 'clamp(1.27rem, 0.45vw + 1.16rem, 1.56rem)',
             interfaceH5: 'clamp(1.13rem, 0.19vw + 1.08rem, 1.25rem)',
             interfaceH6: 'clamp(1rem, 0vw + 1rem, 1rem)',
-            // interfaceH1: '2.5rem',
-            // interfaceH2: '2rem',
-            // interfaceH3: '1.65rem',
-            // interfaceH4: '1.4375rem',
-            // interfaceH5: '1.1875rem',
-            // interfaceH6: '1rem',
         },
         lineHeights: {
-            displayBody: '1.777',
+            displayBody: '1.8',
             displayHeadline: '1.3',
-            interfaceBody: '1.5',
+            interfaceBody: '1.6',
             interfaceHeadline: '1.3',
         },
         radii: {
@@ -310,9 +297,9 @@ var H1 = styled('h1', {
     variants: {
         context: {
             display: {
+                lineHeight: '$displayHeadline',
                 fontFamily: '$displayHeadline',
                 fontSize: '$displayH1',
-                lineHeight: '$displayHeadline',
             },
             interface: {
                 fontFamily: '$interfaceHeadline',
@@ -452,6 +439,7 @@ var Paragraph = styled('p', {
             size: 'base',
             css: {
                 fontSize: '$displayBase',
+                marginBottom: '$fontSizes$displayBase',
             },
         },
         {
@@ -459,6 +447,7 @@ var Paragraph = styled('p', {
             size: 'large',
             css: {
                 fontSize: '$displayLarge',
+                marginBottom: '$fontSizes$displayLarge',
             },
         },
         {
@@ -466,6 +455,7 @@ var Paragraph = styled('p', {
             size: 'small',
             css: {
                 fontSize: '$displaySmall',
+                marginBottom: '$fontSizes$displaySmall',
             },
         },
         {
@@ -473,6 +463,7 @@ var Paragraph = styled('p', {
             size: 'extraSmall',
             css: {
                 fontSize: '$displayExtraSmall',
+                marginBottom: '$fontSizes$displayExtraSmall',
             },
         },
         {
@@ -480,6 +471,7 @@ var Paragraph = styled('p', {
             size: 'base',
             css: {
                 fontSize: '$interfaceBase',
+                marginBottom: '$fontSizes$interfaceBase',
             },
         },
         {
@@ -487,6 +479,7 @@ var Paragraph = styled('p', {
             size: 'large',
             css: {
                 fontSize: '$interfaceLarge',
+                marginBottom: '$fontSizes$interfaceLarge',
             },
         },
         {
@@ -494,6 +487,7 @@ var Paragraph = styled('p', {
             size: 'small',
             css: {
                 fontSize: '$interfaceSmall',
+                marginBottom: '$fontSizes$interfaceSmall',
             },
         },
         {
@@ -501,6 +495,7 @@ var Paragraph = styled('p', {
             size: 'extraSmall',
             css: {
                 fontSize: '$interfaceExtraSmall',
+                marginBottom: '$fontSizes$interfaceExtraSmall',
             },
         },
     ],
