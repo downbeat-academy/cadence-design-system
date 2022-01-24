@@ -10,12 +10,15 @@ export const TextArea = styled('textarea', {
     variants: {
         size: {
             small: {},
-            default: {},
+            default: {
+                fontSize: '$interfaceBase',
+                padding: '$3 $4',
+            },
             large: {},
         }
     },
 
     defaultVariants: {
-        size: 'small',
+        size: 'default',
     }
 })
