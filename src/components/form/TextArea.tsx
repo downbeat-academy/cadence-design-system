@@ -1,11 +1,40 @@
 import { styled } from 'stitches.config'
 
 export const TextArea = styled('textarea', {
+    appearance: 'none',
     backgroundColor: '$grayscale000',
     border: '1px solid $grayscale400',
     fontFamily: '$interfaceBody',
     lineHeight: '$interfaceBody',
     color: '$blackberry1000',
+    transition: '$1',
+
+    '&:focus': {
+        borderColor: '$grayscale800',
+        outline: 'none',
+    },
+
+    '&:disabled': {
+        ponterEvents: 'none',
+        cursor: 'not-allowed',
+        backgroundColor: '$grayscale100',
+
+        '&:hover': {
+            borderColor: '$grayscale400',
+        },
+
+        '&::placeholder': {
+            color: '$blackberry900',
+        }
+    },
+
+    '&:read-only': {
+        backgroundColor: '$grayscale100',
+
+        '&::placeholder': {
+            color: '$blackberry900',
+        }
+    },
 
     variants: {
         size: {

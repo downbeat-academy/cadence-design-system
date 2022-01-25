@@ -4,21 +4,21 @@ import { HelperText, Label, Input, TextArea } from 'components/form'
 interface Props {
     label?: string,
     placeholder?: string,
-    type?: string,
+    type?: any,
     name: string,
     helperText?: string,
     disabled?: boolean,
     inputType: 'input' | 'textarea',
-    messageRows?: string,
+    messageRows?: number,
 }
 
 export const InputField = ({
     label,
     placeholder,
     type,
-    name,
+    name = 'text',
     helperText,
-    inputType,
+    inputType = 'input',
     messageRows = 5,
 }: Props) => {
     return (
