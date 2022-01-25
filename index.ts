@@ -52,3 +52,5 @@ export {
 export { Flex, Grid } from './src/components/layout';
 export { Logo } from './src/components/brand'
 export { Divider } from './src/components/divider'
+
+export { Input, TextArea, Label, HelperText, Form } from './src/components/form'

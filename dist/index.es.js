@@ -80,7 +80,7 @@ var styled = (_a = createStitches({
             blueberry900: 'hsla(210, 59%, 20%, 1)',
             blueberry1000: 'hsla(210, 58%, 9%, 1)',
             grayscale000: 'hsla(0, 0%, 100%, 1)',
-            grayscale100: 'hsla(0, 0, 95%, 1)',
+            grayscale100: 'hsla(0, 0%, 95%, 1)',
             grayscale200: 'hsla(240, 9%, 91%, 1)',
             grayscale300: 'hsla(240, 8%, 85%, 1)',
             grayscale400: 'hsla(240, 8%, 81%, 1)',
