@@ -6,6 +6,6 @@ export const Form = styled('form', {
     display: 'flex',
     flexDirection: 'column',
     gap: '$6',
-    maxWidth: '100%',
+    width: '100%',
     boxSizing: 'border-box',
 })

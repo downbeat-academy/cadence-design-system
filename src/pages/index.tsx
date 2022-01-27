@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import { Input, TextArea, Label, HelperText, Form } from '../components/form'
 import { Flex } from '../components/layout'
+import { Button } from '../components/button'
 
 const Home: NextPage = () => {
 	return (
@@ -23,6 +24,9 @@ const Home: NextPage = () => {
 			<Flex direction='column' gap='2'>
 				<Label>Message</Label>
 				<TextArea name='message' placeholder='Say hello...' rows={5} />
+			</Flex>
+			<Flex>
+				<Button>Submit</Button>
 			</Flex>
 		</Form>
 	);

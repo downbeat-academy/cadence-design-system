@@ -7,11 +7,16 @@ export const Button = styled('button', {
 	display: 'flex',
 	flexDirection: 'row',
 	justifyContent: 'center',
+	flexGrow: '0',
 	gap: '$4',
 	boxSizing: 'border-box',
 	border: '1px solid transparent',
 	borderRadius: 0,
 	transition: '$1',
+
+	'@sm': {
+		width: '100%',
+	},
 
 	'&:hover': {
 		cursor: 'pointer',
