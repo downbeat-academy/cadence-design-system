@@ -1126,6 +1126,8 @@ var Input = styled('input', {
     lineHeight: '$interfaceBody',
     color: '$blackberry1000',
     transition: '$1',
+    width: '100%',
+    boxSizing: 'border-box',
     '&:placeholder': {
         color: '$grayscale600',
     },
@@ -1221,6 +1223,8 @@ var TextArea = styled('textarea', {
     lineHeight: '$interfaceBody',
     color: '$blackberry1000',
     transition: '$1',
+    width: '100%',
+    boxSizing: 'border-box',
     '&:focus': {
         borderColor: '$grayscale800',
         outline: 'none',
@@ -1263,6 +1267,8 @@ var Form = styled('form', {
     display: 'flex',
     flexDirection: 'column',
     gap: '$6',
+    maxWidth: '100%',
+    boxSizing: 'border-box',
 });
 
 exports.Arrow = Arrow;

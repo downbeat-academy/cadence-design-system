@@ -8,6 +8,8 @@ export const TextArea = styled('textarea', {
     lineHeight: '$interfaceBody',
     color: '$blackberry1000',
     transition: '$1',
+    width: '100%',
+    boxSizing: 'border-box',
 
     '&:focus': {
         borderColor: '$grayscale800',

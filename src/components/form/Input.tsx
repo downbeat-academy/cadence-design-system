@@ -7,6 +7,8 @@ export const Input = styled('input', {
     lineHeight: '$interfaceBody',
     color: '$blackberry1000',
     transition: '$1',
+    width: '100%',
+    boxSizing: 'border-box',
 
     '&:placeholder': {
         color: '$grayscale600',

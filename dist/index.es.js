@@ -1099,6 +1099,8 @@ var Input = styled('input', {
     lineHeight: '$interfaceBody',
     color: '$blackberry1000',
     transition: '$1',
+    width: '100%',
+    boxSizing: 'border-box',
     '&:placeholder': {
         color: '$grayscale600',
     },
@@ -1194,6 +1196,8 @@ var TextArea = styled('textarea', {
     lineHeight: '$interfaceBody',
     color: '$blackberry1000',
     transition: '$1',
+    width: '100%',
+    boxSizing: 'border-box',
     '&:focus': {
         borderColor: '$grayscale800',
         outline: 'none',
@@ -1236,6 +1240,8 @@ var Form = styled('form', {
     display: 'flex',
     flexDirection: 'column',
     gap: '$6',
+    maxWidth: '100%',
+    boxSizing: 'border-box',
 });
 
 export { Arrow, Award, Book, BookAlt, Button, Calendar, CalendarCheck, CalendarEdit, CalendarEvent, CalendarExclamation, CalendarHeart, CalendarMinus, CalendarPlus, CalendarStar, CalendarWeek, CalendarX, CheckCircle, Close, Divider, Error, ExternalLink, Flex, Form, Grid, H1, H2, H3, H4, H5, H6, HelperText, Info, Input, Label, Logo, Mega, Megaphone, Paragraph, SocialIcon, TextArea, Warning, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };
