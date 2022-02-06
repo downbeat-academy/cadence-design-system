@@ -33,13 +33,6 @@ var LabelPrimitive__namespace = /*#__PURE__*/_interopNamespace(LabelPrimitive);
 var _a;
 var styled = (_a = react.createStitches({
     theme: {
-        fonts: {
-            displayHeadline: 'Favorit Expanded, Helvetica, Arial, sans-serif',
-            interfaceHeadline: 'Favorit, Helvetica, Arial, sans-serif',
-            displayBody: 'Tiempos Text, Georgia, Times, serif',
-            interfaceBody: 'Favorit, Helvetica, Arial, sans-serif',
-            mono: 'Favorit Mono, Courier, monospace',
-        },
         colors: {
             passionFruit000: 'hsla(235, 85%, 95%, 1)',
             passionFruit100: 'hsla(234, 83%, 88%, 1)',
@@ -130,6 +123,13 @@ var styled = (_a = react.createStitches({
             8: '40px',
             9: '64px',
             10: '80px',
+        },
+        fonts: {
+            displayHeadline: 'Favorit Expanded, Helvetica, Arial, sans-serif',
+            interfaceHeadline: 'Favorit, Helvetica, Arial, sans-serif',
+            displayBody: 'Tiempos Text, Georgia, Times, serif',
+            interfaceBody: 'Favorit, Helvetica, Arial, sans-serif',
+            mono: 'Favorit Mono, Courier, monospace',
         },
         fontSizes: {
             displayBase: '1.125rem',
@@ -421,6 +421,9 @@ var H6 = styled('h6', {
 
 var Paragraph = styled('p', {
     color: '$blackberry900',
+    '& code': {
+        fontFamily: '$mono',
+    },
     variants: {
         context: {
             display: {
@@ -509,6 +512,78 @@ var Paragraph = styled('p', {
         context: 'display',
         size: 'base',
     },
+});
+
+styled('ol', {
+    color: '$blackberry900',
+    display: 'flex',
+    flexDirection: 'column',
+    'li': {
+        paddingLeft: '$3',
+    },
+    variants: {
+        context: {
+            display: {
+                fontFamily: '$displayBody',
+                fontSize: '$displayBase',
+                lineHeight: '$displayBody',
+            },
+            interface: {
+                fontFamily: '$interfaceBody',
+                fontSize: '$interfaceBody',
+                lineHeight: '$interfaceBody',
+            }
+        }
+    },
+    defaultVariants: {
+        context: 'display'
+    }
+});
+styled('ul', {
+    color: '$blackberry900',
+    'li': {
+        paddingLeft: '$3',
+    },
+    variants: {
+        context: {
+            display: {
+                fontFamily: '$displayBody',
+                fontSize: '$displayBase',
+                lineHeight: '$displayBody',
+            },
+            interface: {
+                fontFamily: '$interfaceBody',
+                fontSize: '$interfaceBase',
+                lineHeight: '$interfaceBody',
+            }
+        }
+    },
+    defaultVariants: {
+        context: 'display'
+    }
+});
+styled('dl', {
+    color: '$blackberry900',
+    'dd, dt': {
+        paddingLeft: '$3',
+    },
+    variants: {
+        context: {
+            display: {
+                fontFamily: '$displayBody',
+                fontSize: '$displayBase',
+                lineHeight: '$displayBody',
+            },
+            interface: {
+                fontFamily: '$interfaceBody',
+                fontSize: '$interfaceBase',
+                lineHeight: '$interfaceBody',
+            }
+        }
+    },
+    defaultVariants: {
+        context: 'display'
+    }
 });
 
 var IconWrapper = styled('svg', {

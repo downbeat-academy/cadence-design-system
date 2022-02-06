@@ -21,6 +21,9 @@ export {
 	H5,
 	H6,
 	Paragraph,
+	OrderedList,
+	UnorderedList,
+	DefinitionList,
 } from './src/components/typography';
 
 export { 

@@ -4,6 +4,7 @@ export const OrderedList = styled('ol', {
     color: '$blackberry900',
     display: 'flex',
     flexDirection: 'column',
+    paddingLeft: '$5',
 
     'li': {
         paddingLeft: '$3',
@@ -31,6 +32,7 @@ export const OrderedList = styled('ol', {
 
 export const UnorderedList = styled('ul', {
     color: '$blackberry900',
+    paddingLeft: '$5',
 
     'li': {
         paddingLeft: '$3',
@@ -58,6 +60,7 @@ export const UnorderedList = styled('ul', {
 
 export const DefinitionList = styled('dl', {
     color: '$blackberry900',
+    paddingLeft: '$5',
 
     'dd, dt': {
         paddingLeft: '$3',

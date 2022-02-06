@@ -19,13 +19,6 @@ export declare const Grid: import("@stitches/react/types/styled-component").Styl
     lg: "(max-width: 1200px)";
     xl: "(max-width: 1440px)";
 }, {
-    fonts: {
-        displayHeadline: string;
-        interfaceHeadline: string;
-        displayBody: string;
-        interfaceBody: string;
-        mono: string;
-    };
     colors: {
         passionFruit000: string;
         passionFruit100: string;
@@ -116,6 +109,13 @@ export declare const Grid: import("@stitches/react/types/styled-component").Styl
         8: string;
         9: string;
         10: string;
+    };
+    fonts: {
+        displayHeadline: string;
+        interfaceHeadline: string;
+        displayBody: string;
+        interfaceBody: string;
+        mono: string;
     };
     fontSizes: {
         displayBase: string;

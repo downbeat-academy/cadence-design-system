@@ -10,13 +10,6 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
     lg: "(max-width: 1200px)";
     xl: "(max-width: 1440px)";
 }, {
-    fonts: {
-        displayHeadline: string;
-        interfaceHeadline: string;
-        displayBody: string;
-        interfaceBody: string;
-        mono: string;
-    };
     colors: {
         passionFruit000: string;
         passionFruit100: string;
@@ -107,6 +100,13 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         8: string;
         9: string;
         10: string;
+    };
+    fonts: {
+        displayHeadline: string;
+        interfaceHeadline: string;
+        displayBody: string;
+        interfaceBody: string;
+        mono: string;
     };
     fontSizes: {
         displayBase: string;
@@ -178,13 +178,6 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
     lg: "(max-width: 1200px)";
     xl: "(max-width: 1440px)";
 }, {
-    fonts: {
-        displayHeadline: string;
-        interfaceHeadline: string;
-        displayBody: string;
-        interfaceBody: string;
-        mono: string;
-    };
     colors: {
         passionFruit000: string;
         passionFruit100: string;
@@ -275,6 +268,13 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         8: string;
         9: string;
         10: string;
+    };
+    fonts: {
+        displayHeadline: string;
+        interfaceHeadline: string;
+        displayBody: string;
+        interfaceBody: string;
+        mono: string;
     };
     fontSizes: {
         displayBase: string;
@@ -331,13 +331,6 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
     lg: "(max-width: 1200px)";
     xl: "(max-width: 1440px)";
 }, {
-    fonts: {
-        displayHeadline: string;
-        interfaceHeadline: string;
-        displayBody: string;
-        interfaceBody: string;
-        mono: string;
-    };
     colors: {
         passionFruit000: string;
         passionFruit100: string;
@@ -428,6 +421,13 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         8: string;
         9: string;
         10: string;
+    };
+    fonts: {
+        displayHeadline: string;
+        interfaceHeadline: string;
+        displayBody: string;
+        interfaceBody: string;
+        mono: string;
     };
     fontSizes: {
         displayBase: string;
@@ -496,13 +496,6 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
     className: string;
     selector: string;
 } & {
-    fonts: {
-        displayHeadline: import("@stitches/react/types/theme").Token<"displayHeadline", string, "fonts", "">;
-        interfaceHeadline: import("@stitches/react/types/theme").Token<"interfaceHeadline", string, "fonts", "">;
-        displayBody: import("@stitches/react/types/theme").Token<"displayBody", string, "fonts", "">;
-        interfaceBody: import("@stitches/react/types/theme").Token<"interfaceBody", string, "fonts", "">;
-        mono: import("@stitches/react/types/theme").Token<"mono", string, "fonts", "">;
-    };
     colors: {
         passionFruit000: import("@stitches/react/types/theme").Token<"passionFruit000", string, "colors", "">;
         passionFruit100: import("@stitches/react/types/theme").Token<"passionFruit100", string, "colors", "">;
@@ -594,6 +587,13 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         9: import("@stitches/react/types/theme").Token<"9", string, "space", "">;
         10: import("@stitches/react/types/theme").Token<"10", string, "space", "">;
     };
+    fonts: {
+        displayHeadline: import("@stitches/react/types/theme").Token<"displayHeadline", string, "fonts", "">;
+        interfaceHeadline: import("@stitches/react/types/theme").Token<"interfaceHeadline", string, "fonts", "">;
+        displayBody: import("@stitches/react/types/theme").Token<"displayBody", string, "fonts", "">;
+        interfaceBody: import("@stitches/react/types/theme").Token<"interfaceBody", string, "fonts", "">;
+        mono: import("@stitches/react/types/theme").Token<"mono", string, "fonts", "">;
+    };
     fontSizes: {
         displayBase: import("@stitches/react/types/theme").Token<"displayBase", string, "fontSizes", "">;
         displayLarge: import("@stitches/react/types/theme").Token<"displayLarge", string, "fontSizes", "">;
@@ -641,13 +641,6 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         base: import("@stitches/react/types/theme").Token<"base", string, "shadows", "">;
     };
 }, createTheme: <Argument0 extends string | ({
-    fonts?: {
-        displayHeadline?: string | number | boolean | undefined;
-        interfaceHeadline?: string | number | boolean | undefined;
-        displayBody?: string | number | boolean | undefined;
-        interfaceBody?: string | number | boolean | undefined;
-        mono?: string | number | boolean | undefined;
-    } | undefined;
     colors?: {
         passionFruit000?: string | number | boolean | undefined;
         passionFruit100?: string | number | boolean | undefined;
@@ -738,6 +731,13 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         8?: string | number | boolean | undefined;
         9?: string | number | boolean | undefined;
         10?: string | number | boolean | undefined;
+    } | undefined;
+    fonts?: {
+        displayHeadline?: string | number | boolean | undefined;
+        interfaceHeadline?: string | number | boolean | undefined;
+        displayBody?: string | number | boolean | undefined;
+        interfaceBody?: string | number | boolean | undefined;
+        mono?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         displayBase?: string | number | boolean | undefined;
@@ -791,13 +791,6 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         [x: number]: string | number | boolean;
     };
 }), Argument1 extends string | ({
-    fonts?: {
-        displayHeadline?: string | number | boolean | undefined;
-        interfaceHeadline?: string | number | boolean | undefined;
-        displayBody?: string | number | boolean | undefined;
-        interfaceBody?: string | number | boolean | undefined;
-        mono?: string | number | boolean | undefined;
-    } | undefined;
     colors?: {
         passionFruit000?: string | number | boolean | undefined;
         passionFruit100?: string | number | boolean | undefined;
@@ -888,6 +881,13 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         8?: string | number | boolean | undefined;
         9?: string | number | boolean | undefined;
         10?: string | number | boolean | undefined;
+    } | undefined;
+    fonts?: {
+        displayHeadline?: string | number | boolean | undefined;
+        interfaceHeadline?: string | number | boolean | undefined;
+        displayBody?: string | number | boolean | undefined;
+        interfaceBody?: string | number | boolean | undefined;
+        mono?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         displayBase?: string | number | boolean | undefined;
@@ -956,13 +956,6 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         lg: "(max-width: 1200px)";
         xl: "(max-width: 1440px)";
     }, {
-        fonts: {
-            displayHeadline: string;
-            interfaceHeadline: string;
-            displayBody: string;
-            interfaceBody: string;
-            mono: string;
-        };
         colors: {
             passionFruit000: string;
             passionFruit100: string;
@@ -1054,6 +1047,13 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             9: string;
             10: string;
         };
+        fonts: {
+            displayHeadline: string;
+            interfaceHeadline: string;
+            displayBody: string;
+            interfaceBody: string;
+            mono: string;
+        };
         fontSizes: {
             displayBase: string;
             displayLarge: string;
@@ -1108,13 +1108,6 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
     lg: "(max-width: 1200px)";
     xl: "(max-width: 1440px)";
 }, {
-    fonts: {
-        displayHeadline: string;
-        interfaceHeadline: string;
-        displayBody: string;
-        interfaceBody: string;
-        mono: string;
-    };
     colors: {
         passionFruit000: string;
         passionFruit100: string;
@@ -1206,6 +1199,13 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         9: string;
         10: string;
     };
+    fonts: {
+        displayHeadline: string;
+        interfaceHeadline: string;
+        displayBody: string;
+        interfaceBody: string;
+        mono: string;
+    };
     fontSizes: {
         displayBase: string;
         displayLarge: string;
@@ -1260,13 +1260,6 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         lg: "(max-width: 1200px)";
         xl: "(max-width: 1440px)";
     }, {
-        fonts: {
-            displayHeadline: string;
-            interfaceHeadline: string;
-            displayBody: string;
-            interfaceBody: string;
-            mono: string;
-        };
         colors: {
             passionFruit000: string;
             passionFruit100: string;
@@ -1357,6 +1350,13 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             8: string;
             9: string;
             10: string;
+        };
+        fonts: {
+            displayHeadline: string;
+            interfaceHeadline: string;
+            displayBody: string;
+            interfaceBody: string;
+            mono: string;
         };
         fontSizes: {
             displayBase: string;
@@ -1418,13 +1418,6 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         xl: "(max-width: 1440px)";
     };
     theme: {
-        fonts: {
-            displayHeadline: string;
-            interfaceHeadline: string;
-            displayBody: string;
-            interfaceBody: string;
-            mono: string;
-        };
         colors: {
             passionFruit000: string;
             passionFruit100: string;
@@ -1515,6 +1508,13 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             8: string;
             9: string;
             10: string;
+        };
+        fonts: {
+            displayHeadline: string;
+            interfaceHeadline: string;
+            displayBody: string;
+            interfaceBody: string;
+            mono: string;
         };
         fontSizes: {
             displayBase: string;
