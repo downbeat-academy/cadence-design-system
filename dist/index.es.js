@@ -487,10 +487,11 @@ var Paragraph = styled('p', {
     },
 });
 
-styled('ol', {
+var OrderedList = styled('ol', {
     color: '$blackberry900',
     display: 'flex',
     flexDirection: 'column',
+    paddingLeft: '$5',
     'li': {
         paddingLeft: '$3',
     },
@@ -512,8 +513,9 @@ styled('ol', {
         context: 'display'
     }
 });
-styled('ul', {
+var UnorderedList = styled('ul', {
     color: '$blackberry900',
+    paddingLeft: '$5',
     'li': {
         paddingLeft: '$3',
     },
@@ -535,8 +537,9 @@ styled('ul', {
         context: 'display'
     }
 });
-styled('dl', {
+var DefinitionList = styled('dl', {
     color: '$blackberry900',
+    paddingLeft: '$5',
     'dd, dt': {
         paddingLeft: '$3',
     },
@@ -1323,4 +1326,4 @@ var Form = styled('form', {
     boxSizing: 'border-box',
 });
 
-export { Arrow, Award, Book, BookAlt, Button, Calendar, CalendarCheck, CalendarEdit, CalendarEvent, CalendarExclamation, CalendarHeart, CalendarMinus, CalendarPlus, CalendarStar, CalendarWeek, CalendarX, CheckCircle, Close, Divider, Error, ExternalLink, Flex, Form, Grid, H1, H2, H3, H4, H5, H6, HelperText, Info, Input, Label, Logo, Mega, Megaphone, Paragraph, SocialIcon, TextArea, Warning, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };
+export { Arrow, Award, Book, BookAlt, Button, Calendar, CalendarCheck, CalendarEdit, CalendarEvent, CalendarExclamation, CalendarHeart, CalendarMinus, CalendarPlus, CalendarStar, CalendarWeek, CalendarX, CheckCircle, Close, DefinitionList, Divider, Error, ExternalLink, Flex, Form, Grid, H1, H2, H3, H4, H5, H6, HelperText, Info, Input, Label, Logo, Mega, Megaphone, OrderedList, Paragraph, SocialIcon, TextArea, UnorderedList, Warning, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };

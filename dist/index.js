@@ -514,10 +514,11 @@ var Paragraph = styled('p', {
     },
 });
 
-styled('ol', {
+var OrderedList = styled('ol', {
     color: '$blackberry900',
     display: 'flex',
     flexDirection: 'column',
+    paddingLeft: '$5',
     'li': {
         paddingLeft: '$3',
     },
@@ -539,8 +540,9 @@ styled('ol', {
         context: 'display'
     }
 });
-styled('ul', {
+var UnorderedList = styled('ul', {
     color: '$blackberry900',
+    paddingLeft: '$5',
     'li': {
         paddingLeft: '$3',
     },
@@ -562,8 +564,9 @@ styled('ul', {
         context: 'display'
     }
 });
-styled('dl', {
+var DefinitionList = styled('dl', {
     color: '$blackberry900',
+    paddingLeft: '$5',
     'dd, dt': {
         paddingLeft: '$3',
     },
@@ -1368,6 +1371,7 @@ exports.CalendarWeek = CalendarWeek;
 exports.CalendarX = CalendarX;
 exports.CheckCircle = CheckCircle;
 exports.Close = Close;
+exports.DefinitionList = DefinitionList;
 exports.Divider = Divider;
 exports.Error = Error;
 exports.ExternalLink = ExternalLink;
@@ -1387,9 +1391,11 @@ exports.Label = Label;
 exports.Logo = Logo;
 exports.Mega = Mega;
 exports.Megaphone = Megaphone;
+exports.OrderedList = OrderedList;
 exports.Paragraph = Paragraph;
 exports.SocialIcon = SocialIcon;
 exports.TextArea = TextArea;
+exports.UnorderedList = UnorderedList;
 exports.Warning = Warning;
 exports.config = config;
 exports.createTheme = createTheme;
