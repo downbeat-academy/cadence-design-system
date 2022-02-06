@@ -28,7 +28,7 @@ export const Blockquote = ({ children, attribution, source }: Props) => {
 
 const Wrapper = styled('section', {
     padding: '$8',
-    margin: '$6',
+    margin: '$8 $6',
     background: '$blackberry100',
     color: '$blackberry900',
     display: 'flex',

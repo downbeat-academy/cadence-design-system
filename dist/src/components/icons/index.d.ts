@@ -21,3 +21,4 @@ export { Warning } from './Warning';
 export { Error } from './Error';
 export { CheckCircle } from './CheckCircle';
 export { ExternalLink } from './ExternalLink';
+export { QuoteLeft, QuoteRight } from './Quote';
