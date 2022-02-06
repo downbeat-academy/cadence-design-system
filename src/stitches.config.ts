@@ -13,13 +13,6 @@ export const {
 	config,
 } = createStitches({
 	theme: {
-		fonts: {
-			displayHeadline: 'Favorit Expanded, Helvetica, Arial, sans-serif',
-			interfaceHeadline: 'Favorit, Helvetica, Arial, sans-serif',
-			displayBody: 'Tiempos Text, Georgia, Times, serif',
-			interfaceBody: 'Favorit, Helvetica, Arial, sans-serif',
-			mono: 'Favorit Mono, Courier, monospace',
-		},
 		colors: {
 			passionFruit000: 'hsla(235, 85%, 95%, 1)',
 			passionFruit100: 'hsla(234, 83%, 88%, 1)',
@@ -116,6 +109,13 @@ export const {
 			8: '40px',
 			9: '64px',
 			10: '80px',
+		},
+		fonts: {
+			displayHeadline: 'Favorit Expanded, Helvetica, Arial, sans-serif',
+			interfaceHeadline: 'Favorit, Helvetica, Arial, sans-serif',
+			displayBody: 'Tiempos Text, Georgia, Times, serif',
+			interfaceBody: 'Favorit, Helvetica, Arial, sans-serif',
+			mono: 'Favorit Mono, Courier, monospace',
 		},
 		fontSizes: {
 			displayBase: '1.125rem',

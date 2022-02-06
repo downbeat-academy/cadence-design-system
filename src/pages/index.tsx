@@ -1,34 +1,34 @@
 import type { NextPage } from 'next';
-import { Input, TextArea, Label, HelperText, Form } from '../components/form'
-import { Flex } from '../components/layout'
-import { Button } from '../components/button'
+import { OrderedList, UnorderedList, DefinitionList, Paragraph } from '../components/typography'
 
 const Home: NextPage = () => {
 	return (
-		<Form>
-			<Flex direction='column' gap='2'>
-				<Label>First Name</Label>
-				<Input type='text' name='first-name' autoComplete='on' placeholder='John' />
-				<HelperText>Your first name</HelperText>
-			</Flex>
-			<Flex direction='column' gap='2'>
-				<Label>Last Name</Label>
-				<Input type='text' name='last-name' autoComplete='on' placeholder='Coltrane' />
-				<HelperText>Your last name</HelperText>
-			</Flex>
-			<Flex direction='column' gap='2'>
-				<Label>Email</Label>
-				<Input type='email' name='email' autoComplete='on' placeholder='john@coltrane.com' />
-				<HelperText>Your email address</HelperText>
-			</Flex>
-			<Flex direction='column' gap='2'>
-				<Label>Message</Label>
-				<TextArea name='message' placeholder='Say hello...' rows={5} />
-			</Flex>
-			<Flex>
-				<Button>Submit</Button>
-			</Flex>
-		</Form>
+		<>
+			<Paragraph context='display'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Paragraph>
+			<OrderedList>
+				<li>Number 1</li>
+				<li>Number 2</li>
+				<li>Number 3</li>
+			</OrderedList>
+			<Paragraph context='display'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Paragraph>
+			<UnorderedList>
+				<li>Item 1</li>
+				<li>Item 2
+					<UnorderedList>
+						<li>Item A</li>
+						<li>Item B</li>
+						<li>Item C</li>
+					</UnorderedList>
+				</li>
+				<li>Item 3</li>
+			</UnorderedList>
+			<DefinitionList>
+				<dd>Defintion 1</dd>
+				<dd>Defintion 2</dd>
+				<dd>Defintion 3</dd>
+			</DefinitionList>
+			<Paragraph context='display'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Paragraph>
+		</>
 	);
 };
 
