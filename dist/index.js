@@ -518,7 +518,8 @@ var OrderedList = styled('ol', {
     color: '$blackberry900',
     display: 'flex',
     flexDirection: 'column',
-    paddingLeft: '$5',
+    paddingLeft: '$6',
+    marginLeft: '$6',
     'li': {
         paddingLeft: '$3',
     },
@@ -542,7 +543,10 @@ var OrderedList = styled('ol', {
 });
 var UnorderedList = styled('ul', {
     color: '$blackberry900',
-    paddingLeft: '$5',
+    display: 'flex',
+    flexDirection: 'column',
+    paddingLeft: '$6',
+    marginLeft: '$6',
     'li': {
         paddingLeft: '$3',
     },
@@ -566,7 +570,10 @@ var UnorderedList = styled('ul', {
 });
 var DefinitionList = styled('dl', {
     color: '$blackberry900',
-    paddingLeft: '$5',
+    display: 'flex',
+    flexDirection: 'column',
+    paddingLeft: '$6',
+    marginLeft: '$6',
     'dd, dt': {
         paddingLeft: '$3',
     },
