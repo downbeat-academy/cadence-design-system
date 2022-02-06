@@ -1,6 +1,6 @@
 {
 	"name": "cadence-design-system",
-	"version": "0.2.7-beta",
+	"version": "0.3.0-beta",
 	"private": false,
 	"license": "MIT",
 	"main": "dist/index.js",
