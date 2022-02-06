@@ -24,6 +24,7 @@ export {
 	OrderedList,
 	UnorderedList,
 	DefinitionList,
+	Blockquote,
 } from './src/components/typography';
 
 export { 

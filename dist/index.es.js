@@ -493,6 +493,7 @@ var OrderedList = styled('ol', {
     flexDirection: 'column',
     paddingLeft: '$6',
     marginLeft: '$6',
+    marginBottom: '$6',
     'li': {
         paddingLeft: '$3',
     },
@@ -520,6 +521,7 @@ var UnorderedList = styled('ul', {
     flexDirection: 'column',
     paddingLeft: '$6',
     marginLeft: '$6',
+    marginBottom: '$6',
     'li': {
         paddingLeft: '$3',
     },
@@ -547,6 +549,7 @@ var DefinitionList = styled('dl', {
     flexDirection: 'column',
     paddingLeft: '$6',
     marginLeft: '$6',
+    marginBottom: '$6',
     'dd, dt': {
         paddingLeft: '$3',
     },
