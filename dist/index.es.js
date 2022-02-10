@@ -631,7 +631,7 @@ function SocialIcon(_a) {
     }
     return (React__default.createElement(IconWrapper, { size: size, fill: "none", xmlns: "http://www.w3.org/2000/svg", color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, iconRender(icon)));
 }
@@ -658,7 +658,7 @@ function Arrow(_a) {
     }
     return (React__default.createElement(ArrowWrapper, { xmlns: "http://www.w3.org/2000/svg", fill: "none", size: size, color: color, direction: direction, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, iconRender(icon)));
 }
@@ -749,7 +749,7 @@ var Info = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M7.99998 1.33334C4.32398 1.33334 1.33331 4.324 1.33331 8C1.33331 11.676 4.32398 14.6667 7.99998 14.6667C11.676 14.6667 14.6666 11.676 14.6666 8C14.6666 4.324 11.676 1.33334 7.99998 1.33334ZM7.99998 13.3333C5.05931 13.3333 2.66665 10.9407 2.66665 8C2.66665 5.05934 5.05931 2.66667 7.99998 2.66667C10.9406 2.66667 13.3333 5.05934 13.3333 8C13.3333 10.9407 10.9406 13.3333 7.99998 13.3333Z", fill: color }),
@@ -760,7 +760,7 @@ var Award = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M3.33325 5.99934C3.33325 7.26734 3.84325 8.41734 4.66659 9.25934V14C4.66616 14.1138 4.69493 14.2258 4.75014 14.3253C4.80535 14.4248 4.88515 14.5085 4.98193 14.5683C5.0787 14.6282 5.18921 14.6622 5.30289 14.6672C5.41657 14.6721 5.52963 14.6479 5.63125 14.5967L7.99992 13.412L10.3686 14.596C10.47 14.6473 10.5828 14.6716 10.6963 14.6666C10.8098 14.6615 10.9201 14.6274 11.0166 14.5673C11.2133 14.4453 11.3333 14.2313 11.3333 14V9.26C12.1881 8.39 12.6669 7.21901 12.6666 5.99934C12.6666 3.42667 10.5733 1.33334 7.99992 1.33334C5.42659 1.33334 3.33325 3.42667 3.33325 5.99934ZM8.29792 12.07C8.2053 12.0237 8.10315 11.9995 7.99959 11.9995C7.89602 11.9995 7.79387 12.0237 7.70125 12.07L5.99992 12.9213V10.21C6.60725 10.4993 7.28392 10.6667 7.99992 10.6667C8.71592 10.6667 9.39259 10.5 9.99992 10.21V12.9207L8.29792 12.07ZM7.99992 2.66667C9.83725 2.66667 11.3333 4.16134 11.3333 5.99934C11.3324 6.88318 10.9809 7.73058 10.356 8.35562C9.7311 8.98066 8.88376 9.33228 7.99992 9.33334C6.16192 9.33334 4.66659 7.838 4.66659 5.99934C4.66764 5.11567 5.01919 4.2685 5.64411 3.64372C6.26902 3.01893 7.11625 2.66755 7.99992 2.66667Z", fill: color })));
@@ -770,7 +770,7 @@ var BookAlt = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M12.6667 1.33334H4C3.196 1.33334 2 1.866 2 3.33334V12.6667C2 14.134 3.196 14.6667 4 14.6667H14V13.3333H4.008C3.7 13.3253 3.33333 13.204 3.33333 12.6667C3.33333 12.1293 3.7 12.008 4.008 12H14V2.66667C14 1.93134 13.402 1.33334 12.6667 1.33334ZM12.6667 10.6667H3.33333V3.33334C3.33333 2.796 3.7 2.67467 4 2.66667H12.6667V10.6667Z", fill: color })));
@@ -780,7 +780,7 @@ var Book = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M4 14.6667H14V13.3333H4.008C3.7 13.3253 3.33333 13.2033 3.33333 12.6667C3.33333 12.13 3.7 12.008 4.008 12H14V2.66667C14 1.93134 13.402 1.33334 12.6667 1.33334H4C3.196 1.33334 2 1.866 2 3.33334V12.6667C2 14.134 3.196 14.6667 4 14.6667ZM3.33333 5.33334V3.33334C3.33333 2.79667 3.7 2.67467 4 2.66667H12.6667V10.6667H3.33333V5.33334Z", fill: color }),
@@ -791,7 +791,7 @@ var Calendar = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M4.66675 7.33334H6.00008V8.66667H4.66675V7.33334ZM4.66675 10H6.00008V11.3333H4.66675V10ZM7.33341 7.33334H8.66675V8.66667H7.33341V7.33334ZM7.33341 10H8.66675V11.3333H7.33341V10ZM10.0001 7.33334H11.3334V8.66667H10.0001V7.33334ZM10.0001 10H11.3334V11.3333H10.0001V10Z", fill: color }),
@@ -802,7 +802,7 @@ var CalendarX = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M5.52869 10.862L6.47135 11.8047L8.00002 10.276L9.52869 11.8047L10.4714 10.862L8.94269 9.33334L10.4714 7.80467L9.52869 6.862L8.00002 8.39067L6.47135 6.862L5.52869 7.80467L7.05735 9.33334L5.52869 10.862Z", fill: color }),
@@ -813,7 +813,7 @@ var CalendarCheck = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M12.6667 2.66667H11.3333V1.33334H10V2.66667H6V1.33334H4.66667V2.66667H3.33333C2.598 2.66667 2 3.26467 2 4V13.3333C2 14.0687 2.598 14.6667 3.33333 14.6667H12.6667C13.402 14.6667 14 14.0687 14 13.3333V4C14 3.26467 13.402 2.66667 12.6667 2.66667ZM12.668 13.3333H3.33333V5.33334H12.6667L12.668 13.3333Z", fill: color }),
@@ -824,7 +824,7 @@ var CalendarPlus = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M5.33325 10H7.33325V12H8.66659V10H10.6666V8.66666H8.66659V6.66666H7.33325V8.66666H5.33325V10Z", fill: color }),
@@ -835,7 +835,7 @@ var CalendarMinus = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M5.33325 8.66666H10.6666V10H5.33325V8.66666Z", fill: color }),
@@ -846,7 +846,7 @@ var CalendarExclamation = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M12.6667 2.66667H11.3333V1.33334H10V2.66667H6V1.33334H4.66667V2.66667H3.33333C2.598 2.66667 2 3.26467 2 4V13.3333C2 14.0687 2.598 14.6667 3.33333 14.6667H12.6667C13.402 14.6667 14 14.0687 14 13.3333V4C14 3.26467 13.402 2.66667 12.6667 2.66667ZM12.668 13.3333H3.33333V5.33334H12.6667L12.668 13.3333Z", fill: color }),
@@ -857,7 +857,7 @@ var CalendarEdit = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M12.6667 2.66667H10.6667V1.33334H9.33333V2.66667H6.66667V1.33334H5.33333V2.66667H3.33333C2.598 2.66667 2 3.26467 2 4V13.3333C2 14.0687 2.598 14.6667 3.33333 14.6667H12.6667C13.402 14.6667 14 14.0687 14 13.3333V4C14 3.26467 13.402 2.66667 12.6667 2.66667ZM3.33333 13.3333V4.66667H12.6667V4L12.668 13.3333H3.33333Z", fill: color }),
@@ -868,7 +868,7 @@ var CalendarEvent = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M7.33325 8H11.3332V12H7.33325V8Z", fill: color }),
@@ -879,7 +879,7 @@ var CalendarHeart = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M5.76531 9.80734L7.99797 12L10.2313 9.80734C10.369 9.6749 10.4786 9.51604 10.5534 9.34025C10.6282 9.16447 10.6668 8.97538 10.6668 8.78434C10.6668 8.59329 10.6282 8.40421 10.5534 8.22842C10.4786 8.05264 10.369 7.89377 10.2313 7.76134C9.95371 7.48734 9.57936 7.33371 9.18931 7.33371C8.79926 7.33371 8.42491 7.48734 8.14731 7.76134L7.99797 7.90734L7.84864 7.76134C7.57115 7.48738 7.19691 7.33377 6.80697 7.33377C6.41704 7.33377 6.0428 7.48738 5.76531 7.76134C5.62761 7.89377 5.51806 8.05264 5.44323 8.22842C5.3684 8.40421 5.32983 8.59329 5.32983 8.78434C5.32983 8.97538 5.3684 9.16447 5.44323 9.34025C5.51806 9.51604 5.62761 9.6749 5.76531 9.80734V9.80734Z", fill: color }),
@@ -890,7 +890,7 @@ var CalendarStar = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M6.65404 9.874L6.34271 11.6913L7.97537 10.8333L9.60804 11.6913L9.29604 9.874L10.6174 8.586L8.79204 8.32066L7.97537 6.66666L7.15871 8.32066L5.33337 8.586L6.65404 9.874Z", fill: color }),
@@ -901,7 +901,7 @@ var CalendarWeek = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M12.6667 2.66667H10.6667V1.33334H9.33333V2.66667H6.66667V1.33334H5.33333V2.66667H3.33333C2.598 2.66667 2 3.26467 2 4V13.3333C2 14.0687 2.598 14.6667 3.33333 14.6667H12.6667C13.402 14.6667 14 14.0687 14 13.3333V4C14 3.26467 13.402 2.66667 12.6667 2.66667ZM3.33333 13.3333V4.66667H12.6667V4L12.668 13.3333H3.33333Z", fill: color }),
@@ -912,7 +912,7 @@ var Close = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M10.7946 4.22933L7.96598 7.05733L5.13798 4.22933L4.19531 5.172L7.02331 8L4.19531 10.828L5.13798 11.7707L7.96598 8.94267L10.7946 11.7707L11.7373 10.828L8.90931 8L11.7373 5.172L10.7946 4.22933Z", fill: color })));
@@ -922,7 +922,7 @@ var Megaphone = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M13.776 2.31867L5.33337 5.33333V10L5.83204 10.178L5.08071 11.6807C4.99513 11.8515 4.94729 12.0387 4.94043 12.2297C4.93357 12.4206 4.96785 12.6108 5.04094 12.7873C5.11403 12.9639 5.22423 13.1226 5.36406 13.2528C5.50389 13.383 5.67009 13.4817 5.85137 13.542L8.57404 14.4493C8.87861 14.5486 9.20863 14.5358 9.50459 14.4132C9.80054 14.2906 10.0429 14.0663 10.188 13.7807L11.0567 12.0433L13.776 13.0147C13.8766 13.0505 13.9843 13.0617 14.0901 13.0473C14.1959 13.0329 14.2966 12.9933 14.3839 12.9318C14.4712 12.8703 14.5425 12.7888 14.5917 12.694C14.6409 12.5993 14.6666 12.4941 14.6667 12.3873V2.946C14.6666 2.83923 14.6409 2.73405 14.5917 2.63931C14.5425 2.54456 14.4712 2.46301 14.3839 2.40153C14.2966 2.34005 14.1959 2.30044 14.0901 2.28602C13.9843 2.2716 13.8766 2.28279 13.776 2.31867ZM8.99537 13.1847L6.27337 12.2773L7.09671 10.63L9.79137 11.5927L8.99537 13.1847ZM2.66671 10H4.00004V5.33333H2.66671C1.93137 5.33333 1.33337 5.93133 1.33337 6.66667V8.66667C1.33337 9.402 1.93137 10 2.66671 10Z", fill: color })));
@@ -932,7 +932,7 @@ var Warning = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M7.33404 6.66667H8.66737V10H7.33404V6.66667ZM7.33337 10.6667H8.66671V12H7.33337V10.6667Z", fill: color }),
@@ -943,7 +943,7 @@ var Error = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M7.96865 1.33334C4.30998 1.33334 1.33331 4.324 1.33331 8C1.33331 11.676 4.32398 14.6667 7.99998 14.6667C11.676 14.6667 14.6666 11.676 14.6666 8C14.6666 4.324 11.662 1.33334 7.96865 1.33334ZM7.99998 13.3333C5.05931 13.3333 2.66665 10.9407 2.66665 8C2.66665 5.05934 5.04465 2.66667 7.96865 2.66667C10.9273 2.66667 13.3333 5.05934 13.3333 8C13.3333 10.9407 10.9406 13.3333 7.99998 13.3333Z", fill: color }),
@@ -954,7 +954,7 @@ var CheckCircle = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M8.00004 1.33334C4.32404 1.33334 1.33337 4.324 1.33337 8C1.33337 11.676 4.32404 14.6667 8.00004 14.6667C11.676 14.6667 14.6667 11.676 14.6667 8C14.6667 4.324 11.676 1.33334 8.00004 1.33334ZM8.00004 13.3333C5.05937 13.3333 2.66671 10.9407 2.66671 8C2.66671 5.05934 5.05937 2.66667 8.00004 2.66667C10.9407 2.66667 13.3334 5.05934 13.3334 8C13.3334 10.9407 10.9407 13.3333 8.00004 13.3333Z", fill: color }),
@@ -965,7 +965,7 @@ var ExternalLink = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M8.66665 2L10.862 4.19533L6.19531 8.862L7.13798 9.80467L11.8046 5.138L14 7.33333V2H8.66665Z", fill: color }),
@@ -976,7 +976,7 @@ var QuoteLeft = React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M2.46066 4.19467C3.39599 3.18067 4.81132 2.66667 6.66666 2.66667H7.33332V4.546L6.79732 4.65334C5.88399 4.836 5.24866 5.19534 4.90866 5.72267C4.73125 6.00676 4.63064 6.33203 4.61666 6.66667H6.66666C6.84347 6.66667 7.01304 6.73691 7.13806 6.86193C7.26309 6.98696 7.33332 7.15653 7.33332 7.33334V12C7.33332 12.7353 6.73532 13.3333 5.99999 13.3333H1.99999C1.82318 13.3333 1.65361 13.2631 1.52859 13.1381C1.40356 13.0131 1.33332 12.8435 1.33332 12.6667V9.33334L1.33532 7.38734C1.32932 7.31334 1.20266 5.56 2.46066 4.19467ZM13.3333 13.3333H9.33332C9.15651 13.3333 8.98694 13.2631 8.86192 13.1381C8.7369 13.0131 8.66666 12.8435 8.66666 12.6667V9.33334L8.66866 7.38734C8.66266 7.31334 8.53599 5.56 9.79399 4.19467C10.7293 3.18067 12.1447 2.66667 14 2.66667H14.6667V4.546L14.1307 4.65334C13.2173 4.836 12.582 5.19534 12.242 5.72267C12.0646 6.00676 11.964 6.33203 11.95 6.66667H14C14.1768 6.66667 14.3464 6.73691 14.4714 6.86193C14.5964 6.98696 14.6667 7.15653 14.6667 7.33334V12C14.6667 12.7353 14.0687 13.3333 13.3333 13.3333Z", fill: color })));
@@ -985,7 +985,7 @@ React.forwardRef(function (_a, forwardedRef) {
     var _b = _a.color, color = _b === void 0 ? 'currentColor' : _b, size = _a.size, props = __rest(_a, ["color", "size"]);
     return (React.createElement(IconWrapper, __assign({ fill: "none", xmlns: "http://www.w3.org/2000/svg", size: size, color: color, css: {
             '> *': {
-                fill: "" + color,
+                fill: "".concat(color),
             },
         } }, props, { ref: forwardedRef }),
         React.createElement("path", { d: "M13.5393 11.8053C14.7973 10.44 14.6707 8.68667 14.6667 8.66667V3.33334C14.6667 3.15653 14.5964 2.98696 14.4714 2.86193C14.3464 2.73691 14.1768 2.66667 14 2.66667H10C9.26467 2.66667 8.66667 3.26467 8.66667 4.00001V8.66667C8.66667 8.84348 8.73691 9.01305 8.86194 9.13808C8.98696 9.2631 9.15653 9.33334 9.33334 9.33334H11.3853C11.3713 9.66293 11.2728 9.98338 11.0993 10.264C10.7607 10.798 10.1227 11.1627 9.20201 11.3467L8.66667 11.4533V13.3333H9.33334C11.1887 13.3333 12.604 12.8193 13.5393 11.8053ZM6.20134 11.8053C7.46001 10.44 7.33267 8.68667 7.32867 8.66667V3.33334C7.32867 3.15653 7.25844 2.98696 7.13341 2.86193C7.00839 2.73691 6.83882 2.66667 6.66201 2.66667H2.66201C1.92667 2.66667 1.32867 3.26467 1.32867 4.00001V8.66667C1.32867 8.84348 1.39891 9.01305 1.52394 9.13808C1.64896 9.2631 1.81853 9.33334 1.99534 9.33334H4.04734C4.03326 9.66293 3.93478 9.98338 3.76134 10.264C3.42267 10.798 2.78467 11.1627 1.86401 11.3467L1.32867 11.4533V13.3333H1.99534C3.85067 13.3333 5.26601 12.8193 6.20134 11.8053V11.8053Z", fill: color })));
@@ -1024,7 +1024,7 @@ var Wrapper = styled('section', (_a = {
             padding: '$6',
         }
     },
-    _a["" + Paragraph] = {
+    _a["".concat(Paragraph)] = {
         margin: '0',
     },
     _a['.quote-symbol'] = {
@@ -1195,14 +1195,14 @@ var Logo = function (_a) {
             case 'symbol':
                 return (React__default.createElement(SvgWrapper, { width: width, viewBox: "0 0 250 250", fill: "none", xmlns: "http://www.w3.org/2000/svg", css: {
                         '> *': {
-                            fill: "" + color
+                            fill: "".concat(color)
                         }
                     } },
                     React__default.createElement("path", { d: "M176.652 143.385C176.652 143.385 180.226 131.888 191.402 120.543C200.312 111.477 220.8 96.1305 220.8 96.1305C220.8 96.1305 220.8 153.059 220.8 153.009C220.8 206.594 177.659 250 124.4 250C71.1408 250 28 206.544 28 153.009C28 100.132 66.1572 67.5142 98.173 60.0689C150.878 47.812 148.412 122.265 148.412 122.265C142.824 117.96 131.85 114.769 124.652 114.769C103.811 114.769 86.897 131.787 86.897 152.755C86.897 173.724 103.811 190.741 124.652 190.741C145.492 190.741 162.406 173.724 162.406 152.755V0C162.406 0.151945 224.978 15.1945 220.8 57.4858C218.685 78.8594 193.113 96.8902 183.196 114.465C173.481 131.635 176.652 143.385 176.652 143.385Z", fill: color })));
             case 'text':
                 return (React__default.createElement(SvgWrapper, { width: width, viewBox: "0 0 1000 100", fill: "none", xmlns: "http://www.w3.org/2000/svg", css: {
                         '> *': {
-                            fill: "" + color
+                            fill: "".concat(color)
                         }
                     } },
                     React__default.createElement("path", { d: "M26.645 76.9231C49.2988 76.9231 64.4012 63.7363 64.4012 38.4615C64.4012 13.1868 48.7594 0 26.1057 0H0.215698V76.9231H26.645ZM14.7788 13.1868H25.0269C39.59 13.1868 49.8381 19.2308 49.8381 38.4615C49.8381 57.6923 39.59 63.7363 25.0269 63.7363H14.7788V13.1868Z", fill: color }),
@@ -1223,7 +1223,7 @@ var Logo = function (_a) {
             case 'lockup':
                 return (React__default.createElement(SvgWrapper, { width: width, viewBox: "0 0 1244 200", fill: "none", xmlns: "http://www.w3.org/2000/svg", css: {
                         '> *': {
-                            fill: "" + color
+                            fill: "".concat(color)
                         }
                     } },
                     React__default.createElement("path", { d: "M141.322 114.708C141.322 114.708 144.181 105.511 153.121 96.4344C160.249 89.1815 176.64 76.9044 176.64 76.9044C176.64 76.9044 176.64 122.447 176.64 122.407C176.64 165.276 142.127 200 99.5199 200C56.9127 200 22.4 165.235 22.4 122.407C22.4 80.1054 52.9258 54.0113 78.5385 48.0551C120.703 38.2496 118.729 97.812 118.729 97.812C114.259 94.3679 105.48 91.8152 99.7213 91.8152C83.0489 91.8152 69.5176 105.429 69.5176 122.204C69.5176 138.979 83.0489 152.593 99.7213 152.593C116.394 152.593 129.925 138.979 129.925 122.204V0C129.925 0.121556 179.982 12.1556 176.64 45.9887C174.948 63.0875 154.49 77.5122 146.557 91.5721C138.785 105.308 141.322 114.708 141.322 114.708Z", fill: color }),
