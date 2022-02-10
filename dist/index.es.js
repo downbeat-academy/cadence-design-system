@@ -1011,7 +1011,7 @@ var Blockquote = function (_a) {
 };
 var Wrapper = styled('section', (_a = {
         padding: '$8',
-        margin: '$6',
+        margin: '$8 $6',
         background: '$blackberry100',
         color: '$blackberry900',
         display: 'flex',
