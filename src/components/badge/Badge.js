@@ -2,7 +2,7 @@ import React from 'react'
 import { styled } from '../../stitches.config'
 import { Icon } from '../icons'
 
-const Wrapper = styled('span', {
+export const Badge = styled('span', {
     fontFamily: '$interfaceBody',
     fontSize: '$interfaceExtraSmall',
     lineHeight: '$interfaceBody',

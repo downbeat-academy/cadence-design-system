@@ -1,5 +1,4 @@
 import { create } from '@storybook/theming';
-import { Logo } from '../src/components/brand'
 
 export default create({
 	base: 'light',
