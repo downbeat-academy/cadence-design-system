@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, Arrow, SocialIcon } from './index';
+import { SocialIcon } from './index';
 
 export default {
 	title: 'Foundations/Icons',
@@ -24,13 +24,6 @@ Icons.args = {
 	icon: 'info',
 	size: 'small',
 	color: '$blackberry1000',
-};
-
-Arrows.args = {
-	icon: 'arrow',
-	size: 'small',
-	color: '$blackberry1000',
-	direction: 'down',
 };
 
 SocialIcons.args = {
