@@ -6,7 +6,7 @@ const LinkWrapper = styled('a', {
     fontSize: 'inherit',
     color: 'inherit',
     textDecoration: 'underline',
-    textDecorationColor: '$passionFruit500',
+    textDecorationColor: '$passionFruit600',
     textDecorationThickness: '$space$2',
     textUnderlineOffset: '$space$1',
     transition: '$1',

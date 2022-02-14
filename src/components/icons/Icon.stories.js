@@ -24,43 +24,60 @@ import {
 	QuoteLeft,
 	QuoteRight,
 } from './index';
+import { Flex } from '../layout'
 
 export default {
-	title: 'Foundations/Icons',
-	component: Icon,
-	decorators: [withDesign],
+	title: 'Foundations/Icons/Interface',
 	argTypes: {
 		size: {
 			options: ['extraSmall', 'small', 'medium', 'large'],
 			control: { type: 'radio' },
 		},
 		color: 'color',
-		direction: {
-			options: ['up', 'down', 'left', 'right'],
-			control: { type: 'radio' },
-		},
 	},
 };
 
-// export const Icons = (args) => <Icon {...args} />;
-// export const Arrows = (args) => <Arrow {...args} />;
-// export const SocialIcons = (args) => <SocialIcon {...args} />;
+export const Interface = (args) => {
+	return (
+		<Flex
+			direction='row'
+			gap='4'
+		>
+			<Info {...args} />
+			<Award {...args} />
+			<BookAlt {...args} />
+			<Book {...args} />
+			<Calendar {...args} />
+			<CalendarX {...args} />
+			<CalendarCheck {...args} />
+			<CalendarPlus {...args} />
+			<CalendarMinus {...args} />
+			<CalendarExclamation {...args} />
+			<CalendarEdit {...args} />
+			<CalendarEvent {...args} />
+			<CalendarHeart {...args} />
+			<CalendarStar {...args} />
+			<CalendarWeek {...args} />
+			<Close {...args} />
+			<Megaphone {...args} />
+			<Warning {...args} />
+			<Error {...args} />
+			<CheckCircle {...args} />
+			<ExternalLink {...args} />
+			<QuoteLeft {...args} />
+			<QuoteRight {...args} />
+		</Flex>
+	)
+}
 
-// Icons.args = {
-// 	icon: 'info',
-// 	size: 'small',
-// 	color: '$blackberry1000',
-// };
+Interface.args = {
+	size: 'small',
+	color: '$blackberry1000',
+}
 
-// Arrows.args = {
-// 	icon: 'arrow',
-// 	size: 'small',
-// 	color: '$blackberry1000',
-// 	direction: 'down',
-// };
-
-// SocialIcons.args = {
-// 	icon: 'facebook',
-// 	size: 'small',
-// 	color: '$blackberry1000',
-// };
+Interface.parameters = {
+	design: {
+		type: 'figma',
+		url: 'https://www.figma.com/file/tX0lYmayOr7NR0T3bdM90Y/Foundations?node-id=3%3A171'
+	}
+}

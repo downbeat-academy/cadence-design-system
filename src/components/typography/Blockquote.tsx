@@ -34,7 +34,7 @@ const Wrapper = styled('section', {
     display: 'flex',
     flexDirection: 'column',
     gap: '$5',
-    border: '1px solid $passionFruit500',
+    border: '1px solid $passionFruit600',
     position: 'relative',
 
     '@md': {
@@ -55,7 +55,7 @@ const Wrapper = styled('section', {
         alignItems: 'center',
         width: '40px',
         height: '40px',
-        background: '$passionFruit500',
+        background: '$passionFruit600',
         borderRadius: '40px',
     },
 

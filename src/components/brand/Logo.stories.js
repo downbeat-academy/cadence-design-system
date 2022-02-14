@@ -16,7 +16,7 @@ export default {
 export const Logos = (args) => <Logo {...args} />
 
 Logos.args = { 
-    color: '$passionFruit500',
+    color: '$passionFruit600',
     width: '250',
     type: 'symbol'
 }
