@@ -1,7 +1,7 @@
 import { styled } from '../../stitches.config'
 
 export const Input = styled('input', {
-    backgroundColor: '$grayscale000',
+    backgroundColor: '$grayscale100',
     border: '1px solid $grayscale400',
     fontFamily: '$interfaceBody',
     lineHeight: '$interfaceBody',

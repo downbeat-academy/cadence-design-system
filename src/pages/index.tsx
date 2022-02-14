@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import { styled, darkTheme } from '../stitches.config'
+import { styled } from '../stitches.config'
 import { Blockquote, Paragraph } from '../components/typography'
 
 const Home: NextPage = () => {

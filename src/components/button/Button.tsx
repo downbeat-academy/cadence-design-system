@@ -40,7 +40,7 @@ export const Button = styled('button', {
 		variant: {
 			primary: {
 				background: '$passionFruit500',
-				color: '$grayscale000',
+				color: '$grayscale100',
 				'&:hover': { background: '$passionFruit600' },
 				'&:focus': {
 					borderColor: '$passionFruit500',
@@ -53,7 +53,7 @@ export const Button = styled('button', {
 			},
 			secondary: {
 				background: '$blackberry900',
-				color: '$grayscale000',
+				color: '$grayscale100',
 				'&:hover': { background: '$blackberry800' },
 				'&:focus': {
 					borderColor: '$blackberry900',
@@ -68,30 +68,30 @@ export const Button = styled('button', {
 				'&:hover': {
 					background: '$passionFruit600',
 					borderColor: '$passionFruit600',
-					color: '$grayscale000',
+					color: '$grayscale100',
 				},
 				'&:focus': {
 					borderColor: '$passionFruit600',
 					boxShadow: 'inset 0 0 0 2px $colors$passionFruit500, inset 0 0 0 3px $colors$grayscale100',
 				},
 				'&:active': {
-					color: '$grayscale000',
+					color: '$grayscale100',
 					background: '$passionFruit600',
 				},
 			},
 			ghost: {
 				background: 'none',
 				color: '$passionFruit600',
-				'&:hover': { background: '$passionFruit000' },
+				'&:hover': { background: '$passionFruit100' },
 				'&:focus': {
 					borderColor: '$passionFruit600',
-					boxShadow: 'inset 0 0 0 2px $colors$passionFruit000, inset 0 0 0 3px $colors$passionFruit500',
+					boxShadow: 'inset 0 0 0 2px $colors$passionFruit100, inset 0 0 0 3px $colors$passionFruit500',
 				},
 				'&:active': { background: 'transparent' },
 			},
 			destructive: {
 				background: '$pomegranate500',
-				color: '$grayscale000',
+				color: '$grayscale100',
 				'&:hover': { background: '$pomegranate600' },
 				'&:focus': {
 					background: '$pomegranate500',

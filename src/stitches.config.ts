@@ -92,10 +92,6 @@ export const {
 			grayscale800: '#4c4c50',
 			grayscale900: '#262628',
 			grayscale1000: '#1c1c1c',
-
-			// Style tokens
-			surface: '$grayscale100',
-			onSurface: '$blackberry900',
 		},
 		space: {
 			1: '2px',
@@ -255,9 +251,6 @@ export const darkTheme = createTheme({
 		grayscale800: '#e5e5e9',
 		grayscale900: '#f5f5f5',
 		grayscale1000: '#ffffff',
-
-		surface: '$blackberry900',
-		onSurface: '$grayscale1000',
 	}
 })
 

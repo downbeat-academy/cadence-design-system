@@ -13,7 +13,7 @@ export const Blockquote = ({ children, attribution, source }: Props) => {
     return (
         <Wrapper>
             <div className='quote-symbol'>
-                <QuoteLeft color='$grayscale000' size='small' />
+                <QuoteLeft color='$grayscale100' size='small' />
             </div>
             <Quote>
                 "{children}"
