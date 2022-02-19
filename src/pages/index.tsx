@@ -1,20 +1,16 @@
 import type { NextPage } from 'next';
-import { styled } from '../stitches.config'
-import { Blockquote, Paragraph } from '../components/typography'
+import { Play } from '../components/icons'
 
 const Home: NextPage = () => {
 	return (
-		<Wrapper>
-			<Paragraph context='display'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Paragraph>
-			<Blockquote attribution='Somebody cool' source='https://google.com'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Blockquote>
-			<Paragraph context='display'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Paragraph>
-		</Wrapper>
+		<div>
+			<Play
+				color='black'
+				style='outlined'
+			/>
+			<p>Paragraph</p>
+		</div>
 	);
 };
 
 export default Home
-
-const Wrapper = styled('div', {
-	background: '$surface',
-	color: '$onSurface',
-})
