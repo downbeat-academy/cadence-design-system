@@ -1,6 +1,19 @@
 export { SocialIcon } from './SocialIcon';
-export { Arrow } from './Arrow';
 
+// Social Icons
+export { Facebook } from './Facebook'
+export { Instagram } from './Instagram'
+export { Soundcloud } from './Soundcloud'
+export { Spotify } from './Spotify'
+export { TikTok } from './TikTok'
+export { Twitter } from './Twitter'
+export { YouTube } from './YouTube'
+export { LinkedIn } from './LinkedIn'
+export { Medium } from './Medium'
+export { Google } from './Google'
+
+// Interface Icons
+export { Arrow } from './Arrow';
 export { Info } from './Info'
 export { Award } from './Award'
 export { BookAlt } from './BookAlt'

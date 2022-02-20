@@ -27,8 +27,7 @@ export {
 	Blockquote,
 } from './src/components/typography';
 
-export { 
-	SocialIcon,
+export {
 	Arrow,
 	Info,
 	Award,
@@ -51,6 +50,16 @@ export {
 	Error,
 	CheckCircle,
 	ExternalLink,
+	Facebook,
+	Instagram,
+	Soundcloud,
+	Spotify,
+	TikTok,
+	Twitter,
+	YouTube,
+	LinkedIn,
+	Medium,
+	Google,
 } from './src/components/icons';
 
 export { Flex, Grid } from './src/components/layout';

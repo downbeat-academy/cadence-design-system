@@ -1,14 +1,16 @@
 import type { NextPage } from 'next';
-import { Play } from '../components/icons'
+import { Facebook, Spotify, Instagram, Soundcloud, YouTube, TikTok, Twitter } from '../components/icons'
 
 const Home: NextPage = () => {
 	return (
 		<div>
-			<Play
-				color='black'
-				style='outlined'
-			/>
-			<p>Paragraph</p>
+			<Facebook />
+			<Spotify />
+			<Instagram />
+			<Soundcloud />
+			<YouTube />
+			<TikTok />
+			<Twitter />
 		</div>
 	);
 };

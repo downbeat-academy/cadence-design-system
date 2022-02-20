@@ -5,5 +5,4 @@ export interface IconProps extends React.SVGAttributes<SVGElement> {
     color?: string;
     css?: any;
     size?: 'extraSmall' | 'small' | 'medium' | 'large',
-    style?: any,
 }
