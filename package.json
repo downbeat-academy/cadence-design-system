@@ -1,55 +1,57 @@
 {
-	"name": "cadence-design-system",
-	"version": "0.5.3-beta",
-	"private": false,
-	"license": "MIT",
-	"main": "dist/index.js",
-	"module": "dist/index.es.js",
-	"files": [
-		"dist"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/downbeat-academy/cadence-design-system"
-	},
-	"publishConfig": {
-		"registry": "https://registry.npmjs.org"
-	},
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint",
-		"format": "prettier --write .",
-		"ds:build": "rollup -c",
-		"ds:release": "yarn ds:build && npm publish",
-		"storybook": "start-storybook -p 6006 -s public --ci",
-		"build-storybook": "build-storybook -s public"
-	},
-	"dependencies": {
-		"@radix-ui/react-label": "^0.1.4",
-		"@stitches/react": "^1.2.5",
-		"next": "^12.0.10",
-		"react": "17.0.2",
-		"react-dom": "17.0.2",
-		"rollup-plugin-typescript2": "^0.31.2"
-	},
-	"devDependencies": {
-		"@babel/core": "^7.16.0",
-		"@storybook/addon-a11y": "^6.4.19",
-		"@storybook/addon-actions": "^6.4.19",
-		"@storybook/addon-docs": "^6.4.19",
-		"@storybook/addon-essentials": "^6.4.19",
-		"@storybook/addon-links": "^6.4.19",
-		"@storybook/react": "^6.4.19",
-		"@types/node": "^17.0.17",
-		"@types/react": "^17.0.39",
-		"babel-loader": "^8.2.3",
-		"eslint": "^8.8.0",
-		"eslint-config-next": "^12.0.10",
-		"prettier": "^2.4.1",
-		"rollup": "^2.59.0",
-		"storybook-addon-designs": "^6.2.1",
-		"typescript": "^4.5.5"
-	}
+  "name": "cadence-design-system",
+  "version": "0.5.3-beta",
+  "private": false,
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/downbeat-academy/cadence-design-system"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "ds:build": "rollup -c",
+    "ds:release": "yarn ds:build && npm publish && yarn chromatic",
+    "storybook": "start-storybook -p 6006 -s public --ci",
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=828b59202f83"
+  },
+  "dependencies": {
+    "@radix-ui/react-label": "^0.1.4",
+    "@stitches/react": "^1.2.5",
+    "next": "^12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rollup-plugin-typescript2": "^0.31.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@storybook/addon-a11y": "^6.4.19",
+    "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-docs": "^6.4.19",
+    "@storybook/addon-essentials": "^6.4.19",
+    "@storybook/addon-links": "^6.4.19",
+    "@storybook/react": "^6.4.19",
+    "@types/node": "^17.0.17",
+    "@types/react": "^17.0.39",
+    "babel-loader": "^8.2.3",
+    "chromatic": "^6.5.1",
+    "eslint": "^8.8.0",
+    "eslint-config-next": "^12.0.10",
+    "prettier": "^2.4.1",
+    "rollup": "^2.59.0",
+    "storybook-addon-designs": "^6.2.1",
+    "typescript": "^4.5.5"
+  }
 }
