@@ -242,6 +242,7 @@ var Button = styled('button', {
     border: '1px solid transparent',
     borderRadius: 0,
     transition: '$1',
+    textDecoration: 'none',
     '@sm': {
         width: '100%',
     },
