@@ -1,16 +1,9 @@
 import type { NextPage } from 'next';
-import { Facebook, Spotify, Instagram, Soundcloud, YouTube, TikTok, Twitter } from '../components/icons'
+import { Badge } from '../components/badge'
 
 const Home: NextPage = () => {
 	return (
 		<div>
-			<Facebook />
-			<Spotify />
-			<Instagram />
-			<Soundcloud />
-			<YouTube />
-			<TikTok />
-			<Twitter />
 		</div>
 	);
 };
