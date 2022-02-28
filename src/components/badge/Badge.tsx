@@ -21,7 +21,7 @@ export const Badge = styled('span', {
                 background: '$grayscale200',
                 color: '$grayscale800',
             },
-            info: {
+            informational: {
                 background: '$blueberry200',
                 color: '$blackberry800'
             },
