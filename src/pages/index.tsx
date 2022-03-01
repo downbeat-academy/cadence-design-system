@@ -1,9 +1,14 @@
 import type { NextPage } from 'next';
 import { Badge } from '../components/badge'
+import { Info } from '../components/icons'
 
 const Home: NextPage = () => {
 	return (
 		<div>
+			<Badge
+				type='positive'
+				size='large'
+			><Info />Information</Badge>
 		</div>
 	);
 };

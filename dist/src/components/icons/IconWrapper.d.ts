@@ -134,6 +134,7 @@ export declare const IconWrapper: import("@stitches/react/types/styled-component
         interfaceHeadline: string;
     };
     radii: {
+        2: string;
         rounded: string;
     };
     letterSpacings: unknown;

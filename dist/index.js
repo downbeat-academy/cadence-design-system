@@ -45,9 +45,9 @@ var styled = (_a$1 = react.createStitches({
             passionFruit800: '#4639ba',
             passionFruit900: '#312273',
             passionFruit1000: '#190F33',
-            kale100: '#dbffe9',
-            kale200: '#abf3d5',
-            kale300: '#81e8ce',
+            kale100: '#e4fff5',
+            kale200: '#c6ffee',
+            kale300: '#8ff4dc',
             kale400: '#61dcd1',
             kale500: '#4ccad1',
             kale600: '#47b0c5',
@@ -55,8 +55,8 @@ var styled = (_a$1 = react.createStitches({
             kale800: '#13646b',
             kale900: '#063d3f',
             kale1000: '#001211',
-            pomegranate100: '#ffdbe5',
-            pomegranate200: '#f98ea7',
+            pomegranate100: '#ffe1ea',
+            pomegranate200: '#fd9fb5',
             pomegranate300: '#f24866',
             pomegranate400: '#d11a32',
             pomegranate500: '#b10010',
@@ -65,8 +65,8 @@ var styled = (_a$1 = react.createStitches({
             pomegranate800: '#4e0002',
             pomegranate900: '#2e0001',
             pomegranate1000: '#0d0000',
-            pineapple100: '#ffe7d1',
-            pineapple200: '#fcda9e',
+            pineapple100: '#fff9e3',
+            pineapple200: '#fff1c2',
             pineapple300: '#f8dc6e',
             pineapple400: '#d7ba47',
             pineapple500: '#b69a2c',
@@ -75,9 +75,9 @@ var styled = (_a$1 = react.createStitches({
             pineapple800: '#524009',
             pineapple900: '#312504',
             pineapple1000: '#0f0b01',
-            blueberry100: '#e6fff9',
-            blueberry200: '#b8fffd',
-            blueberry300: '#8debff',
+            blueberry100: '#e6f6ff',
+            blueberry200: '#b8e1ff',
+            blueberry300: '#8dcfff',
             blueberry400: '#65c9ff',
             blueberry500: '#43a2ff',
             blueberry600: '#326dcd',
@@ -155,6 +155,7 @@ var styled = (_a$1 = react.createStitches({
             interfaceHeadline: '1.3',
         },
         radii: {
+            2: '2px',
             rounded: '50% ',
         },
         letterSpacings: {},
@@ -1604,8 +1605,66 @@ var Form = styled('form', {
     boxSizing: 'border-box',
 });
 
+var Badge = styled('span', {
+    fontFamily: '$interfaceBody',
+    fontWeight: 'bold',
+    lineHeight: '$interfaceBody',
+    display: 'inline-flex',
+    flexDirection: 'row',
+    flexGrow: '0',
+    flexShrink: '0',
+    flexWrap: 'no-wrap',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: '$2',
+    borderRadius: '$2',
+    variants: {
+        type: {
+            neutral: {
+                background: '$grayscale200',
+                color: '$grayscale800',
+            },
+            informational: {
+                background: '$blueberry200',
+                color: '$blackberry800'
+            },
+            positive: {
+                background: '$kale200',
+                color: '$kale800',
+            },
+            warning: {
+                background: '$pineapple200',
+                color: '$pineapple800',
+            },
+            critical: {
+                background: '$pomegranate200',
+                color: '$pomegranate800',
+            }
+        },
+        size: {
+            small: {
+                fontSize: '$interfaceExtraSmall',
+                padding: '1px 8px',
+            },
+            default: {
+                fontSize: '$interfaceSmall',
+                padding: '1px 8px'
+            },
+            large: {
+                fontSize: '$interfaceBase',
+                padding: '2px 8px',
+            },
+        },
+    },
+    defaultVariants: {
+        type: 'neutral',
+        size: 'default'
+    }
+});
+
 exports.Arrow = Arrow;
 exports.Award = Award;
+exports.Badge = Badge;
 exports.Blockquote = Blockquote;
 exports.Book = Book;
 exports.BookAlt = BookAlt;

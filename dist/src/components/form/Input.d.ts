@@ -134,6 +134,7 @@ export declare const Input: import("@stitches/react/types/styled-component").Sty
         interfaceHeadline: string;
     };
     radii: {
+        2: string;
         rounded: string;
     };
     letterSpacings: unknown;

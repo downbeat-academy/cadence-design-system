@@ -14,6 +14,7 @@ export const Badge = styled('span', {
     alignItems: 'center',
     gap: '$2',
     borderRadius: '$2',
+    boxSizing: 'border-box',
 
     variants: {
         type: {
@@ -42,14 +43,29 @@ export const Badge = styled('span', {
             small: { 
                 fontSize: '$interfaceExtraSmall',
                 padding: '1px 8px',
+                height: '20px',
+
+                '& svg': {
+                    transform: 'scale(0.5)',
+                }
             },
             default: { 
                 fontSize: '$interfaceSmall', 
-                padding: '1px 8px'
+                padding: '1px 8px',
+                height: '24px',
+
+                '& svg': {
+                    transform: 'scale(0.66)'
+                }
             },
             large: { 
                 fontSize: '$interfaceBase',
                 padding: '2px 8px',
+                height: '30px',
+
+                '& svg': {
+                    transform: 'scale(0.83)'
+                }
             },
         },
     },

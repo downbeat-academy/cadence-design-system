@@ -131,6 +131,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         interfaceHeadline: string;
     };
     radii: {
+        2: string;
         rounded: string;
     };
     letterSpacings: unknown;
@@ -292,6 +293,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         interfaceHeadline: string;
     };
     radii: {
+        2: string;
         rounded: string;
     };
     letterSpacings: unknown;
@@ -438,6 +440,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         interfaceHeadline: string;
     };
     radii: {
+        2: string;
         rounded: string;
     };
     letterSpacings: unknown;
@@ -596,6 +599,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         interfaceHeadline: import("@stitches/react/types/theme").Token<"interfaceHeadline", string, "lineHeights", "">;
     };
     radii: {
+        2: import("@stitches/react/types/theme").Token<"2", string, "radii", "">;
         rounded: import("@stitches/react/types/theme").Token<"rounded", string, "radii", "">;
     };
     letterSpacings: {};
@@ -734,6 +738,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         interfaceHeadline?: string | number | boolean | undefined;
     } | undefined;
     radii?: {
+        2?: string | number | boolean | undefined;
         rounded?: string | number | boolean | undefined;
     } | undefined;
     letterSpacings?: {} | undefined;
@@ -877,6 +882,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         interfaceHeadline?: string | number | boolean | undefined;
     } | undefined;
     radii?: {
+        2?: string | number | boolean | undefined;
         rounded?: string | number | boolean | undefined;
     } | undefined;
     letterSpacings?: {} | undefined;
@@ -1035,6 +1041,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             interfaceHeadline: string;
         };
         radii: {
+            2: string;
             rounded: string;
         };
         letterSpacings: unknown;
@@ -1180,6 +1187,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         interfaceHeadline: string;
     };
     radii: {
+        2: string;
         rounded: string;
     };
     letterSpacings: unknown;
@@ -1325,6 +1333,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             interfaceHeadline: string;
         };
         radii: {
+            2: string;
             rounded: string;
         };
         letterSpacings: unknown;
@@ -1476,6 +1485,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             interfaceHeadline: string;
         };
         radii: {
+            2: string;
             rounded: string;
         };
         letterSpacings: unknown;

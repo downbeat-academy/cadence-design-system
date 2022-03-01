@@ -136,6 +136,7 @@ export declare const Label: import("@stitches/react/types/styled-component").Sty
         interfaceHeadline: string;
     };
     radii: {
+        2: string;
         rounded: string;
     };
     letterSpacings: unknown;
