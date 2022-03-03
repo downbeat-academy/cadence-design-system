@@ -113,10 +113,10 @@ export const {
 			mono: 'Favorit Mono, Courier, monospace',
 		},
 		fontSizes: {
+			displayExtraLarge: '1.5rem',
+			displayLarge: '1.25rem',
 			displayBase: '1.125rem',
-			displayLarge: '1.5rem',
 			displaySmall: '0.875rem',
-			displayExtraSmall: '0.75rem',
 
 			displayMega: 'clamp(2.5rem, 3.94vw + 2.06rem, 5.25rem)',
 			displayH1: 'clamp(2.49rem, 2.58vw + 1.88rem, 4.21rem)',
@@ -126,8 +126,9 @@ export const {
 			displayH5: 'clamp(1.2rem, 0.2vw + 1.15rem, 1.33rem)',
 			displayH6: 'clamp(1rem, 0vw + 1rem, 1rem)',
 
-			interfaceBase: '1rem',
+			interfaceExtraLarge: '1.5rem',
 			interfaceLarge: '1.25rem',
+			interfaceBase: '1rem',
 			interfaceSmall: '0.875rem',
 			interfaceExtraSmall: '0.75rem',
 

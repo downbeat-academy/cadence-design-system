@@ -4,11 +4,12 @@ export const Mega = styled('h1', {
 	color: '$blackberry900',
 	fontFamily: '$displayHeadline',
 	fontSize: '$displayMega',
-	lineHeight: '$displayHeadline',
+	margin: '0',
 });
 
 export const H1 = styled('h1', {
 	color: '$blackberry900',
+	margin: '0',
 	variants: {
 		context: {
 			display: {
@@ -30,6 +31,7 @@ export const H1 = styled('h1', {
 
 export const H2 = styled('h2', {
 	color: '$blackberry900',
+	margin: '0',
 	variants: {
 		context: {
 			display: {
@@ -51,6 +53,7 @@ export const H2 = styled('h2', {
 
 export const H3 = styled('h3', {
 	color: '$blackberry900',
+	margin: '0',
 	variants: {
 		context: {
 			display: {
@@ -72,6 +75,7 @@ export const H3 = styled('h3', {
 
 export const H4 = styled('h4', {
 	color: '$blackberry900',
+	margin: '0',
 	variants: {
 		context: {
 			display: {
@@ -93,6 +97,7 @@ export const H4 = styled('h4', {
 
 export const H5 = styled('h5', {
 	color: '$blackberry900',
+	margin: '0',
 	variants: {
 		context: {
 			display: {
@@ -114,6 +119,7 @@ export const H5 = styled('h5', {
 
 export const H6 = styled('h6', {
 	color: '$blackberry900',
+	margin: '0',
 	variants: {
 		context: {
 			display: {

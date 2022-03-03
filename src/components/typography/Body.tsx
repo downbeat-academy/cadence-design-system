@@ -11,11 +11,9 @@ export const Paragraph = styled('p', {
 		context: {
 			display: {
 				fontFamily: '$displayBody',
-				lineHeight: '$displayBody',
 			},
 			interface: {
 				fontFamily: '$interfaceBody',
-				lineHeight: '$interfaceBody',
 			},
 		},
 		size: {
@@ -29,18 +27,29 @@ export const Paragraph = styled('p', {
 	compoundVariants: [
 		{
 			context: 'display',
-			size: 'base',
+			size: 'extraLarge',
 			css: {
-				fontSize: '$displayBase',
-				marginBottom: '$fontSizes$displayBase',
-			},
+				fontSize: '$displayExtraLarge',
+				lineHeight: '2.5rem',
+				margin: '0 0 2.5rem 0',
+			}
 		},
 		{
 			context: 'display',
 			size: 'large',
 			css: {
 				fontSize: '$displayLarge',
-				marginBottom: '$fontSizes$displayLarge',
+				lineHeight: '2.25rem',
+				margin: '0 0 2.5rem 0',
+			},
+		},
+		{
+			context: 'display',
+			size: 'base',
+			css: {
+				fontSize: '$displayBase',
+				lineHeight: '2rem',
+				margin: '0 0 2rem 0',
 			},
 		},
 		{
@@ -48,23 +57,17 @@ export const Paragraph = styled('p', {
 			size: 'small',
 			css: {
 				fontSize: '$displaySmall',
-				marginBottom: '$fontSizes$displaySmall',
-			},
-		},
-		{
-			context: 'display',
-			size: 'extraSmall',
-			css: {
-				fontSize: '$displayExtraSmall',
-				marginBottom: '$fontSizes$displayExtraSmall',
+				lineHeight: '1.75rem',
+				margin: '0 0 1.75rem 0',
 			},
 		},
 		{
 			context: 'interface',
-			size: 'base',
+			size: 'extraLarge',
 			css: {
-				fontSize: '$interfaceBase',
-				marginBottom: '$fontSizes$interfaceBase',
+				fontSize: '$interfaceExtraLarge',
+				lineHeight: '2rem',
+				margin: '0 0 2rem 0',
 			},
 		},
 		{
@@ -72,7 +75,17 @@ export const Paragraph = styled('p', {
 			size: 'large',
 			css: {
 				fontSize: '$interfaceLarge',
-				marginBottom: '$fontSizes$interfaceLarge',
+				lineHeight: '2rem',
+				margin: '0 0 2rem 0',
+			},
+		},
+		{
+			context: 'interface',
+			size: 'base',
+			css: {
+				fontSize: '$interfaceBase',
+				lineHeight: '1.5rem',
+				margin: '0 0 1.5rem 0',
 			},
 		},
 		{
@@ -80,7 +93,8 @@ export const Paragraph = styled('p', {
 			size: 'small',
 			css: {
 				fontSize: '$interfaceSmall',
-				marginBottom: '$fontSizes$interfaceSmall',
+				lineHeight: '1.5rem',
+				margin: '0 0 1.5rem 0',
 			},
 		},
 		{
@@ -88,7 +102,8 @@ export const Paragraph = styled('p', {
 			size: 'extraSmall',
 			css: {
 				fontSize: '$interfaceExtraSmall',
-				marginBottom: '$fontSizes$interfaceExtraSmall',
+				lineHeight: '1rem',
+				margin: '0 0 1rem 0',
 			},
 		},
 	],
