@@ -8,6 +8,7 @@ const Home: NextPage = () => {
 			<Badge
 				type='positive'
 				size='large'
+				style='outline'
 			><Info />Information</Badge>
 		</div>
 	);

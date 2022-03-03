@@ -16,27 +16,48 @@ export const Badge = styled('span', {
     borderRadius: '$2',
     boxSizing: 'border-box',
 
+    $$neutralSurface: '$colors$grayscale200',
+    $$neutralOnSurface: '$colors$grayscale800',
+    $$positiveSurface: '$colors$kale200',
+    $$positiveOnSurface: '$colors$kale800',
+    $$informationalSurface: '$colors$blueberry200',
+    $$informationalOnSurface: '$colors$blueberry800',
+    $$warningSurface: '$colors$pineapple200',
+    $$warningOnSurfce: '$colors$pineapple800',
+    $$criticalSurface: '$colors$pomegranate200',
+    $$criticalOnSurface: '$colors$pomegranate800',
+
     variants: {
         type: {
             neutral: {
-                background: '$grayscale200',
-                color: '$grayscale800',
+                background: '$$neutralSurface',
+                color: '$$neutralOnSurface',
             },
             informational: {
-                background: '$blueberry200',
-                color: '$blackberry800'
+                background: '$$informationalSurface',
+                color: '$$informationalOnSurface'
             },
             positive: {
-                background: '$kale200',
-                color: '$kale800',
+                background: '$$positiveSurface',
+                color: '$$positiveOnSurface',
             },
             warning: {
-                background: '$pineapple200',
-                color: '$pineapple800',
+                background: '$$warningSurface',
+                color: '$$warningOnSurface',
             },
             critical: {
-                background: '$pomegranate200',
-                color: '$pomegranate800',
+                background: '$$criticalSurface',
+                color: '$$criticalOnSurface',
+            }
+        },
+        style: {
+            fill: {
+                background: 'inherit',
+                color: 'inherit',
+            },
+            outline: {
+                background: 'none',
+                border: '1px solid',
             }
         },
         size: {
@@ -69,6 +90,13 @@ export const Badge = styled('span', {
             },
         },
     },
+
+    // compoundVariants: [
+    //     {
+    //         type: 'positive',
+    //         borderColor: '$$positiveOnSurface',
+    //     }
+    // ],
 
     defaultVariants: {
         type: 'neutral',
