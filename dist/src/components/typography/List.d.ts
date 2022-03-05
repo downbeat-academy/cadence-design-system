@@ -105,10 +105,10 @@ export declare const OrderedList: import("@stitches/react/types/styled-component
         mono: string;
     };
     fontSizes: {
-        displayBase: string;
+        displayExtraLarge: string;
         displayLarge: string;
+        displayBase: string;
         displaySmall: string;
-        displayExtraSmall: string;
         displayMega: string;
         displayH1: string;
         displayH2: string;
@@ -116,8 +116,9 @@ export declare const OrderedList: import("@stitches/react/types/styled-component
         displayH4: string;
         displayH5: string;
         displayH6: string;
-        interfaceBase: string;
+        interfaceExtraLarge: string;
         interfaceLarge: string;
+        interfaceBase: string;
         interfaceSmall: string;
         interfaceExtraSmall: string;
         interfaceH1: string;
@@ -259,10 +260,10 @@ export declare const UnorderedList: import("@stitches/react/types/styled-compone
         mono: string;
     };
     fontSizes: {
-        displayBase: string;
+        displayExtraLarge: string;
         displayLarge: string;
+        displayBase: string;
         displaySmall: string;
-        displayExtraSmall: string;
         displayMega: string;
         displayH1: string;
         displayH2: string;
@@ -270,8 +271,9 @@ export declare const UnorderedList: import("@stitches/react/types/styled-compone
         displayH4: string;
         displayH5: string;
         displayH6: string;
-        interfaceBase: string;
+        interfaceExtraLarge: string;
         interfaceLarge: string;
+        interfaceBase: string;
         interfaceSmall: string;
         interfaceExtraSmall: string;
         interfaceH1: string;
@@ -413,10 +415,10 @@ export declare const DefinitionList: import("@stitches/react/types/styled-compon
         mono: string;
     };
     fontSizes: {
-        displayBase: string;
+        displayExtraLarge: string;
         displayLarge: string;
+        displayBase: string;
         displaySmall: string;
-        displayExtraSmall: string;
         displayMega: string;
         displayH1: string;
         displayH2: string;
@@ -424,8 +426,9 @@ export declare const DefinitionList: import("@stitches/react/types/styled-compon
         displayH4: string;
         displayH5: string;
         displayH6: string;
-        interfaceBase: string;
+        interfaceExtraLarge: string;
         interfaceLarge: string;
+        interfaceBase: string;
         interfaceSmall: string;
         interfaceExtraSmall: string;
         interfaceH1: string;

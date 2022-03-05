@@ -102,10 +102,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         mono: string;
     };
     fontSizes: {
-        displayBase: string;
+        displayExtraLarge: string;
         displayLarge: string;
+        displayBase: string;
         displaySmall: string;
-        displayExtraSmall: string;
         displayMega: string;
         displayH1: string;
         displayH2: string;
@@ -113,8 +113,9 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         displayH4: string;
         displayH5: string;
         displayH6: string;
-        interfaceBase: string;
+        interfaceExtraLarge: string;
         interfaceLarge: string;
+        interfaceBase: string;
         interfaceSmall: string;
         interfaceExtraSmall: string;
         interfaceH1: string;
@@ -264,10 +265,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         mono: string;
     };
     fontSizes: {
-        displayBase: string;
+        displayExtraLarge: string;
         displayLarge: string;
+        displayBase: string;
         displaySmall: string;
-        displayExtraSmall: string;
         displayMega: string;
         displayH1: string;
         displayH2: string;
@@ -275,8 +276,9 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         displayH4: string;
         displayH5: string;
         displayH6: string;
-        interfaceBase: string;
+        interfaceExtraLarge: string;
         interfaceLarge: string;
+        interfaceBase: string;
         interfaceSmall: string;
         interfaceExtraSmall: string;
         interfaceH1: string;
@@ -411,10 +413,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         mono: string;
     };
     fontSizes: {
-        displayBase: string;
+        displayExtraLarge: string;
         displayLarge: string;
+        displayBase: string;
         displaySmall: string;
-        displayExtraSmall: string;
         displayMega: string;
         displayH1: string;
         displayH2: string;
@@ -422,8 +424,9 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         displayH4: string;
         displayH5: string;
         displayH6: string;
-        interfaceBase: string;
+        interfaceExtraLarge: string;
         interfaceLarge: string;
+        interfaceBase: string;
         interfaceSmall: string;
         interfaceExtraSmall: string;
         interfaceH1: string;
@@ -570,10 +573,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         mono: import("@stitches/react/types/theme").Token<"mono", string, "fonts", "">;
     };
     fontSizes: {
-        displayBase: import("@stitches/react/types/theme").Token<"displayBase", string, "fontSizes", "">;
+        displayExtraLarge: import("@stitches/react/types/theme").Token<"displayExtraLarge", string, "fontSizes", "">;
         displayLarge: import("@stitches/react/types/theme").Token<"displayLarge", string, "fontSizes", "">;
+        displayBase: import("@stitches/react/types/theme").Token<"displayBase", string, "fontSizes", "">;
         displaySmall: import("@stitches/react/types/theme").Token<"displaySmall", string, "fontSizes", "">;
-        displayExtraSmall: import("@stitches/react/types/theme").Token<"displayExtraSmall", string, "fontSizes", "">;
         displayMega: import("@stitches/react/types/theme").Token<"displayMega", string, "fontSizes", "">;
         displayH1: import("@stitches/react/types/theme").Token<"displayH1", string, "fontSizes", "">;
         displayH2: import("@stitches/react/types/theme").Token<"displayH2", string, "fontSizes", "">;
@@ -581,8 +584,9 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         displayH4: import("@stitches/react/types/theme").Token<"displayH4", string, "fontSizes", "">;
         displayH5: import("@stitches/react/types/theme").Token<"displayH5", string, "fontSizes", "">;
         displayH6: import("@stitches/react/types/theme").Token<"displayH6", string, "fontSizes", "">;
-        interfaceBase: import("@stitches/react/types/theme").Token<"interfaceBase", string, "fontSizes", "">;
+        interfaceExtraLarge: import("@stitches/react/types/theme").Token<"interfaceExtraLarge", string, "fontSizes", "">;
         interfaceLarge: import("@stitches/react/types/theme").Token<"interfaceLarge", string, "fontSizes", "">;
+        interfaceBase: import("@stitches/react/types/theme").Token<"interfaceBase", string, "fontSizes", "">;
         interfaceSmall: import("@stitches/react/types/theme").Token<"interfaceSmall", string, "fontSizes", "">;
         interfaceExtraSmall: import("@stitches/react/types/theme").Token<"interfaceExtraSmall", string, "fontSizes", "">;
         interfaceH1: import("@stitches/react/types/theme").Token<"interfaceH1", string, "fontSizes", "">;
@@ -709,10 +713,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         mono?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
-        displayBase?: string | number | boolean | undefined;
+        displayExtraLarge?: string | number | boolean | undefined;
         displayLarge?: string | number | boolean | undefined;
+        displayBase?: string | number | boolean | undefined;
         displaySmall?: string | number | boolean | undefined;
-        displayExtraSmall?: string | number | boolean | undefined;
         displayMega?: string | number | boolean | undefined;
         displayH1?: string | number | boolean | undefined;
         displayH2?: string | number | boolean | undefined;
@@ -720,8 +724,9 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         displayH4?: string | number | boolean | undefined;
         displayH5?: string | number | boolean | undefined;
         displayH6?: string | number | boolean | undefined;
-        interfaceBase?: string | number | boolean | undefined;
+        interfaceExtraLarge?: string | number | boolean | undefined;
         interfaceLarge?: string | number | boolean | undefined;
+        interfaceBase?: string | number | boolean | undefined;
         interfaceSmall?: string | number | boolean | undefined;
         interfaceExtraSmall?: string | number | boolean | undefined;
         interfaceH1?: string | number | boolean | undefined;
@@ -853,10 +858,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         mono?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
-        displayBase?: string | number | boolean | undefined;
+        displayExtraLarge?: string | number | boolean | undefined;
         displayLarge?: string | number | boolean | undefined;
+        displayBase?: string | number | boolean | undefined;
         displaySmall?: string | number | boolean | undefined;
-        displayExtraSmall?: string | number | boolean | undefined;
         displayMega?: string | number | boolean | undefined;
         displayH1?: string | number | boolean | undefined;
         displayH2?: string | number | boolean | undefined;
@@ -864,8 +869,9 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         displayH4?: string | number | boolean | undefined;
         displayH5?: string | number | boolean | undefined;
         displayH6?: string | number | boolean | undefined;
-        interfaceBase?: string | number | boolean | undefined;
+        interfaceExtraLarge?: string | number | boolean | undefined;
         interfaceLarge?: string | number | boolean | undefined;
+        interfaceBase?: string | number | boolean | undefined;
         interfaceSmall?: string | number | boolean | undefined;
         interfaceExtraSmall?: string | number | boolean | undefined;
         interfaceH1?: string | number | boolean | undefined;
@@ -1012,10 +1018,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             mono: string;
         };
         fontSizes: {
-            displayBase: string;
+            displayExtraLarge: string;
             displayLarge: string;
+            displayBase: string;
             displaySmall: string;
-            displayExtraSmall: string;
             displayMega: string;
             displayH1: string;
             displayH2: string;
@@ -1023,8 +1029,9 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             displayH4: string;
             displayH5: string;
             displayH6: string;
-            interfaceBase: string;
+            interfaceExtraLarge: string;
             interfaceLarge: string;
+            interfaceBase: string;
             interfaceSmall: string;
             interfaceExtraSmall: string;
             interfaceH1: string;
@@ -1158,10 +1165,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         mono: string;
     };
     fontSizes: {
-        displayBase: string;
+        displayExtraLarge: string;
         displayLarge: string;
+        displayBase: string;
         displaySmall: string;
-        displayExtraSmall: string;
         displayMega: string;
         displayH1: string;
         displayH2: string;
@@ -1169,8 +1176,9 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         displayH4: string;
         displayH5: string;
         displayH6: string;
-        interfaceBase: string;
+        interfaceExtraLarge: string;
         interfaceLarge: string;
+        interfaceBase: string;
         interfaceSmall: string;
         interfaceExtraSmall: string;
         interfaceH1: string;
@@ -1304,10 +1312,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             mono: string;
         };
         fontSizes: {
-            displayBase: string;
+            displayExtraLarge: string;
             displayLarge: string;
+            displayBase: string;
             displaySmall: string;
-            displayExtraSmall: string;
             displayMega: string;
             displayH1: string;
             displayH2: string;
@@ -1315,8 +1323,9 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             displayH4: string;
             displayH5: string;
             displayH6: string;
-            interfaceBase: string;
+            interfaceExtraLarge: string;
             interfaceLarge: string;
+            interfaceBase: string;
             interfaceSmall: string;
             interfaceExtraSmall: string;
             interfaceH1: string;
@@ -1456,10 +1465,10 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             mono: string;
         };
         fontSizes: {
-            displayBase: string;
+            displayExtraLarge: string;
             displayLarge: string;
+            displayBase: string;
             displaySmall: string;
-            displayExtraSmall: string;
             displayMega: string;
             displayH1: string;
             displayH2: string;
@@ -1467,8 +1476,9 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             displayH4: string;
             displayH5: string;
             displayH6: string;
-            interfaceBase: string;
+            interfaceExtraLarge: string;
             interfaceLarge: string;
+            interfaceBase: string;
             interfaceSmall: string;
             interfaceExtraSmall: string;
             interfaceH1: string;

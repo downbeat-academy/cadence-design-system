@@ -9,9 +9,8 @@ const Home: NextPage = () => {
 			<H1 context='display'>Headline 1</H1>
 			<Badge
 				type='positive'
-				size='large'
 				style='outline'
-			><Info />Information</Badge>
+			>Information</Badge>
 		</div>
 	);
 };

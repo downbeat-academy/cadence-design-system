@@ -99,10 +99,10 @@ var styled = (_a$1 = createStitches({
             mono: 'Favorit Mono, Courier, monospace',
         },
         fontSizes: {
+            displayExtraLarge: '1.5rem',
+            displayLarge: '1.25rem',
             displayBase: '1.125rem',
-            displayLarge: '1.5rem',
             displaySmall: '0.875rem',
-            displayExtraSmall: '0.75rem',
             displayMega: 'clamp(2.5rem, 3.94vw + 2.06rem, 5.25rem)',
             displayH1: 'clamp(2.49rem, 2.58vw + 1.88rem, 4.21rem)',
             displayH2: 'clamp(2.07rem, 1.63vw + 1.69rem, 3.16rem)',
@@ -110,8 +110,9 @@ var styled = (_a$1 = createStitches({
             displayH4: 'clamp(1.44rem, 0.51vw + 1.32rem, 1.78rem)',
             displayH5: 'clamp(1.2rem, 0.2vw + 1.15rem, 1.33rem)',
             displayH6: 'clamp(1rem, 0vw + 1rem, 1rem)',
-            interfaceBase: '1rem',
+            interfaceExtraLarge: '1.5rem',
             interfaceLarge: '1.25rem',
+            interfaceBase: '1rem',
             interfaceSmall: '0.875rem',
             interfaceExtraSmall: '0.75rem',
             interfaceH1: 'clamp(1.8rem, 1.88vw + 1.36rem, 3.05rem)',
@@ -341,10 +342,11 @@ var Mega = styled('h1', {
     color: '$blackberry900',
     fontFamily: '$displayHeadline',
     fontSize: '$displayMega',
-    lineHeight: '$displayHeadline',
+    margin: '0',
 });
 var H1 = styled('h1', {
     color: '$blackberry900',
+    margin: '0',
     variants: {
         context: {
             display: {
@@ -365,6 +367,7 @@ var H1 = styled('h1', {
 });
 var H2 = styled('h2', {
     color: '$blackberry900',
+    margin: '0',
     variants: {
         context: {
             display: {
@@ -385,6 +388,7 @@ var H2 = styled('h2', {
 });
 var H3 = styled('h3', {
     color: '$blackberry900',
+    margin: '0',
     variants: {
         context: {
             display: {
@@ -405,6 +409,7 @@ var H3 = styled('h3', {
 });
 var H4 = styled('h4', {
     color: '$blackberry900',
+    margin: '0',
     variants: {
         context: {
             display: {
@@ -425,6 +430,7 @@ var H4 = styled('h4', {
 });
 var H5 = styled('h5', {
     color: '$blackberry900',
+    margin: '0',
     variants: {
         context: {
             display: {
@@ -445,6 +451,7 @@ var H5 = styled('h5', {
 });
 var H6 = styled('h6', {
     color: '$blackberry900',
+    margin: '0',
     variants: {
         context: {
             display: {
@@ -473,11 +480,9 @@ var Paragraph = styled('p', {
         context: {
             display: {
                 fontFamily: '$displayBody',
-                lineHeight: '$displayBody',
             },
             interface: {
                 fontFamily: '$interfaceBody',
-                lineHeight: '$interfaceBody',
             },
         },
         size: {
@@ -490,18 +495,29 @@ var Paragraph = styled('p', {
     compoundVariants: [
         {
             context: 'display',
-            size: 'base',
+            size: 'extraLarge',
             css: {
-                fontSize: '$displayBase',
-                marginBottom: '$fontSizes$displayBase',
-            },
+                fontSize: '$displayExtraLarge',
+                lineHeight: '2.5rem',
+                margin: '0 0 2.5rem 0',
+            }
         },
         {
             context: 'display',
             size: 'large',
             css: {
                 fontSize: '$displayLarge',
-                marginBottom: '$fontSizes$displayLarge',
+                lineHeight: '2.25rem',
+                margin: '0 0 2.5rem 0',
+            },
+        },
+        {
+            context: 'display',
+            size: 'base',
+            css: {
+                fontSize: '$displayBase',
+                lineHeight: '2rem',
+                margin: '0 0 2rem 0',
             },
         },
         {
@@ -509,23 +525,17 @@ var Paragraph = styled('p', {
             size: 'small',
             css: {
                 fontSize: '$displaySmall',
-                marginBottom: '$fontSizes$displaySmall',
-            },
-        },
-        {
-            context: 'display',
-            size: 'extraSmall',
-            css: {
-                fontSize: '$displayExtraSmall',
-                marginBottom: '$fontSizes$displayExtraSmall',
+                lineHeight: '1.75rem',
+                margin: '0 0 1.75rem 0',
             },
         },
         {
             context: 'interface',
-            size: 'base',
+            size: 'extraLarge',
             css: {
-                fontSize: '$interfaceBase',
-                marginBottom: '$fontSizes$interfaceBase',
+                fontSize: '$interfaceExtraLarge',
+                lineHeight: '2rem',
+                margin: '0 0 2rem 0',
             },
         },
         {
@@ -533,7 +543,17 @@ var Paragraph = styled('p', {
             size: 'large',
             css: {
                 fontSize: '$interfaceLarge',
-                marginBottom: '$fontSizes$interfaceLarge',
+                lineHeight: '2rem',
+                margin: '0 0 2rem 0',
+            },
+        },
+        {
+            context: 'interface',
+            size: 'base',
+            css: {
+                fontSize: '$interfaceBase',
+                lineHeight: '1.5rem',
+                margin: '0 0 1.5rem 0',
             },
         },
         {
@@ -541,7 +561,8 @@ var Paragraph = styled('p', {
             size: 'small',
             css: {
                 fontSize: '$interfaceSmall',
-                marginBottom: '$fontSizes$interfaceSmall',
+                lineHeight: '1.5rem',
+                margin: '0 0 1.5rem 0',
             },
         },
         {
@@ -549,7 +570,8 @@ var Paragraph = styled('p', {
             size: 'extraSmall',
             css: {
                 fontSize: '$interfaceExtraSmall',
-                marginBottom: '$fontSizes$interfaceExtraSmall',
+                lineHeight: '1rem',
+                margin: '0 0 1rem 0',
             },
         },
     ],
@@ -1592,27 +1614,47 @@ var Badge = styled('span', {
     gap: '$2',
     borderRadius: '$2',
     boxSizing: 'border-box',
+    $$neutralSurface: '$colors$grayscale200',
+    $$neutralOnSurface: '$colors$grayscale800',
+    $$positiveSurface: '$colors$kale200',
+    $$positiveOnSurface: '$colors$kale800',
+    $$informationalSurface: '$colors$blueberry200',
+    $$informationalOnSurface: '$colors$blueberry800',
+    $$warningSurface: '$colors$pineapple200',
+    $$warningOnSurfce: '$colors$pineapple800',
+    $$criticalSurface: '$colors$pomegranate200',
+    $$criticalOnSurface: '$colors$pomegranate800',
     variants: {
         type: {
             neutral: {
-                background: '$grayscale200',
-                color: '$grayscale800',
+                background: '$$neutralSurface',
+                color: '$$neutralOnSurface',
             },
             informational: {
-                background: '$blueberry200',
-                color: '$blackberry800'
+                background: '$$informationalSurface',
+                color: '$$informationalOnSurface'
             },
             positive: {
-                background: '$kale200',
-                color: '$kale800',
+                background: '$$positiveSurface',
+                color: '$$positiveOnSurface',
             },
             warning: {
-                background: '$pineapple200',
-                color: '$pineapple800',
+                background: '$$warningSurface',
+                color: '$$warningOnSurface',
             },
             critical: {
-                background: '$pomegranate200',
-                color: '$pomegranate800',
+                background: '$$criticalSurface',
+                color: '$$criticalOnSurface',
+            }
+        },
+        style: {
+            fill: {
+                background: 'inherit',
+                color: 'inherit',
+            },
+            outline: {
+                background: 'none',
+                border: '1px solid',
             }
         },
         size: {
@@ -1642,6 +1684,12 @@ var Badge = styled('span', {
             },
         },
     },
+    // compoundVariants: [
+    //     {
+    //         type: 'positive',
+    //         borderColor: '$$positiveOnSurface',
+    //     }
+    // ],
     defaultVariants: {
         type: 'neutral',
         size: 'default'

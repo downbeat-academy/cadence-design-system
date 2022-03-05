@@ -109,10 +109,10 @@ export declare const Flex: import("@stitches/react/types/styled-component").Styl
         mono: string;
     };
     fontSizes: {
-        displayBase: string;
+        displayExtraLarge: string;
         displayLarge: string;
+        displayBase: string;
         displaySmall: string;
-        displayExtraSmall: string;
         displayMega: string;
         displayH1: string;
         displayH2: string;
@@ -120,8 +120,9 @@ export declare const Flex: import("@stitches/react/types/styled-component").Styl
         displayH4: string;
         displayH5: string;
         displayH6: string;
-        interfaceBase: string;
+        interfaceExtraLarge: string;
         interfaceLarge: string;
+        interfaceBase: string;
         interfaceSmall: string;
         interfaceExtraSmall: string;
         interfaceH1: string;
