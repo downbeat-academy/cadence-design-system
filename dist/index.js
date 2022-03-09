@@ -1456,7 +1456,7 @@ var Logo = function (_a) {
 
 var Divider = styled('hr', {
     border: '0',
-    backgroundColor: '$grayscal300',
+    backgroundColor: '$grayscale300',
     variants: {
         width: {
             1: {
@@ -1641,38 +1641,13 @@ var Badge = styled('span', {
     gap: '$2',
     borderRadius: '$2',
     boxSizing: 'border-box',
-    $$neutralSurface: '$colors$grayscale200',
-    $$neutralOnSurface: '$colors$grayscale800',
-    $$positiveSurface: '$colors$kale200',
-    $$positiveOnSurface: '$colors$kale800',
-    $$informationalSurface: '$colors$blueberry200',
-    $$informationalOnSurface: '$colors$blueberry800',
-    $$warningSurface: '$colors$pineapple200',
-    $$warningOnSurfce: '$colors$pineapple800',
-    $$criticalSurface: '$colors$pomegranate200',
-    $$criticalOnSurface: '$colors$pomegranate800',
     variants: {
         type: {
-            neutral: {
-                background: '$$neutralSurface',
-                color: '$$neutralOnSurface',
-            },
-            informational: {
-                background: '$$informationalSurface',
-                color: '$$informationalOnSurface'
-            },
-            positive: {
-                background: '$$positiveSurface',
-                color: '$$positiveOnSurface',
-            },
-            warning: {
-                background: '$$warningSurface',
-                color: '$$warningOnSurface',
-            },
-            critical: {
-                background: '$$criticalSurface',
-                color: '$$criticalOnSurface',
-            }
+            neutral: {},
+            informational: {},
+            positive: {},
+            warning: {},
+            critical: {}
         },
         style: {
             fill: {
@@ -1711,14 +1686,91 @@ var Badge = styled('span', {
             },
         },
     },
-    // compoundVariants: [
-    //     {
-    //         type: 'positive',
-    //         borderColor: '$$positiveOnSurface',
-    //     }
-    // ],
+    compoundVariants: [
+        {
+            type: 'neutral',
+            style: 'fill',
+            css: {
+                background: '$grayscale200',
+                color: '$grayscale800',
+            }
+        },
+        {
+            type: 'informational',
+            style: 'fill',
+            css: {
+                background: '$blueberry200',
+                color: '$blueberry800',
+            }
+        },
+        {
+            type: 'positive',
+            style: 'fill',
+            css: {
+                background: '$kale200',
+                color: '$kale800',
+            }
+        },
+        {
+            type: 'warning',
+            style: 'fill',
+            css: {
+                background: '$pineapple200',
+                color: '$pineapple800',
+            }
+        },
+        {
+            type: 'critical',
+            style: 'fill',
+            css: {
+                background: '$pomegranate200',
+                color: '$pomegranate800',
+            }
+        },
+        {
+            type: 'neutral',
+            style: 'outline',
+            css: {
+                color: '$grayscale800',
+                border: '1px solid $grayscale800',
+            }
+        },
+        {
+            type: 'informational',
+            style: 'outline',
+            css: {
+                color: '$blueberry600',
+                border: '1px solid $blueberry600',
+            }
+        },
+        {
+            type: 'positive',
+            style: 'outline',
+            css: {
+                color: '$kale800',
+                border: '1px solid $kale800',
+            }
+        },
+        {
+            type: 'warning',
+            style: 'outline',
+            css: {
+                color: '$pineapple700',
+                border: '1px solid $colors$pineapple700',
+            }
+        },
+        {
+            type: 'critical',
+            style: 'outline',
+            css: {
+                color: '$pomegranate500',
+                border: '1px solid $pomegranate500',
+            }
+        }
+    ],
     defaultVariants: {
         type: 'neutral',
+        style: 'fill',
         size: 'default'
     }
 });

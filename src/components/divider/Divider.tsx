@@ -2,7 +2,7 @@ import { styled } from '../../stitches.config'
 
 export const Divider = styled('hr', {
     border: '0',
-    backgroundColor: '$grayscal300',
+    backgroundColor: '$grayscale300',
 
     variants: {
         width: {
