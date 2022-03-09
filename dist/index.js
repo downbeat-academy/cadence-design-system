@@ -1271,7 +1271,7 @@ var Flex = styled('div', {
             row: { flexDirection: 'row' },
             column: { flexDirection: 'column' },
             rowReverse: { flexDirection: 'row-reverse' },
-            columnRevers: { flexDirection: 'column-reverse' },
+            columnReverse: { flexDirection: 'column-reverse' },
         },
         align: {
             start: { alignItems: 'flex-start' },
@@ -1641,6 +1641,7 @@ var Badge = styled('span', {
     gap: '$2',
     borderRadius: '$2',
     boxSizing: 'border-box',
+    textDecoration: 'none',
     variants: {
         type: {
             neutral: {},

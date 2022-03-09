@@ -15,6 +15,7 @@ export const Badge = styled('span', {
     gap: '$2',
     borderRadius: '$2',
     boxSizing: 'border-box',
+    textDecoration: 'none',
 
     variants: {
         type: {

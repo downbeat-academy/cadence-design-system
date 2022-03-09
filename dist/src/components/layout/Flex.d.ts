@@ -1,5 +1,5 @@
 export declare const Flex: import("@stitches/react/types/styled-component").StyledComponent<"div", {
-    direction?: "row" | "column" | "rowReverse" | "columnRevers" | undefined;
+    direction?: "row" | "column" | "rowReverse" | "columnReverse" | undefined;
     align?: "start" | "center" | "end" | "stretch" | "baseline" | undefined;
     justify?: "start" | "center" | "end" | "between" | "around" | undefined;
     wrap?: "wrap" | "noWrap" | "wrapReverse" | undefined;
