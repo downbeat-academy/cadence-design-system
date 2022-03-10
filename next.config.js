@@ -2,6 +2,12 @@ module.exports = {
 	future: {
 		webpack5: true,
 	},
+	images: {
+		domains: [
+			'cdn.sanity.com',
+			'via.placeholder.com',
+		]
+	},
 	webpack: (config, options) => {
 		//
 		// Use profiler-enabled React builds

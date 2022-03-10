@@ -2,6 +2,7 @@ import { createStitches } from '@stitches/react';
 import * as React from 'react';
 import React__default from 'react';
 import * as LabelPrimitive from '@radix-ui/react-label';
+import BoringAvatar from 'boring-avatars';
 
 var _a$1;
 var styled = (_a$1 = createStitches({
@@ -1749,4 +1750,49 @@ var Badge = styled('span', {
     }
 });
 
-export { Arrow, Award, Badge, Blockquote, Book, BookAlt, Button, Calendar, CalendarCheck, CalendarEdit, CalendarEvent, CalendarExclamation, CalendarHeart, CalendarMinus, CalendarPlus, CalendarStar, CalendarWeek, CalendarX, CheckCircle, Close, DefinitionList, Divider, Error, ExternalLink, Facebook, Flex, Form, Google, Grid, H1, H2, H3, H4, H5, H6, HelperText, Info, Input, Instagram, Label, LinkedIn, Logo, Medium, Mega, Megaphone, OrderedList, Paragraph, Soundcloud, Spotify, TextArea, TikTok, Twitter, UnorderedList, Warning, YouTube, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };
+var Avatar = function (_a) {
+    var size = _a.size, name = _a.name, children = _a.children;
+    return (React__default.createElement(AvatarWrapper, { size: size }, !children ?
+        React__default.createElement(BoringAvatar
+        // size={size}
+        , { 
+            // size={size}
+            variant: 'marble', name: name, square: true, colors: [
+                '#5665EF',
+                '#47B0C5',
+                '#F24866',
+                '#F8DC6E',
+                '#43A2FF',
+            ] }) :
+        React__default.createElement(React__default.Fragment, null, children)));
+};
+var AvatarWrapper = styled('div', {
+    borderRadius: '50%',
+    '& > *': {
+        borderRadius: '50%',
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover'
+    },
+    variants: {
+        size: {
+            small: {
+                height: '$space$8',
+                width: '$space$8',
+            },
+            default: {
+                height: '$space$9',
+                width: '$space$9',
+            },
+            large: {
+                height: '$space$10',
+                width: '$space$10',
+            },
+        }
+    },
+    defaultVariants: {
+        size: 'default'
+    }
+});
+
+export { Arrow, Avatar, Award, Badge, Blockquote, Book, BookAlt, Button, Calendar, CalendarCheck, CalendarEdit, CalendarEvent, CalendarExclamation, CalendarHeart, CalendarMinus, CalendarPlus, CalendarStar, CalendarWeek, CalendarX, CheckCircle, Close, DefinitionList, Divider, Error, ExternalLink, Facebook, Flex, Form, Google, Grid, H1, H2, H3, H4, H5, H6, HelperText, Info, Input, Instagram, Label, LinkedIn, Logo, Medium, Mega, Megaphone, OrderedList, Paragraph, Soundcloud, Spotify, TextArea, TikTok, Twitter, UnorderedList, Warning, YouTube, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };

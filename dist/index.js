@@ -5,6 +5,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 var react = require('@stitches/react');
 var React = require('react');
 var LabelPrimitive = require('@radix-ui/react-label');
+var BoringAvatar = require('boring-avatars');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
@@ -29,6 +30,7 @@ function _interopNamespace(e) {
 var React__namespace = /*#__PURE__*/_interopNamespace(React);
 var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 var LabelPrimitive__namespace = /*#__PURE__*/_interopNamespace(LabelPrimitive);
+var BoringAvatar__default = /*#__PURE__*/_interopDefaultLegacy(BoringAvatar);
 
 var _a$1;
 var styled = (_a$1 = react.createStitches({
@@ -1776,7 +1778,53 @@ var Badge = styled('span', {
     }
 });
 
+var Avatar = function (_a) {
+    var size = _a.size, name = _a.name, children = _a.children;
+    return (React__default["default"].createElement(AvatarWrapper, { size: size }, !children ?
+        React__default["default"].createElement(BoringAvatar__default["default"]
+        // size={size}
+        , { 
+            // size={size}
+            variant: 'marble', name: name, square: true, colors: [
+                '#5665EF',
+                '#47B0C5',
+                '#F24866',
+                '#F8DC6E',
+                '#43A2FF',
+            ] }) :
+        React__default["default"].createElement(React__default["default"].Fragment, null, children)));
+};
+var AvatarWrapper = styled('div', {
+    borderRadius: '50%',
+    '& > *': {
+        borderRadius: '50%',
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover'
+    },
+    variants: {
+        size: {
+            small: {
+                height: '$space$8',
+                width: '$space$8',
+            },
+            default: {
+                height: '$space$9',
+                width: '$space$9',
+            },
+            large: {
+                height: '$space$10',
+                width: '$space$10',
+            },
+        }
+    },
+    defaultVariants: {
+        size: 'default'
+    }
+});
+
 exports.Arrow = Arrow;
+exports.Avatar = Avatar;
 exports.Award = Award;
 exports.Badge = Badge;
 exports.Blockquote = Blockquote;
