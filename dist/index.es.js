@@ -1795,4 +1795,39 @@ var AvatarWrapper = styled('div', {
     }
 });
 
-export { Arrow, Avatar, Award, Badge, Blockquote, Book, BookAlt, Button, Calendar, CalendarCheck, CalendarEdit, CalendarEvent, CalendarExclamation, CalendarHeart, CalendarMinus, CalendarPlus, CalendarStar, CalendarWeek, CalendarX, CheckCircle, Close, DefinitionList, Divider, Error, ExternalLink, Facebook, Flex, Form, Google, Grid, H1, H2, H3, H4, H5, H6, HelperText, Info, Input, Instagram, Label, LinkedIn, Logo, Medium, Mega, Megaphone, OrderedList, Paragraph, Soundcloud, Spotify, TextArea, TikTok, Twitter, UnorderedList, Warning, YouTube, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };
+var StyledLink = styled('a', {
+    fontFamily: 'inherit',
+    fontSize: 'inherit',
+    color: 'inherit',
+    textDecoration: 'underline',
+    display: 'inline-flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: '$2',
+    variants: {
+        style: {
+            expressive: {
+                textDecorationColor: '$passionFruit600',
+                textDecorationThickness: '$space$2',
+                textUnderlineOffset: '$space$1',
+                transition: '$1',
+                padding: '$1 0',
+                '&:hover': {
+                    cursor: 'pointer',
+                    background: '$passionFruit100',
+                    textDecorationColor: '$passionFruit100',
+                },
+            },
+            default: {
+                textDecorationColor: 'inherit',
+                textDecorationThickness: 'auto',
+                textUnderlineOffset: 'auto',
+            }
+        },
+    },
+    defaultVariants: {
+        style: 'default',
+    }
+});
+
+export { Arrow, Avatar, Award, Badge, Blockquote, Book, BookAlt, Button, Calendar, CalendarCheck, CalendarEdit, CalendarEvent, CalendarExclamation, CalendarHeart, CalendarMinus, CalendarPlus, CalendarStar, CalendarWeek, CalendarX, CheckCircle, Close, DefinitionList, Divider, Error, ExternalLink, Facebook, Flex, Form, Google, Grid, H1, H2, H3, H4, H5, H6, HelperText, Info, Input, Instagram, Label, LinkedIn, Logo, Medium, Mega, Megaphone, OrderedList, Paragraph, Soundcloud, Spotify, StyledLink, TextArea, TikTok, Twitter, UnorderedList, Warning, YouTube, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };

@@ -1823,6 +1823,41 @@ var AvatarWrapper = styled('div', {
     }
 });
 
+var StyledLink = styled('a', {
+    fontFamily: 'inherit',
+    fontSize: 'inherit',
+    color: 'inherit',
+    textDecoration: 'underline',
+    display: 'inline-flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: '$2',
+    variants: {
+        style: {
+            expressive: {
+                textDecorationColor: '$passionFruit600',
+                textDecorationThickness: '$space$2',
+                textUnderlineOffset: '$space$1',
+                transition: '$1',
+                padding: '$1 0',
+                '&:hover': {
+                    cursor: 'pointer',
+                    background: '$passionFruit100',
+                    textDecorationColor: '$passionFruit100',
+                },
+            },
+            default: {
+                textDecorationColor: 'inherit',
+                textDecorationThickness: 'auto',
+                textUnderlineOffset: 'auto',
+            }
+        },
+    },
+    defaultVariants: {
+        style: 'default',
+    }
+});
+
 exports.Arrow = Arrow;
 exports.Avatar = Avatar;
 exports.Award = Award;
@@ -1873,6 +1908,7 @@ exports.OrderedList = OrderedList;
 exports.Paragraph = Paragraph;
 exports.Soundcloud = Soundcloud;
 exports.Spotify = Spotify;
+exports.StyledLink = StyledLink;
 exports.TextArea = TextArea;
 exports.TikTok = TikTok;
 exports.Twitter = Twitter;
