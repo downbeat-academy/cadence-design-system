@@ -41,7 +41,7 @@ export const Avatar = ({
 const AvatarWrapper = styled('div', {
     borderRadius: '50%',
 
-    '& > *': {
+    '& img': {
         borderRadius: '50%',
         width: '100%',
         height: '100%',
