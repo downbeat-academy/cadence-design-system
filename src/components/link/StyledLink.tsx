@@ -10,6 +10,10 @@ export const StyledLink = styled('a', {
     alignItems: 'center',
     gap: '$2',
 
+    '&:hover': {
+        cursor: 'pointer',
+    },
+
     variants: {
         style: {
             expressive: {

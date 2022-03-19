@@ -9,6 +9,7 @@ export const Button = styled('button', {
 	justifyContent: 'center',
 	flexGrow: '0',
 	gap: '$4',
+	alignSelf: 'flex-start',
 	boxSizing: 'border-box',
 	border: '1px solid transparent',
 	borderRadius: 0,

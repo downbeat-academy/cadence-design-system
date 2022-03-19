@@ -269,6 +269,7 @@ var Button = styled('button', {
     justifyContent: 'center',
     flexGrow: '0',
     gap: '$4',
+    alignSelf: 'flex-start',
     boxSizing: 'border-box',
     border: '1px solid transparent',
     borderRadius: 0,
@@ -372,10 +373,12 @@ var Mega = styled('h1', {
     fontFamily: '$displayHeadline',
     fontSize: '$displayMega',
     margin: '0',
+    textDecoration: 'none',
 });
 var H1 = styled('h1', {
     color: '$blackberry900',
     margin: '0',
+    textDecoration: 'none',
     variants: {
         context: {
             display: {
@@ -397,6 +400,7 @@ var H1 = styled('h1', {
 var H2 = styled('h2', {
     color: '$blackberry900',
     margin: '0',
+    textDecoration: 'none',
     variants: {
         context: {
             display: {
@@ -418,6 +422,7 @@ var H2 = styled('h2', {
 var H3 = styled('h3', {
     color: '$blackberry900',
     margin: '0',
+    textDecoration: 'none',
     variants: {
         context: {
             display: {
@@ -439,6 +444,7 @@ var H3 = styled('h3', {
 var H4 = styled('h4', {
     color: '$blackberry900',
     margin: '0',
+    textDecoration: 'none',
     variants: {
         context: {
             display: {
@@ -460,6 +466,7 @@ var H4 = styled('h4', {
 var H5 = styled('h5', {
     color: '$blackberry900',
     margin: '0',
+    textDecoration: 'none',
     variants: {
         context: {
             display: {
@@ -481,6 +488,7 @@ var H5 = styled('h5', {
 var H6 = styled('h6', {
     color: '$blackberry900',
     margin: '0',
+    textDecoration: 'none',
     variants: {
         context: {
             display: {
@@ -502,6 +510,7 @@ var H6 = styled('h6', {
 
 var Paragraph = styled('p', {
     color: '$blackberry900',
+    textDecoration: 'none',
     '& code': {
         fontFamily: '$mono',
     },
@@ -1796,7 +1805,7 @@ var Avatar = function (_a) {
 };
 var AvatarWrapper = styled('div', {
     borderRadius: '50%',
-    '& img': {
+    '& img, & *': {
         borderRadius: '50%',
         width: '100%',
         height: '100%',
@@ -1832,6 +1841,9 @@ var StyledLink = styled('a', {
     flexDirection: 'row',
     alignItems: 'center',
     gap: '$2',
+    '&:hover': {
+        cursor: 'pointer',
+    },
     variants: {
         style: {
             expressive: {

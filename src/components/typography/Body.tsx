@@ -2,6 +2,7 @@ import { styled } from '../../stitches.config';
 
 export const Paragraph = styled('p', {
 	color: '$blackberry900',
+	textDecoration: 'none',
 
 	'& code': {
 		fontFamily: '$mono',
