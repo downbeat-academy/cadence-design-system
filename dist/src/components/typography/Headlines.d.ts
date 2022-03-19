@@ -134,6 +134,7 @@ export declare const Mega: import("@stitches/react/types/styled-component").Styl
     };
     radii: {
         2: string;
+        4: string;
         rounded: string;
     };
     letterSpacings: unknown;
@@ -289,6 +290,7 @@ export declare const H1: import("@stitches/react/types/styled-component").Styled
     };
     radii: {
         2: string;
+        4: string;
         rounded: string;
     };
     letterSpacings: unknown;
@@ -444,6 +446,7 @@ export declare const H2: import("@stitches/react/types/styled-component").Styled
     };
     radii: {
         2: string;
+        4: string;
         rounded: string;
     };
     letterSpacings: unknown;
@@ -599,6 +602,7 @@ export declare const H3: import("@stitches/react/types/styled-component").Styled
     };
     radii: {
         2: string;
+        4: string;
         rounded: string;
     };
     letterSpacings: unknown;
@@ -754,6 +758,7 @@ export declare const H4: import("@stitches/react/types/styled-component").Styled
     };
     radii: {
         2: string;
+        4: string;
         rounded: string;
     };
     letterSpacings: unknown;
@@ -909,6 +914,7 @@ export declare const H5: import("@stitches/react/types/styled-component").Styled
     };
     radii: {
         2: string;
+        4: string;
         rounded: string;
     };
     letterSpacings: unknown;
@@ -1064,6 +1070,7 @@ export declare const H6: import("@stitches/react/types/styled-component").Styled
     };
     radii: {
         2: string;
+        4: string;
         rounded: string;
     };
     letterSpacings: unknown;

@@ -6,6 +6,7 @@ var react = require('@stitches/react');
 var React = require('react');
 var LabelPrimitive = require('@radix-ui/react-label');
 var BoringAvatar = require('boring-avatars');
+var TooltipPrimitive = require('@radix-ui/react-tooltip');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
@@ -31,6 +32,7 @@ var React__namespace = /*#__PURE__*/_interopNamespace(React);
 var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 var LabelPrimitive__namespace = /*#__PURE__*/_interopNamespace(LabelPrimitive);
 var BoringAvatar__default = /*#__PURE__*/_interopDefaultLegacy(BoringAvatar);
+var TooltipPrimitive__namespace = /*#__PURE__*/_interopNamespace(TooltipPrimitive);
 
 var _a$1;
 var styled = (_a$1 = react.createStitches({
@@ -158,7 +160,8 @@ var styled = (_a$1 = react.createStitches({
             interfaceHeadline: '1.3',
         },
         radii: {
-            2: '2px',
+            2: '$space$1',
+            4: '$space$2',
             rounded: '50% ',
         },
         letterSpacings: {},
@@ -1870,6 +1873,52 @@ var StyledLink = styled('a', {
     }
 });
 
+var slideUpAndFade = react.keyframes({
+    '0%': { opacity: 0, transform: 'translateY(2px)' },
+    '100%': { opacity: 1, transform: 'translateY(0)' },
+});
+var slideRightAndFade = react.keyframes({
+    '0%': { opacity: 0, transform: 'translateX(-2px)' },
+    '100%': { opacity: 1, transform: 'translateX(0)' },
+});
+var slideDownAndFade = react.keyframes({
+    '0%': { opacity: 0, transform: 'translateY(-2px)' },
+    '100%': { opacity: 1, transform: 'translateY(0)' },
+});
+var slideLeftAndFade = react.keyframes({
+    '0%': { opacity: 0, transform: 'translateX(2px)' },
+    '100%': { opacity: 1, transform: 'translateX(0)' },
+});
+var StyledContent = styled(TooltipPrimitive__namespace.Content, {
+    padding: '$3 $4',
+    borderRadius: '$4',
+    fontSize: '$interfaceBodySmall',
+    lineHeight: '$interfaceBody',
+    color: '$grayscale100',
+    background: '$blackberry700',
+    boxShadow: 'hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px',
+    '@media (prefers-reduced-motion: no-preference)': {
+        animationDuration: '400ms',
+        animationTimingFunction: 'cubic-bezier(0.16, 1, 0.3, 1)',
+        animationFillMode: 'forwards',
+        willChange: 'transform, opacity',
+        '&[data-state="delayed-open"]': {
+            '&[data-side="top"]': { animationName: slideDownAndFade },
+            '&[data-side="right"]': { animationName: slideLeftAndFade },
+            '&[data-side="bottom"]': { animationName: slideUpAndFade },
+            '&[data-side="left"]': { animationName: slideRightAndFade },
+        },
+    },
+});
+var StyledArrow = styled(TooltipPrimitive__namespace.Arrow, {
+    fill: '$colors$blackberry700'
+});
+var Tooltip = TooltipPrimitive__namespace.Root;
+var TooltipProvider = TooltipPrimitive__namespace.Provider;
+var TooltipTrigger = TooltipPrimitive__namespace.Trigger;
+var TooltipContent = StyledContent;
+var TooltipArrow = StyledArrow;
+
 exports.Arrow = Arrow;
 exports.Avatar = Avatar;
 exports.Award = Award;
@@ -1923,6 +1972,11 @@ exports.Spotify = Spotify;
 exports.StyledLink = StyledLink;
 exports.TextArea = TextArea;
 exports.TikTok = TikTok;
+exports.Tooltip = Tooltip;
+exports.TooltipArrow = TooltipArrow;
+exports.TooltipContent = TooltipContent;
+exports.TooltipProvider = TooltipProvider;
+exports.TooltipTrigger = TooltipTrigger;
 exports.Twitter = Twitter;
 exports.UnorderedList = UnorderedList;
 exports.Warning = Warning;

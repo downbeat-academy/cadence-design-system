@@ -1,5 +1,5 @@
 export declare const Divider: import("@stitches/react/types/styled-component").StyledComponent<"hr", {
-    width?: "1" | "2" | "4" | 2 | 1 | 4 | undefined;
+    width?: "1" | "2" | "4" | 2 | 4 | 1 | undefined;
 }, {
     xs: "(max-width: 375px)";
     sm: "(max-width: 500px)";
@@ -136,6 +136,7 @@ export declare const Divider: import("@stitches/react/types/styled-component").S
     };
     radii: {
         2: string;
+        4: string;
         rounded: string;
     };
     letterSpacings: unknown;

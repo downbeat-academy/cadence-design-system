@@ -136,6 +136,7 @@ export declare const OrderedList: import("@stitches/react/types/styled-component
     };
     radii: {
         2: string;
+        4: string;
         rounded: string;
     };
     letterSpacings: unknown;
@@ -291,6 +292,7 @@ export declare const UnorderedList: import("@stitches/react/types/styled-compone
     };
     radii: {
         2: string;
+        4: string;
         rounded: string;
     };
     letterSpacings: unknown;
@@ -446,6 +448,7 @@ export declare const DefinitionList: import("@stitches/react/types/styled-compon
     };
     radii: {
         2: string;
+        4: string;
         rounded: string;
     };
     letterSpacings: unknown;

@@ -1,8 +1,9 @@
-import { createStitches } from '@stitches/react';
+import { createStitches, keyframes as keyframes$1 } from '@stitches/react';
 import * as React from 'react';
 import React__default from 'react';
 import * as LabelPrimitive from '@radix-ui/react-label';
 import BoringAvatar from 'boring-avatars';
+import * as TooltipPrimitive from '@radix-ui/react-tooltip';
 
 var _a$1;
 var styled = (_a$1 = createStitches({
@@ -130,7 +131,8 @@ var styled = (_a$1 = createStitches({
             interfaceHeadline: '1.3',
         },
         radii: {
-            2: '2px',
+            2: '$space$1',
+            4: '$space$2',
             rounded: '50% ',
         },
         letterSpacings: {},
@@ -1842,4 +1844,50 @@ var StyledLink = styled('a', {
     }
 });
 
-export { Arrow, Avatar, Award, Badge, Blockquote, Book, BookAlt, Button, Calendar, CalendarCheck, CalendarEdit, CalendarEvent, CalendarExclamation, CalendarHeart, CalendarMinus, CalendarPlus, CalendarStar, CalendarWeek, CalendarX, CheckCircle, Close, DefinitionList, Divider, Error, ExternalLink, Facebook, Flex, Form, Google, Grid, H1, H2, H3, H4, H5, H6, HelperText, Info, Input, Instagram, Label, LinkedIn, Logo, Medium, Mega, Megaphone, OrderedList, Paragraph, Soundcloud, Spotify, StyledLink, TextArea, TikTok, Twitter, UnorderedList, Warning, YouTube, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };
+var slideUpAndFade = keyframes$1({
+    '0%': { opacity: 0, transform: 'translateY(2px)' },
+    '100%': { opacity: 1, transform: 'translateY(0)' },
+});
+var slideRightAndFade = keyframes$1({
+    '0%': { opacity: 0, transform: 'translateX(-2px)' },
+    '100%': { opacity: 1, transform: 'translateX(0)' },
+});
+var slideDownAndFade = keyframes$1({
+    '0%': { opacity: 0, transform: 'translateY(-2px)' },
+    '100%': { opacity: 1, transform: 'translateY(0)' },
+});
+var slideLeftAndFade = keyframes$1({
+    '0%': { opacity: 0, transform: 'translateX(2px)' },
+    '100%': { opacity: 1, transform: 'translateX(0)' },
+});
+var StyledContent = styled(TooltipPrimitive.Content, {
+    padding: '$3 $4',
+    borderRadius: '$4',
+    fontSize: '$interfaceBodySmall',
+    lineHeight: '$interfaceBody',
+    color: '$grayscale100',
+    background: '$blackberry700',
+    boxShadow: 'hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px',
+    '@media (prefers-reduced-motion: no-preference)': {
+        animationDuration: '400ms',
+        animationTimingFunction: 'cubic-bezier(0.16, 1, 0.3, 1)',
+        animationFillMode: 'forwards',
+        willChange: 'transform, opacity',
+        '&[data-state="delayed-open"]': {
+            '&[data-side="top"]': { animationName: slideDownAndFade },
+            '&[data-side="right"]': { animationName: slideLeftAndFade },
+            '&[data-side="bottom"]': { animationName: slideUpAndFade },
+            '&[data-side="left"]': { animationName: slideRightAndFade },
+        },
+    },
+});
+var StyledArrow = styled(TooltipPrimitive.Arrow, {
+    fill: '$colors$blackberry700'
+});
+var Tooltip = TooltipPrimitive.Root;
+var TooltipProvider = TooltipPrimitive.Provider;
+var TooltipTrigger = TooltipPrimitive.Trigger;
+var TooltipContent = StyledContent;
+var TooltipArrow = StyledArrow;
+
+export { Arrow, Avatar, Award, Badge, Blockquote, Book, BookAlt, Button, Calendar, CalendarCheck, CalendarEdit, CalendarEvent, CalendarExclamation, CalendarHeart, CalendarMinus, CalendarPlus, CalendarStar, CalendarWeek, CalendarX, CheckCircle, Close, DefinitionList, Divider, Error, ExternalLink, Facebook, Flex, Form, Google, Grid, H1, H2, H3, H4, H5, H6, HelperText, Info, Input, Instagram, Label, LinkedIn, Logo, Medium, Mega, Megaphone, OrderedList, Paragraph, Soundcloud, Spotify, StyledLink, TextArea, TikTok, Tooltip, TooltipArrow, TooltipContent, TooltipProvider, TooltipTrigger, Twitter, UnorderedList, Warning, YouTube, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };

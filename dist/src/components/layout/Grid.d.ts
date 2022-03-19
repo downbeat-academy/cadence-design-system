@@ -2,10 +2,10 @@ export declare const Grid: import("@stitches/react/types/styled-component").Styl
     align?: "start" | "center" | "end" | "stretch" | "baseline" | undefined;
     justify?: "start" | "center" | "end" | "between" | "around" | undefined;
     flow?: "row" | "column" | "dense" | "rowDense" | "columnDense" | undefined;
-    columns?: "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | 2 | 1 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | "11" | "12" | 11 | 12 | undefined;
-    gap?: "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | 2 | 1 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | undefined;
-    gapX?: "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | 2 | 1 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | undefined;
-    gapY?: "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | 2 | 1 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | undefined;
+    columns?: "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | 2 | 4 | 1 | 3 | 5 | 6 | 7 | 8 | 9 | 10 | "11" | "12" | 11 | 12 | undefined;
+    gap?: "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | 2 | 4 | 1 | 3 | 5 | 6 | 7 | 8 | 9 | 10 | undefined;
+    gapX?: "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | 2 | 4 | 1 | 3 | 5 | 6 | 7 | 8 | 9 | 10 | undefined;
+    gapY?: "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | 2 | 4 | 1 | 3 | 5 | 6 | 7 | 8 | 9 | 10 | undefined;
 }, {
     xs: "(max-width: 375px)";
     sm: "(max-width: 500px)";
@@ -142,6 +142,7 @@ export declare const Grid: import("@stitches/react/types/styled-component").Styl
     };
     radii: {
         2: string;
+        4: string;
         rounded: string;
     };
     letterSpacings: unknown;
