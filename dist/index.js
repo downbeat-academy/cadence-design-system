@@ -1892,7 +1892,8 @@ var slideLeftAndFade = react.keyframes({
 var StyledContent = styled(TooltipPrimitive__namespace.Content, {
     padding: '$3 $4',
     borderRadius: '$4',
-    fontSize: '$interfaceBodySmall',
+    fontFamily: '$interfaceBody',
+    fontSize: '$interfaceSmall',
     lineHeight: '$interfaceBody',
     color: '$grayscale100',
     background: '$blackberry700',
