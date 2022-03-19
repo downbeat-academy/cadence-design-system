@@ -1,6 +1,6 @@
 {
   "name": "cadence-design-system",
-  "version": "0.8.7-beta",
+  "version": "0.9.0-beta",
   "private": false,
   "license": "MIT",
   "main": "dist/index.js",
@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "@radix-ui/react-label": "^0.1.4",
+    "@radix-ui/react-tooltip": "^0.1.7",
     "@stitches/react": "^1.2.5",
     "boring-avatars": "^1.6.3",
     "next": "^12.0.10",

@@ -74,3 +74,11 @@ export { Badge } from './src/components/badge'
 export { Avatar } from './src/components/avatar'
 
 export { StyledLink } from './src/components/link'
+
+export { 
+	Tooltip, 
+	TooltipProvider, 
+	TooltipTrigger, 
+	TooltipContent, 
+	TooltipArrow
+} from './src/components/tooltip'

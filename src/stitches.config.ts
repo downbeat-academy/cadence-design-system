@@ -147,7 +147,8 @@ export const {
 			interfaceHeadline: '1.3',
 		},
 		radii: {
-			2: '2px',
+			2: '$space$1',
+			4: '$space$2',
 			rounded: '50% ',
 		},
 		letterSpacings: {},
