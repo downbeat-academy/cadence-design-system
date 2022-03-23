@@ -1,70 +1,71 @@
-import React, { Component } from 'react'
-import { OpenSheetMusicDisplay as OSMD } from 'opensheetmusicdisplay'
+// import React, { Component } from 'react'
+// import { RenderMusicXml as OSMD } from 'opensheetmusicdisplay'
 
-export class RenderMusicXml extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { dataReady: false };
-        this.osmd = undefined;
-        this.divRef = React.createRef();
-    }
+// // @ts-ignore
+// export class RenderMusicXml extends Component {
+//     constructor(props) {
+//         super(props);
+//         this.state = { dataReady: false };
+//         this.osmd = undefined;
+//         this.divRef = React.createRef();
+//     }
 
-    setupOsmd() {
-        const defaultColor = '#0C101F'
-        const options = {
-            backend: 'canvas',
-            drawingParameters: 'compacttight',
-            autoResize: true,
-            drawTitle: false,
-            drawCredits: false,
-            drawSubtitle: false,
-            drawComposer: false,
-            drawLyricist: false,
-            drawMetronomeMarks: false,
-            drawPartNames: false,
-            drawPartAbbreviations: false,
-            drawMeasureNumbers: false,
-            drawmeasureNumbersOnlyAtSystemStart: true,
-            drawTimeSignatures: true,
-            defaultColorMusic: defaultColor,
-            defaultColorNotehead: defaultColor,
-            defaultColorStem: defaultColor,
-            defaultColorRest: defaultColor,
-            defaultColorLabel: defaultColor,
-            defaultColorTitle: defaultColor,
-            defaultFontFamily: '$interfaceSmall',
-        }
+//     setupOsmd() {
+//         const defaultColor = '#0C101F'
+//         const options = {
+//             backend: 'canvas',
+//             drawingParameters: 'compacttight',
+//             autoResize: true,
+//             drawTitle: false,
+//             drawCredits: false,
+//             drawSubtitle: false,
+//             drawComposer: false,
+//             drawLyricist: false,
+//             drawMetronomeMarks: false,
+//             drawPartNames: false,
+//             drawPartAbbreviations: false,
+//             drawMeasureNumbers: false,
+//             drawmeasureNumbersOnlyAtSystemStart: true,
+//             drawTimeSignatures: true,
+//             defaultColorMusic: defaultColor,
+//             defaultColorNotehead: defaultColor,
+//             defaultColorStem: defaultColor,
+//             defaultColorRest: defaultColor,
+//             defaultColorLabel: defaultColor,
+//             defaultColorTitle: defaultColor,
+//             defaultFontFamily: '$interfaceSmall',
+//         }
 
-        this.osmd = new OSMD(this.divRef.current, options);
-        this.osmd.load(this.props.file).then(() => this.osmd.render());
-    }
+//         this.osmd = new OSMD(this.divRef.current, options);
+//         this.osmd.load(this.props.file).then(() => this.osmd.render());
+//     }
 
-    resize() {
-        this.forceUpdate();
-    }
+//     resize() {
+//         this.forceUpdate();
+//     }
 
-    componentWillUnmount() {
-        window.removeEventListener('resize', this.resize);
-    }
+//     componentWillUnmount() {
+//         window.removeEventListener('resize', this.resize);
+//     }
 
-    componentDidUpdate(prevProps) {
-        if (this.props.drawTitle !== prevProps.drawTitle) {
-            this.setupOsmd();
-        } else {
-            this.osmd.load(this.props.file).then(() => this.osmd.render());
-        }
-        window.addEventListener('resize', this.resize)
-    }
+//     componentDidUpdate(prevProps) {
+//         if (this.props.drawTitle !== prevProps.drawTitle) {
+//             this.setupOsmd();
+//         } else {
+//             this.osmd.load(this.props.file).then(() => this.osmd.render());
+//         }
+//         window.addEventListener('resize', this.resize)
+//     }
 
-    componentDidMount() {
-        this.setupOsmd();
-    }
+//     componentDidMount() {
+//         this.setupOsmd();
+//     }
 
-    render() {
-        return (
-            <div ref={this.divRef} />
-        )
-    }
-}
+//     render() {
+//         return (
+//             <div ref={this.divRef} />
+//         )
+//     }
+// }
 
-// export default RenderMusicXml
+// // export default RenderMusicXml

@@ -103,6 +103,7 @@ export declare const Divider: import("@stitches/react/types/styled-component").S
         displayBody: string;
         interfaceBody: string;
         mono: string;
+        musicSymbol: string;
     };
     fontSizes: {
         displayExtraLarge: string;

@@ -104,6 +104,7 @@ export declare const Paragraph: import("@stitches/react/types/styled-component")
         displayBody: string;
         interfaceBody: string;
         mono: string;
+        musicSymbol: string;
     };
     fontSizes: {
         displayExtraLarge: string;

@@ -105,6 +105,7 @@ export declare const Label: import("@stitches/react/types/styled-component").Sty
         displayBody: string;
         interfaceBody: string;
         mono: string;
+        musicSymbol: string;
     };
     fontSizes: {
         displayExtraLarge: string;

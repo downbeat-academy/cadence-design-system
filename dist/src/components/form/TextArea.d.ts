@@ -103,6 +103,7 @@ export declare const TextArea: import("@stitches/react/types/styled-component").
         displayBody: string;
         interfaceBody: string;
         mono: string;
+        musicSymbol: string;
     };
     fontSizes: {
         displayExtraLarge: string;

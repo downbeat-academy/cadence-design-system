@@ -107,6 +107,7 @@ export declare const Flex: import("@stitches/react/types/styled-component").Styl
         displayBody: string;
         interfaceBody: string;
         mono: string;
+        musicSymbol: string;
     };
     fontSizes: {
         displayExtraLarge: string;
