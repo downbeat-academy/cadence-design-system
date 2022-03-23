@@ -82,3 +82,5 @@ export {
 	TooltipContent, 
 	TooltipArrow
 } from './src/components/tooltip'
+
+export { RenderMusicXml } from './src/components/music-notation'

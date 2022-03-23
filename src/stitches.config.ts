@@ -111,6 +111,7 @@ export const {
 			displayBody: 'Tiempos Text, Georgia, Times, serif',
 			interfaceBody: 'Favorit, Helvetica, Arial, sans-serif',
 			mono: 'Favorit Mono, Courier, monospace',
+			musicSymbol: 'Noto Music, sans-serif',
 		},
 		fontSizes: {
 			displayExtraLarge: '1.5rem',
