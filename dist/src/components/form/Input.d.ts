@@ -103,7 +103,7 @@ export declare const Input: import("@stitches/react/types/styled-component").Sty
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;

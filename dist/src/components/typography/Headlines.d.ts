@@ -101,7 +101,7 @@ export declare const Mega: import("@stitches/react/types/styled-component").Styl
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;
@@ -258,7 +258,7 @@ export declare const H1: import("@stitches/react/types/styled-component").Styled
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;
@@ -415,7 +415,7 @@ export declare const H2: import("@stitches/react/types/styled-component").Styled
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;
@@ -572,7 +572,7 @@ export declare const H3: import("@stitches/react/types/styled-component").Styled
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;
@@ -729,7 +729,7 @@ export declare const H4: import("@stitches/react/types/styled-component").Styled
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;
@@ -886,7 +886,7 @@ export declare const H5: import("@stitches/react/types/styled-component").Styled
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;
@@ -1043,7 +1043,7 @@ export declare const H6: import("@stitches/react/types/styled-component").Styled
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;

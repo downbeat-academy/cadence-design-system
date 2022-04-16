@@ -103,7 +103,7 @@ export declare const Link: import("@stitches/react/types/styled-component").Styl
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;

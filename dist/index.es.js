@@ -9,7 +9,6 @@ var _a$1;
 var styled = (_a$1 = createStitches({
     theme: {
         colors: {
-            // Color primitives
             passionFruit100: '#eaebff',
             passionFruit200: '#c6c8fe',
             passionFruit300: '#a3a7fd',
@@ -99,7 +98,7 @@ var styled = (_a$1 = createStitches({
             displayBody: 'Tiempos Text, Georgia, Times, serif',
             interfaceBody: 'Favorit, Helvetica, Arial, sans-serif',
             mono: 'Favorit Mono, Courier, monospace',
-            musicSymbol: 'Noto Music, sans-serif',
+            musicNotation: 'Noto Music, sans-serif',
         },
         fontSizes: {
             displayExtraLarge: '1.5rem',
@@ -220,7 +219,7 @@ createTheme({
         blackberry600: '#4e598f',
         blackberry700: '#6b78ab',
         blackberry800: '#8f9dc7',
-        blackberry900: '#b8c5e3',
+        blackberry900: '#0C101F',
         blackberry1000: '#e6eeff',
         grayscale100: '#1c1c1c',
         grayscale200: '#262628',

@@ -103,7 +103,7 @@ export declare const OrderedList: import("@stitches/react/types/styled-component
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;
@@ -260,7 +260,7 @@ export declare const UnorderedList: import("@stitches/react/types/styled-compone
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;
@@ -417,7 +417,7 @@ export declare const DefinitionList: import("@stitches/react/types/styled-compon
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;

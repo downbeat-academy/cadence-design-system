@@ -104,7 +104,7 @@ export declare const Button: import("@stitches/react/types/styled-component").St
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;

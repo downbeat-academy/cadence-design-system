@@ -100,7 +100,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;
@@ -265,7 +265,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;
@@ -415,7 +415,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;
@@ -577,7 +577,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         displayBody: import("@stitches/react/types/theme").Token<"displayBody", string, "fonts", "">;
         interfaceBody: import("@stitches/react/types/theme").Token<"interfaceBody", string, "fonts", "">;
         mono: import("@stitches/react/types/theme").Token<"mono", string, "fonts", "">;
-        musicSymbol: import("@stitches/react/types/theme").Token<"musicSymbol", string, "fonts", "">;
+        musicNotation: import("@stitches/react/types/theme").Token<"musicNotation", string, "fonts", "">;
     };
     fontSizes: {
         displayExtraLarge: import("@stitches/react/types/theme").Token<"displayExtraLarge", string, "fontSizes", "">;
@@ -719,7 +719,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         displayBody?: string | number | boolean | undefined;
         interfaceBody?: string | number | boolean | undefined;
         mono?: string | number | boolean | undefined;
-        musicSymbol?: string | number | boolean | undefined;
+        musicNotation?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         displayExtraLarge?: string | number | boolean | undefined;
@@ -866,7 +866,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         displayBody?: string | number | boolean | undefined;
         interfaceBody?: string | number | boolean | undefined;
         mono?: string | number | boolean | undefined;
-        musicSymbol?: string | number | boolean | undefined;
+        musicNotation?: string | number | boolean | undefined;
     } | undefined;
     fontSizes?: {
         displayExtraLarge?: string | number | boolean | undefined;
@@ -1028,7 +1028,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             displayBody: string;
             interfaceBody: string;
             mono: string;
-            musicSymbol: string;
+            musicNotation: string;
         };
         fontSizes: {
             displayExtraLarge: string;
@@ -1177,7 +1177,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
         displayBody: string;
         interfaceBody: string;
         mono: string;
-        musicSymbol: string;
+        musicNotation: string;
     };
     fontSizes: {
         displayExtraLarge: string;
@@ -1326,7 +1326,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             displayBody: string;
             interfaceBody: string;
             mono: string;
-            musicSymbol: string;
+            musicNotation: string;
         };
         fontSizes: {
             displayExtraLarge: string;
@@ -1481,7 +1481,7 @@ export declare const styled: <Type extends import("@stitches/react/types/util").
             displayBody: string;
             interfaceBody: string;
             mono: string;
-            musicSymbol: string;
+            musicNotation: string;
         };
         fontSizes: {
             displayExtraLarge: string;
