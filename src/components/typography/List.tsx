@@ -1,7 +1,7 @@
 import { styled } from '../../stitches.config'
 
 export const OrderedList = styled('ol', {
-    color: '$blackberry900',
+    color: '$textPrimary',
     display: 'flex',
     flexDirection: 'column',
     paddingLeft: '$6',
@@ -33,7 +33,7 @@ export const OrderedList = styled('ol', {
 })
 
 export const UnorderedList = styled('ul', {
-    color: '$blackberry900',
+    color: '$textPrimary',
     display: 'flex',
     flexDirection: 'column',
     paddingLeft: '$6',
@@ -65,7 +65,7 @@ export const UnorderedList = styled('ul', {
 })
 
 export const DefinitionList = styled('dl', {
-    color: '$blackberry900',
+    color: '$textPrimary',
     display: 'flex',
     flexDirection: 'column',
     paddingLeft: '$6',

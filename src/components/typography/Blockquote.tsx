@@ -30,11 +30,11 @@ const Wrapper = styled('section', {
     padding: '$8',
     margin: '$8 $6',
     background: '$blackberry100',
-    color: '$blackberry900',
+    color: '$textPrimary',
     display: 'flex',
     flexDirection: 'column',
     gap: '$5',
-    border: '1px solid $passionFruit600',
+    border: '1px solid $borderInteractive',
     position: 'relative',
 
     '@md': {
@@ -55,7 +55,7 @@ const Wrapper = styled('section', {
         alignItems: 'center',
         width: '40px',
         height: '40px',
-        background: '$passionFruit600',
+        background: '$backgroundInteractive',
         borderRadius: '40px',
     },
 
@@ -65,7 +65,7 @@ const Wrapper = styled('section', {
         gap: '0',
 
         'a': {
-            color: '$passionFruit600',
+            color: '$textInteractive',
         }
     }
 })
