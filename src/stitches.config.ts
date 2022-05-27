@@ -124,8 +124,12 @@ export const {
 			textPositive: '$kale600',
 			textInfo: '$blueberry600',
 
-			borderInteractive: '$passionFruit600',
 			borderDefault: '$grayscale500',
+			borderDefaultHover: '$grayscale700',
+			borderDefaultActive: '$grayscale.900',
+			borderInteractive: '$passionFruit600',
+			borderInteractiveHover: '$passionFruit700',
+			borderInteractiveActive: '$passionFruit800',
 			borderInverse: '$grayscale100',
 			borderError: '$pomegranate500',
 			borderCaution: '$pineapple500',
