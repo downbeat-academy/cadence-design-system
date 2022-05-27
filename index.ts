@@ -61,6 +61,8 @@ export {
 	LinkedIn,
 	Medium,
 	Google,
+	Check,
+	Minus
 } from './src/components/icons';
 
 export { Flex, Grid } from './src/components/layout';

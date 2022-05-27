@@ -18,7 +18,7 @@ const StyledCheckbox = styled(CheckboxPrimitive.Root, {
         borderColor: '$borderInteractiveActive',
     },
 
-    '&[aria-checked="true"]': {
+    '&[data-state="checked"]': {
         background: '$backgroundInteractive',
         borderColor: '$borderInteractive',
 
