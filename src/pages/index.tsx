@@ -8,7 +8,7 @@ const Home: NextPage = () => {
 	return (
 		<div>
 			<Flex direction='row' align='center' gap='4'>
-				<Checkbox defaultChecked size='default' id='c1'>
+				<Checkbox size='default' id='c1' disabled>
 					<Indicator>
 						<Check size='extraSmall' />
 					</Indicator>

@@ -4,10 +4,11 @@ import * as CheckboxPrimitive from '@radix-ui/react-checkbox'
 const StyledCheckbox = styled(CheckboxPrimitive.Root, {
     border: '1px solid $grayscale700',
     borderRadius: '$2',
-    background: '$background',
+    background: '$grayscale200',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    transition: '$1',
 
     '&:hover': {
         borderColor: '$borderInteractiveHover',
@@ -19,14 +20,25 @@ const StyledCheckbox = styled(CheckboxPrimitive.Root, {
 
     '&[aria-checked="true"]': {
         background: '$backgroundInteractive',
-        border: 'none',
+        borderColor: '$borderInteractive',
 
         '&:hover': {
             background: '$backgroundInteractiveHover',
+            borderColor: '$borderInteractiveHover',
         },
 
         '&:active': {
             background: '$backgroundInteractiveActive',
+            borderColor: '$borderInteractiveActive',
+        }
+    },
+
+    '&[data-disabled=""]': {
+        borderColor: '$grayscale500',
+        background: '$grayscale300',
+
+        '&:hover': {
+            cursor: 'not-allowed',
         }
     },
 
