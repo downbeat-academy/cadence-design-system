@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import { Flex } from '@/components/layout';
 import { Checkbox, Indicator } from '@/components/checkbox';
-import { Error } from '@/components/icons';
+import { Check } from '@/components/icons';
 
 const Home: NextPage = () => {
 	return (
@@ -9,7 +9,7 @@ const Home: NextPage = () => {
 			<Flex direction='row' align='center' gap='4'>
 				<Checkbox defaultChecked size='default' id='c1'>
 					<Indicator>
-						<Error size='extraSmall' />
+						<Check size='extraSmall' />
 					</Indicator>
 				</Checkbox>
 				<label htmlFor='c1'>
