@@ -1,24 +1,20 @@
 import type { NextPage } from 'next';
-import { Avatar } from '../components/avatar'
 import { Flex } from '@/components/layout';
-import { Tooltip, TooltipTrigger, TooltipContent, TooltipArrow, TooltipProvider } from '../components/tooltip'
-import { Badge } from '@/components/badge'
+import { Checkbox, Indicator } from '@/components/checkbox';
+import { Error } from '@/components/icons';
 
 const Home: NextPage = () => {
 	return (
 		<div>
-			<Flex direction='row'>
-				<TooltipProvider delayDuration={500} skipDelayDuration={500}>
-					<Tooltip>
-						<TooltipTrigger asChild>
-							<Badge>Hover over me</Badge>
-						</TooltipTrigger>
-						<TooltipContent side='right'>
-						Lorem ipsum dolor sit amet
-							<TooltipArrow />
-						</TooltipContent>
-					</Tooltip>
-				</TooltipProvider>
+			<Flex direction='row' align='center' gap='4'>
+				<Checkbox defaultChecked size='default' id='c1'>
+					<Indicator>
+						<Error size='extraSmall' />
+					</Indicator>
+				</Checkbox>
+				<label htmlFor='c1'>
+					Checkbox
+				</label>
 			</Flex>
 		</div>
 	);

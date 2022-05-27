@@ -82,3 +82,5 @@ export {
 	TooltipContent, 
 	TooltipArrow
 } from './src/components/tooltip'
+
+export { Checkbox, Indicator } from './src/components/checkbox'

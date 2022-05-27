@@ -96,6 +96,8 @@ export const {
 			background: '$grayscale100',
 			backgroundSecondary: '$grayscale200',
 			backgroundInteractive: '$passionFruit600',
+			backgroundInteractiveHover: '$passionFruit700',
+			backgroundInteractiveActive: '$passionFruit800',
 			backgroundInverse: '$grayscale1000',
 			backgroundInverseSecondary: '$grayscale900',
 			backgroundInfo: '$blueberry100',
