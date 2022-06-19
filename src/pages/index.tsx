@@ -1,23 +1,16 @@
 import type { NextPage } from 'next';
 import { Flex } from '@/components/layout';
-import { Checkbox, Indicator } from '@/components/checkbox';
-import { Check } from '@/components/icons';
-import { Label } from '@/components/label'
+import { InlineNotification } from '@/components/notification';
 
 const Home: NextPage = () => {
 	return (
-		<div>
-			<Flex direction='row' align='center' gap='4'>
-				<Checkbox size='default' id='c1'>
-					<Indicator>
-						<Check size='extraSmall' />
-					</Indicator>
-				</Checkbox>
-				<Label htmlFor='c1' bold>
-					Checkbox
-				</Label>
-			</Flex>
-		</div>
+		<Flex direction='column' gap='5' css={{ maxWidth: '500px'}}>
+			<InlineNotification
+				title='Notification title'
+				description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cras magna felis eget viverra tellus praesent. Pulvinar non, pellentesque etiam tincidunt diam ac sit.'
+				type='error'
+			/>
+		</Flex>
 	);
 };
 

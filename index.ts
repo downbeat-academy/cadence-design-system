@@ -86,3 +86,5 @@ export {
 } from './src/components/tooltip'
 
 export { Checkbox, Indicator } from './src/components/checkbox'
+
+export { InlineNotification } from './src/components/notification'

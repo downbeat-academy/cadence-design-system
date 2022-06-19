@@ -11,6 +11,10 @@ export const TextArea = styled('textarea', {
     width: '100%',
     boxSizing: 'border-box',
 
+    '&:hover': {
+        borderColor: '$grayscale800',
+    },
+
     '&:focus': {
         borderColor: '$grayscale800',
         outline: 'none',

@@ -213,7 +213,7 @@ export const {
 			9: 'all 1000ms ease-in-out',
 		},
 		shadows: {
-			base: '0 1px 16px 0 hslaa(240, 36%, 22%, 5%)',
+			base: '0 1px 16px 0 hsla(240, 36%, 22%, 5%)',
 		},
 	},
 	utils: {},
