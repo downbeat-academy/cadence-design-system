@@ -1,4 +1,4 @@
-import { styled } from '@/stitches.config'
+import { styled } from '../../stitches.config'
 import { Paragraph } from '@/components/typography'
 import { Flex } from '@/components/layout'
 
